@@ -12,14 +12,16 @@ for(const language of ['en','zh']) {
    await expect(page.locator('html')).toHaveAttribute('lang',language==='zh'?'zh-Hans':'en')
    await expect(page.locator('h1')).toHaveCount(1)
    await expect(page.locator('nav a')).toHaveCount(8)
-   await expect(page.locator('.language-switch')).toBeVisible()
+   const languageSwitch=page.locator('.language-switch')
+   await expect(languageSwitch).toBeVisible()
+   await expect(languageSwitch).toHaveAttribute('role','group')
    expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1),`Horizontal page overflow: ${route}`).toBe(true)
    for(const link of await page.locator('nav a').all()) {
     const target=await link.getAttribute('href')
     expect(new URL(target!,page.url()).pathname).toContain(`/electrification-intelligence-site/${language}/`)
    }
    const other=language==='en'?'zh':'en'
-   await page.locator(`.language-switch a[lang="${other==='zh'?'zh-Hans':'en'}"]`).click()
+   await languageSwitch.locator(`a[hreflang="${other==='zh'?'zh-Hans':'en'}"]`).click()
    await expect(page).toHaveURL(new RegExp(`/electrification-intelligence-site/${route.replace(language+'/',other+'/')}$`))
    if(route===`${language}/`) {
      await page.goto(route)
@@ -51,7 +53,7 @@ test('language entry and navigation work without JavaScript',async({browser})=>{
  await expect(page).toHaveURL(/\/electrification-intelligence-site\/zh\/$/)
  await page.locator('nav a').nth(4).click()
  await expect(page).toHaveURL(/\/electrification-intelligence-site\/zh\/thesis\/$/)
- await page.locator('.language-switch a[lang="en"]').click()
+ await page.locator('.language-switch[role="group"] a[hreflang="en"]').click()
  await expect(page).toHaveURL(/\/electrification-intelligence-site\/en\/thesis\/$/)
  await context.close()
 })

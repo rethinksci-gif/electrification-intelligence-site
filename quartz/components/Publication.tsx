@@ -15,7 +15,7 @@ export const PublicationHeader: QuartzComponent = (p) => {
   return <header class="publication-header">
     <a class="skip-link" href="#publication-content">{zh(p) ? "跳至正文" : "Skip to content"}</a>
     <div class="masthead"><a class="wordmark" href={url(p, `${language}/index`)}><span class="monogram">EI</span><span>Electrification<br/>Intelligence</span></a>
-    <div class="language-switch" aria-label={zh(p) ? "语言" : "Language"}>{(["en", "zh"] as const).map((lang, i) => {
+    <div class="language-switch" role="group" aria-label={zh(p) ? "语言" : "Language"}>{(["en", "zh"] as const).map((lang, i) => {
       const target = p.allFiles.find(f => f.frontmatter?.translation_key === key && f.frontmatter?.language === lang)
       return <>{i > 0 && <span aria-hidden="true"> | </span>}<a href={url(p, target?.slug ?? `${lang}/index`)} lang={lang === "zh" ? "zh-Hans" : "en"} hrefLang={lang === "zh" ? "zh-Hans" : "en"} aria-current={language === lang ? "page" : undefined}>{lang === "en" ? "EN" : "中文"}</a></>
     })}</div></div>

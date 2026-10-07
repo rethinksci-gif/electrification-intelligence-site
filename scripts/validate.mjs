@@ -82,7 +82,9 @@ if(process.argv[2]==='public') {
    const d=docs.find(d=>path.relative(content,d.file).replace(/\.md$/,'.html')===relative)
    if(d.data.content_type!=='landing') {
      const other=docs.find(o=>o.data.translation_key===d.data.translation_key&&o.data.language!==d.data.language)
-     const switchMarkup=text.match(/<div class="language-switch"[\s\S]*?<\/div>/)?.[0]??''
+     const switchMarkup=text.match(/<div class="language-switch"[^>]*>[\s\S]*?<\/div>/)?.[0]??''
+     assert(switchMarkup.includes('role="group"'),`Language switch must be an accessible group: ${relative}`)
+     assert(switchMarkup.includes('hreflang="en"') && switchMarkup.includes('hreflang="zh-Hans"'),`Language switch targets must declare hreflang: ${relative}`)
      const pairPath=path.relative(content,other.file).replace(/index\.md$/,'')
      assert(switchMarkup.includes(pairPath),`Wrong translation target: ${relative}`)
    }
