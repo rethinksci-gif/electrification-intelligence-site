@@ -1,0 +1,8 @@
+node_modules/
+public/
+.quartz-cache/
+.cache/
+*.tsbuildinfo
+playwright-report/
+test-results/
+.env*

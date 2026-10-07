@@ -1,0 +1,23 @@
+{
+  "pages": [
+    "en/about/index.md",
+    "en/analyst-editions/001/index.md",
+    "en/analyst-editions/index.md",
+    "en/index.md",
+    "en/latest/index.md",
+    "en/learning/index.md",
+    "en/methodology/index.md",
+    "en/research-sprints/index.md",
+    "en/thesis/index.md",
+    "index.md",
+    "zh/about/index.md",
+    "zh/analyst-editions/001/index.md",
+    "zh/analyst-editions/index.md",
+    "zh/index.md",
+    "zh/latest/index.md",
+    "zh/learning/index.md",
+    "zh/methodology/index.md",
+    "zh/research-sprints/index.md",
+    "zh/thesis/index.md"
+  ]
+}
