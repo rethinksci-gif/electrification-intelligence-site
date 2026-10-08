@@ -1,6 +1,7 @@
 import remarkGfm from "remark-gfm"
 import smartypants from "remark-smartypants"
 import { QuartzTransformerPlugin } from "../types"
+import { Element, Parents } from "hast"
 import rehypeSlug from "rehype-slug"
 import rehypeAutolinkHeadings from "rehype-autolink-headings"
 
@@ -29,6 +30,9 @@ export const GitHubFlavoredMarkdown: QuartzTransformerPlugin<Partial<Options>> =
             rehypeAutolinkHeadings,
             {
               behavior: "append",
+              // A heading inside a linked card must not receive a nested anchor.
+              test: (_node: Element, _index: number | undefined, parent: Parents | undefined) =>
+                !(parent?.type === "element" && parent.tagName === "a"),
               properties: {
                 role: "anchor",
                 ariaHidden: true,
