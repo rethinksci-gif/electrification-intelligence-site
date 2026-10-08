@@ -16,7 +16,9 @@ publish: true
 
 ## Latest Intelligence
 
+<div>
 <a class="feature-card" href="analyst-editions/001/"><span class="eyebrow">ANALYST EDITION 001 · 2026-10-07</span><h3>A cleaner power mix. An unfinished substitution.</h3><p>Clean share rose while global fossil generation grew. Better car-adoption and industrial-price inputs leave important gaps in substitution and site economics.</p><span class="card-meta">H1 · H3 · H4 · 24 min read →</span></a>
+</div>
 
 ## Three Things That Changed
 

@@ -16,7 +16,9 @@ publish: true
 
 ## 最新情报
 
+<div>
 <a class="feature-card" href="analyst-editions/001/"><span class="eyebrow">分析师专刊 001 · 2026-10-07</span><h3>电力结构更清洁，替代尚未完成</h3><p>清洁份额上升，全球化石发电仍增长。汽车采用与工业电价的改善，尚未消除实际替代和现场经济性的证据缺口。</p><span class="card-meta">H1 · H3 · H4 · 24 分钟阅读 →</span></a>
+</div>
 
 ## 三个变化
 

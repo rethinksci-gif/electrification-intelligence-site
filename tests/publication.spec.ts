@@ -26,7 +26,11 @@ for(const language of ['en','zh']) {
    if(route===`${language}/`) {
      await page.goto(route)
      await page.screenshot({path:`test-results/${testInfo.project.name}-${language}-home.png`,fullPage:true})
-     await page.locator('.feature-card').click()
+     const featureCard=page.locator('a.feature-card')
+     await expect(featureCard).toHaveCount(1)
+     await expect(featureCard.locator('h3')).toHaveCount(1)
+     await expect(featureCard.locator('p')).toHaveCount(1)
+     await featureCard.click()
      await expect(page).toHaveURL(new RegExp(`/electrification-intelligence-site/${language}/analyst-editions/001/$`))
    }
   }
@@ -45,8 +49,8 @@ for(const language of ['en','zh']) {
   await page.screenshot({path:`test-results/${testInfo.project.name}-${language}-edition.png`,fullPage:true})
  })
 }
-test('language entry and navigation work without JavaScript',async({browser})=>{
- const context=await browser.newContext({javaScriptEnabled:false})
+test('language entry and navigation work without JavaScript',async({browser},testInfo)=>{
+ const context=await browser.newContext({...testInfo.project.use,javaScriptEnabled:false})
  const page=await context.newPage()
   await page.goto('http://127.0.0.1:8080/electrification-intelligence-site/')
  await page.getByRole('link',{name:'阅读中文版 →'}).click()
