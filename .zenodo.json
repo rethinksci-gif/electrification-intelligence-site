@@ -1,0 +1,14 @@
+{
+  "title": "Electrification Intelligence",
+  "upload_type": "publication",
+  "publication_type": "report",
+  "description": "<p>Bilingual (English/Simplified Chinese) research publication tracking how electrification reshapes energy, industry and materials. Analyst editions keep evidence identifiers, evidence status, research cutoffs and uncertainty; thesis judgments are qualitative, not probabilities.</p><p>Website: <a href=\"https://rethinksci-gif.github.io/electrification-intelligence-site/\">https://rethinksci-gif.github.io/electrification-intelligence-site/</a></p>",
+  "creators": [{ "name": "rethinksci-gif" }],
+  "license": "cc-by-4.0",
+  "access_right": "open",
+  "language": "eng",
+  "keywords": ["electrification", "energy transition", "industrial electrification", "power systems", "critical materials"],
+  "related_identifiers": [
+    { "identifier": "https://rethinksci-gif.github.io/electrification-intelligence-site/", "relation": "isSupplementTo", "scheme": "url" }
+  ]
+}

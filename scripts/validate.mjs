@@ -21,6 +21,7 @@ const docs=files.map(f=> {
   const raw=fs.readFileSync(f,'utf8')
   assert(!forbidden.test(raw.replace(/https?:\/\/[^\s)"<>]+/g, "")),`Private path or credential pattern in ${f}`)
   const {data,content:body}=matter(raw)
+  assert(!/\bTODO\b|<Add |<Define |<Build /i.test(raw), `Unfinished placeholder: ${f}`)
   for(const key of ['title','subtitle','date','edition','language','translation_key','content_type','thesis','status','confidence','updated','tags']) assert(key in data,`Missing ${key}: ${f}`)
   assert(data.publish===true && data.status==='published',`Publication must be explicit: ${f}`)
   assert(['en','zh'].includes(data.language),`Unsupported language: ${f}`)
@@ -43,10 +44,31 @@ for(const en of editions.filter(d=>d.data.language==='en')) {
  const numbers=s=>new Set(s.replace(/https?:\/\/[^\s)]+/g,'').replace(/EI-[A-Z0-9–/-]+/g,'').match(/\d+(?:,\d{3})*(?:\.\d+)?/g)||[])
  assert.deepEqual([...numbers(en.body)].sort(),[...numbers(zh.body)].sort(),'Edition numbers must remain identical across languages')
 }
+// thesis-tracker.json is the single source for thesis judgments; both languages must carry the same facts.
+const tracker=JSON.parse(fs.readFileSync(path.join(root,'thesis-tracker.json'),'utf8'))
+const assessmentIds=tracker.assessments.map(a=>a.id)
+assert.equal(new Set(assessmentIds).size,assessmentIds.length,'Duplicate thesis assessment id')
+assert.deepEqual(tracker.assessments.map(a=>a.date),tracker.assessments.map(a=>a.date).toSorted(),'Thesis assessments must be in date order')
+const factTokens=s=>(s.match(/EI-[A-Z0-9–-]+|[+−]?\d+(?:,\d{3})*(?:\.\d+)?%?|\$|€/g)||[]).sort()
+for(const a of tracker.assessments) {
+ assert(/^\d{4}-\d{2}-\d{2}$/.test(a.date),`Invalid assessment date: ${a.id}`)
+ assert.deepEqual(a.theses.map(t=>t.id),['H1','H2','H3','H4','H5','H6'],`Assessment must list H1–H6 in order: ${a.id}`)
+ for(const t of a.theses) for(const key of ['title','interpretation','direction','confidence','evidence','limits','change']) {
+  assert(t[key]?.en?.trim() && t[key]?.zh?.trim(),`Missing ${key} translation: ${a.id} ${t.id}`)
+  assert(!/[|\n]/.test(t[key].en+t[key].zh),`Table-breaking character in ${a.id} ${t.id} ${key}`)
+  assert.deepEqual(factTokens(t[key].en),factTokens(t[key].zh),`Thesis translation drift: ${a.id} ${t.id} ${key}`)
+ }
+}
+for(const d of docs) for(const m of d.body.matchAll(/<!-- thesis:(\w+)(?: ([\w-]+))? -->/g)) {
+ assert(['cards','sections','table'].includes(m[1]),`Unknown thesis view ${m[1]}: ${d.file}`)
+ if(m[2]) assert(assessmentIds.includes(m[2]),`Unknown thesis assessment ${m[2]}: ${d.file}`)
+ // Published editions must pin their assessment so later reviews cannot rewrite them.
+ if(d.data.content_type==='analyst-edition') assert(m[2],`Edition must pin a thesis assessment: ${d.file}`)
+}
 if(process.argv[2]==='public') {
  const generated=walk(out)
  const expected=new Set(files.map(f=>path.relative(content,f).replace(/\.md$/,'.html')))
- const allowedOutput=new Set([...expected,'index.css','prescript.js','postscript.js','sitemap.xml','static/contentIndex.json','static/icon.svg'])
+ const allowedOutput=new Set([...expected,'index.css','prescript.js','postscript.js','sitemap.xml','static/contentIndex.json','static/icon.svg','en/feed.xml','zh/feed.xml'])
  for(const f of generated) assert(allowedOutput.has(path.relative(out,f)),`Unapproved generated artifact: ${f}`)
  const html=generated.filter(f=>f.endsWith('.html'))
  assert.deepEqual(new Set(html.map(f=>path.relative(out,f))),expected,'Unexpected public HTML page')
@@ -57,6 +79,7 @@ if(process.argv[2]==='public') {
    const text=fs.readFileSync(f,'utf8')
    assert(!forbidden.test(text.replace(/https?:\/\/[^\s)"<>]+/g, "")),`Private path or credential pattern in output: ${f}`)
    if(!f.endsWith('.html')) continue
+   assert(!text.includes('<!-- thesis:'),`Unrendered thesis directive: ${f}`)
    const relative=path.relative(out,f)
    const language=relative.startsWith('zh/')?'zh-Hans':'en'
    assert(text.includes(`<html lang="${language}"`),`Document language missing: ${f}`)

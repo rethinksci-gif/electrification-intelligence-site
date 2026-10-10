@@ -9,7 +9,7 @@ content_type: "home"
 thesis: []
 status: "published"
 confidence: "not-assigned"
-updated: "2026-10-07"
+updated: "2026-10-08"
 tags: []
 publish: true
 ---
@@ -34,17 +34,17 @@ publish: true
 
 ## 假设追踪
 
-<div class="thesis-grid">
-<div class="thesis-card"><h3>H1 — 清洁电力替代</h3><p>区域替代成立；全球结构性下降未证实</p><p><strong>置信度：对持续全球替代：低至中等</strong></p></div>
-<div class="thesis-card"><h3>H2 — 光伏与电池系统</h3><p>支撑性部署已出现；可调度服务机制尚未检验</p><p><strong>置信度：低至中等</strong></p></div>
-<div class="thesis-card"><h3>H3 — 终端电气化</h3><p>乘用车销售增强；更广泛替代尚未完成</p><p><strong>置信度：汽车采用：中等至高；广泛化石替代：低至中等</strong></p></div>
-<div class="thesis-card"><h3>H4 — 工业电气化</h3><p>有具体实施案例；普遍经济性与地理变化未证实</p><p><strong>置信度：对已证明的广泛经济转变：极低至低</strong></p></div>
-<div class="thesis-card"><h3>H5 — 电网与基础设施瓶颈</h3><p>值得关注的约束；其主导性增强未成立</p><p><strong>置信度：低至中等</strong></p></div>
-<div class="thesis-card"><h3>H6 — 材料后果</h3><p>有具体组件／材料联系；更广泛战略影响未证实</p><p><strong>置信度：低至中等</strong></p></div>
-</div>
+<!-- thesis:cards -->
 
 [查看证据方向、不确定性与改变判断的条件 →](thesis/index.md)
 
 ## 深度研究
 
 尚无完成并可公开发布的专题研究。可先阅读[专刊 001 的清洁增长比率分析](analyst-editions/001/index.md)，或查看[专题研究栏目](research-sprints/index.md)。
+
+## 按问题进入研究
+
+- 理解技术与经济机制 → [学习路线](learning/index.md)
+- 看目前支持和反证 → [假设追踪](thesis/index.md)
+- 找下一项可验证问题 → [专题研究计划](research-sprints/index.md)
+- 了解来源和更新方式 → [开放研究参考](methodology/open-research/index.md)

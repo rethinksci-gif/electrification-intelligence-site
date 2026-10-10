@@ -1,0 +1,201 @@
+{
+  "$comment": "Single source for thesis judgments. Append a new assessment for each review; never edit a published one. Pages render it with <!-- thesis:cards|sections|table [assessment-id] -->; without an id, the latest assessment is used.",
+  "assessments": [
+    {
+      "id": "edition-001",
+      "date": "2026-10-07",
+      "basis": {
+        "en": "Edition 001 qualitative editorial judgments",
+        "zh": "专刊 001 定性编辑判断"
+      },
+      "theses": [
+        {
+          "id": "H1",
+          "title": {
+            "en": "Clean Power Displacement",
+            "zh": "清洁电力替代"
+          },
+          "interpretation": {
+            "en": "Regional displacement; global structural decline unproved",
+            "zh": "区域替代成立；全球结构性下降未证实"
+          },
+          "direction": {
+            "en": "Mixed: EU supports; global fossil growth contradicts near-term displacement",
+            "zh": "混合：欧盟支持；全球化石增长不支持近期替代"
+          },
+          "confidence": {
+            "en": "Low–medium for sustained global displacement",
+            "zh": "对持续全球替代：低至中等"
+          },
+          "evidence": {
+            "en": "EU fossil generation fell 8.37% in 2024; global clean share rose [EI-E000164, EI-E000118]",
+            "zh": "欧盟 2024 年化石发电下降 8.37%；全球清洁份额上升 [EI-E000164, EI-E000118]"
+          },
+          "limits": {
+            "en": "Global fossil generation rose 1.69%; CGR remained 0.760 [EI-E000120, EI-E000121]",
+            "zh": "全球化石发电增长 1.69%；CGR 仍为 0.760 [EI-E000120, EI-E000121]"
+          },
+          "change": {
+            "en": "Consecutive comparable periods of clean growth covering supply growth, accompanied by absolute fossil decline",
+            "zh": "连续可比时期内，清洁增量覆盖供给增量，同时化石发电绝对下降"
+          }
+        },
+        {
+          "id": "H2",
+          "title": {
+            "en": "Solar + Battery System",
+            "zh": "光伏与电池系统"
+          },
+          "interpretation": {
+            "en": "Enabling deployment exists; the dispatchable-service mechanism is untested",
+            "zh": "支撑性部署已出现；可调度服务机制尚未检验"
+          },
+          "direction": {
+            "en": "Supports inputs; unresolved system effect",
+            "zh": "支持输入条件；系统效果未决"
+          },
+          "confidence": {
+            "en": "Low–medium",
+            "zh": "低至中等"
+          },
+          "evidence": {
+            "en": "US 2025 commissioned operating cohort: 46.787 GWh nameplate; stationary-pack benchmark $70/kWh [EI-E000812, EI-E000822]",
+            "zh": "美国 2025 年投运且年末运行的群组：46.787 GWh 铭牌能量；固定式电池包基准 $70/kWh [EI-E000812, EI-E000822]"
+          },
+          "limits": {
+            "en": "No matched solar charging, peak discharge, gas marginal-hours or K08 service-cost comparison",
+            "zh": "缺少匹配的光伏充电、峰时放电、燃气边际定价时数或 K08 服务成本比较"
+          },
+          "change": {
+            "en": "Metered solar-to-storage dispatch and a matched-service comparison with gas",
+            "zh": "实测光伏至储能调度，以及与燃气的同等服务比较"
+          }
+        },
+        {
+          "id": "H3",
+          "title": {
+            "en": "End-Use Electrification",
+            "zh": "终端电气化"
+          },
+          "interpretation": {
+            "en": "Strengthening in passenger-car sales; broader substitution incomplete",
+            "zh": "乘用车销售增强；更广泛替代尚未完成"
+          },
+          "direction": {
+            "en": "Positive in transport; unresolved across all end uses",
+            "zh": "交通方向积极；全部终端用途仍未决"
+          },
+          "confidence": {
+            "en": "Medium–high for car adoption; low–medium for broad fossil substitution",
+            "zh": "汽车采用：中等至高；广泛化石替代：低至中等"
+          },
+          "evidence": {
+            "en": "EU sales comparison is candidate evidence; global 25% is a validated reported statistic [EI-P4-E010–011, EI-E000814]",
+            "zh": "欧盟销售比较仍为候选；全球 25% 是已验证报告统计 [EI-P4-E010–011, EI-E000814]"
+          },
+          "limits": {
+            "en": "Sales are not fleet use; EU electricity share of final energy moved only from 23.09% to 23.45% [EI-E000605, EI-E000608]",
+            "zh": "销售不等于车队使用；欧盟终端能源中电力份额仅从 23.09% 升至 23.45% [EI-E000605, EI-E000608]"
+          },
+          "change": {
+            "en": "Fleet use and direct-fossil consumption moving consistently with sales adoption",
+            "zh": "车队使用与直接化石消耗的变化持续对应销售采用"
+          }
+        },
+        {
+          "id": "H4",
+          "title": {
+            "en": "Industrial Electrification",
+            "zh": "工业电气化"
+          },
+          "interpretation": {
+            "en": "A concrete implementation case; general economics and geography unproved",
+            "zh": "有具体实施案例；普遍经济性与地理变化未证实"
+          },
+          "direction": {
+            "en": "Narrow support; economic effect unresolved",
+            "zh": "狭义支持；经济效果未决"
+          },
+          "confidence": {
+            "en": "Very low–low for a demonstrated broad economic shift",
+            "zh": "对已证明的广泛经济转变：极低至低"
+          },
+          "evidence": {
+            "en": "Rondo's company-reported operating case; lower EU electricity reference [EI-E000824, EI-E000612]",
+            "zh": "Rondo 企业报告的运行案例；欧盟电价参考下降 [EI-E000824, EI-E000612]"
+          },
+          "limits": {
+            "en": "No metered useful-output costs, utilization or matched gas comparator; the EU tariff is not the US site's tariff",
+            "zh": "缺少实测有用产出成本、利用率及匹配气价；欧盟电价不是该美国现场的电价"
+          },
+          "change": {
+            "en": "Commercial operating records showing sustained matched-service cost advantage",
+            "zh": "商业运行记录显示持续的同等服务成本优势"
+          }
+        },
+        {
+          "id": "H5",
+          "title": {
+            "en": "Grid and Infrastructure Bottlenecks",
+            "zh": "电网与基础设施瓶颈"
+          },
+          "interpretation": {
+            "en": "Credible constraint watch; increasing dominance not established",
+            "zh": "值得关注的约束；其主导性增强未成立"
+          },
+          "direction": {
+            "en": "Supports bottleneck concern; trend unresolved",
+            "zh": "支持瓶颈关注；趋势未决"
+          },
+          "confidence": {
+            "en": "Low–medium",
+            "zh": "低至中等"
+          },
+          "evidence": {
+            "en": "IEA procurement-pressure context [EI-E000826]",
+            "zh": "IEA 采购压力背景 [EI-E000826]"
+          },
+          "limits": {
+            "en": "No aligned industrial-load connection or delivered-equipment cohorts; cannot rank constraints",
+            "zh": "缺少口径一致的工业负荷接入及设备交付群组，无法排列约束重要性"
+          },
+          "change": {
+            "en": "Cause-coded connection delays and realized equipment delivery times across comparable cohorts",
+            "zh": "可比群组中按原因分类的接入延迟与实际设备交付时间"
+          }
+        },
+        {
+          "id": "H6",
+          "title": {
+            "en": "Materials Consequences",
+            "zh": "材料后果"
+          },
+          "interpretation": {
+            "en": "One concrete component/material link; broader strategic consequences unproved",
+            "zh": "有具体组件／材料联系；更广泛战略影响未证实"
+          },
+          "direction": {
+            "en": "Supports a narrow material link",
+            "zh": "支持狭义材料联系"
+          },
+          "confidence": {
+            "en": "Low–medium",
+            "zh": "低至中等"
+          },
+          "evidence": {
+            "en": "Thermal-storage case identifies brick and wire [EI-E000827]",
+            "zh": "储热案例指明砖和金属丝 [EI-E000827]"
+          },
+          "limits": {
+            "en": "No qualified grade, material intensity, specification change or substitution series",
+            "zh": "缺少认证牌号、材料强度、规格变化或替代序列"
+          },
+          "change": {
+            "en": "Component specifications, failure data and bills of materials establishing an actual change in requirements",
+            "zh": "组件规格、失效数据与材料清单证明要求实际改变"
+          }
+        }
+      ]
+    }
+  ]
+}

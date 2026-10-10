@@ -11,9 +11,9 @@ const config: QuartzConfig = {
     theme: { fontOrigin: "local", cdnCaching: false, typography: { header: "sans-serif", body: "sans-serif", code: "monospace" }, colors: { lightMode: colors, darkMode: colors } },
   },
   plugins: {
-    transformers: [Plugin.FrontMatter(), Plugin.CreatedModifiedDate({priority: ["frontmatter"]}), Plugin.ObsidianFlavoredMarkdown(), Plugin.GitHubFlavoredMarkdown(), Plugin.TableOfContents(), Plugin.CrawlLinks({markdownLinkResolution: "relative"}), Plugin.Description()],
+    transformers: [Plugin.ThesisTracker(), Plugin.FrontMatter(), Plugin.CreatedModifiedDate({priority: ["frontmatter"]}), Plugin.ObsidianFlavoredMarkdown(), Plugin.GitHubFlavoredMarkdown(), Plugin.TableOfContents(), Plugin.CrawlLinks({markdownLinkResolution: "relative"}), Plugin.Description()],
     filters: [Plugin.ExplicitPublish()],
-    emitters: [Plugin.ComponentResources(), Plugin.ContentPage(), Plugin.ContentIndex({enableSiteMap: true, enableRSS: false}), Plugin.Assets(), Plugin.Static()],
+    emitters: [Plugin.ComponentResources(), Plugin.ContentPage(), Plugin.ContentIndex({enableSiteMap: true, enableRSS: false}), Plugin.Assets(), Plugin.Static(), Plugin.PublicationFeed()],
   },
 }
 export default config

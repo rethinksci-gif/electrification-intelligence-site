@@ -41,10 +41,11 @@ export const PublicationListing: QuartzComponent = (p) => {
   let files = p.allFiles.filter(file => file.frontmatter?.language === f.language && file.frontmatter?.content_type === type)
     .sort((a,b) => String(b.frontmatter?.date).localeCompare(String(a.frontmatter?.date)) || String(b.frontmatter?.edition).localeCompare(String(a.frontmatter?.edition)))
   if (f.latest_only) files = files.slice(0, 1)
+  const label = type === "learning-module" ? (zh(p) ? "学习笔记" : "LEARNING NOTE") : type === "research-sprint" ? (zh(p) ? "专题研究" : "RESEARCH SPRINT") : (zh(p) ? "分析师专刊" : "ANALYST EDITION")
   return <div class="edition-grid">{files.map(file => <a class="edition-card" href={url(p,file.slug!)}>
-    <div class="eyebrow">{zh(p) ? "分析师专刊" : "ANALYST EDITION"} {file.frontmatter?.edition} · {String(file.frontmatter?.date)}</div>
+    <div class="eyebrow">{label} {file.frontmatter?.edition} · {String(file.frontmatter?.date)}</div>
     <h2>{file.frontmatter?.title}</h2><p>{String(file.frontmatter?.subtitle)}</p>
-    <span class="card-meta">{String(file.frontmatter?.main_thesis ?? "")} · {file.frontmatter?.reading_time} {zh(p) ? "分钟阅读" : "min read"} <span aria-hidden="true">↗</span></span>
+    <span class="card-meta">{String(file.frontmatter?.main_thesis ?? "")} {file.frontmatter?.reading_time ? `${file.frontmatter.reading_time} ${zh(p) ? "分钟阅读" : "min read"}` : (zh(p) ? "阅读全文" : "Read article")} <span aria-hidden="true">↗</span></span>
   </a>)}</div>
 }
-export const PublicationFooter: QuartzComponent = (p) => <footer class="publication-footer"><strong>Electrification Intelligence</strong><p>{zh(p) ? "区分证据、解读与假设。保留不确定性。" : "Evidence, interpretation and hypothesis. Uncertainty preserved."}</p><a href={url(p, `${zh(p) ? "zh" : "en"}/methodology/index`)}>{zh(p) ? "研究方法与证据标准" : "Methodology & evidence standards"}</a><span class="footer-credit">Quartz · {zh(p) ? "研究截止日期见各篇文章" : "Research cutoffs are stated in each edition"}</span></footer>
+export const PublicationFooter: QuartzComponent = (p) => <footer class="publication-footer"><strong>Electrification Intelligence</strong><p>{zh(p) ? "区分证据、解读与假设。保留不确定性。" : "Evidence, interpretation and hypothesis. Uncertainty preserved."}</p><a href={url(p, `${zh(p) ? "zh" : "en"}/methodology/index`)}>{zh(p) ? "研究方法与证据标准" : "Methodology & evidence standards"}</a> · <a href={`${pathToRoot(p.fileData.slug!)}/${zh(p) ? "zh" : "en"}/feed.xml`} type="application/atom+xml">{zh(p) ? "订阅更新（Atom）" : "Subscribe (Atom feed)"}</a><span class="footer-credit">{zh(p) ? "文章采用 " : "Articles licensed under "}<a href="https://creativecommons.org/licenses/by/4.0/" rel="license">CC BY 4.0</a> · Quartz · {zh(p) ? "研究截止日期见各篇文章" : "Research cutoffs are stated in each edition"}</span></footer>

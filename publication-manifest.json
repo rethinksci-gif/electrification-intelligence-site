@@ -6,7 +6,10 @@
     "en/index.md",
     "en/latest/index.md",
     "en/learning/index.md",
+    "en/learning/note-method/index.md",
+    "en/learning/roadmap/index.md",
     "en/methodology/index.md",
+    "en/methodology/open-research/index.md",
     "en/research-sprints/index.md",
     "en/thesis/index.md",
     "index.md",
@@ -16,7 +19,10 @@
     "zh/index.md",
     "zh/latest/index.md",
     "zh/learning/index.md",
+    "zh/learning/note-method/index.md",
+    "zh/learning/roadmap/index.md",
     "zh/methodology/index.md",
+    "zh/methodology/open-research/index.md",
     "zh/research-sprints/index.md",
     "zh/thesis/index.md"
   ]
