@@ -9,7 +9,7 @@ content_type: "page"
 thesis: []
 status: "published"
 confidence: "not-assigned"
-updated: "2026-10-07"
+updated: "2026-10-08"
 tags: []
 publish: true
 ---
@@ -50,3 +50,7 @@ Separate volume growth from specification tightening. Without actual duty, failu
 Evidence identifiers are preserved with links to public sources. Chinese versions must preserve numbers, units, dates, KPIs, thesis direction, evidence status and uncertainty. English technical terms are retained where necessary.
 
 Published reports retain their original version; corrections use linked, dated revisions. Research cutoffs are stated in each edition.
+
+## Reproducibility and maintenance
+
+Record source version, access date, locator, units and transformations. See [reference projects and ongoing updates](open-research/index.md). Label learning explanations, model scenarios and observed outcomes separately.

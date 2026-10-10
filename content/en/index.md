@@ -9,7 +9,7 @@ content_type: "home"
 thesis: []
 status: "published"
 confidence: "not-assigned"
-updated: "2026-10-07"
+updated: "2026-10-08"
 tags: []
 publish: true
 ---
@@ -34,17 +34,17 @@ Structural signals from the recorded periods, not live October news.
 
 ## Thesis Tracker
 
-<div class="thesis-grid">
-<div class="thesis-card"><h3>H1 — Clean Power Displacement</h3><p>Regional displacement; global structural decline unproved</p><p><strong>Confidence: Low–medium for sustained global displacement</strong></p></div>
-<div class="thesis-card"><h3>H2 — Solar + Battery System</h3><p>Enabling deployment exists; the dispatchable-service mechanism is untested</p><p><strong>Confidence: Low–medium</strong></p></div>
-<div class="thesis-card"><h3>H3 — End-Use Electrification</h3><p>Strengthening in passenger-car sales; broader substitution incomplete</p><p><strong>Confidence: Medium–high for car adoption; low–medium for broad fossil substitution</strong></p></div>
-<div class="thesis-card"><h3>H4 — Industrial Electrification</h3><p>A concrete implementation case; general economics and geography unproved</p><p><strong>Confidence: Very low–low for a demonstrated broad economic shift</strong></p></div>
-<div class="thesis-card"><h3>H5 — Grid and Infrastructure Bottlenecks</h3><p>Credible constraint watch; increasing dominance not established</p><p><strong>Confidence: Low–medium</strong></p></div>
-<div class="thesis-card"><h3>H6 — Materials Consequences</h3><p>One concrete component/material link; broader strategic consequences unproved</p><p><strong>Confidence: Low–medium</strong></p></div>
-</div>
+<!-- thesis:cards -->
 
 [Evidence direction, uncertainty and what would change the view →](thesis/index.md)
 
 ## Deep Research
 
 No completed Research Sprint is available yet. Read [Edition 001’s Clean Growth Ratio deep dive](analyst-editions/001/index.md), or visit [Research Sprints](research-sprints/index.md).
+
+## Explore by question
+
+- Understand mechanisms → [Learning route](learning/index.md)
+- Inspect support and counterevidence → [Thesis tracker](thesis/index.md)
+- Find the next testable question → [Sprint agenda](research-sprints/index.md)
+- Examine sources and updates → [Open research references](methodology/open-research/index.md)

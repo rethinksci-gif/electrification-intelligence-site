@@ -9,7 +9,7 @@ content_type: "page"
 thesis: []
 status: "published"
 confidence: "not-assigned"
-updated: "2026-10-07"
+updated: "2026-10-08"
 tags: []
 publish: true
 ---
@@ -50,3 +50,7 @@ publish: true
 保留证据编号并链接公开来源。中文版本不得改变数字、单位、日期、KPI、假设方向、证据状态或不确定性。必要时保留英文技术术语。
 
 已发布报告保留原版本；修正应采用注明日期并互相链接的修订版本。研究截止日期见各篇文章。
+
+## 可复现与维护
+
+记录来源版本、访问日期、原始定位、单位与变换步骤。参见[参考项目与持续更新](open-research/index.md)。学习解释、模型情景与实测结果分别标明。

@@ -1,0 +1,12 @@
+# External link checker (https://lychee.cli.rs), adapted from PyPSA-Eur's .lychee.toml.
+scheme = ["https", "http"]
+# Only "not found" is link rot; publishers often answer bots with 400/403/429.
+accept = ["100..=403", "405..=409", "411..=599"]
+accept_timeouts = true
+# Validate #fragments on GitHub notebook/doc links, not just the page.
+include_fragments = "anchor-only"
+exclude = ["localhost", "127.0.0.1"]
+timeout = 30
+max_retries = 5
+max_redirects = 10
+host_concurrency = 2

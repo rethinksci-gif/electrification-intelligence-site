@@ -1,0 +1,34 @@
+cff-version: 1.2.0
+message: "If you use or quote this research, please cite it as below. Each edition states its own research cutoff."
+type: dataset
+title: "Electrification Intelligence"
+abstract: >-
+  Bilingual (English/Simplified Chinese) research publication tracking how
+  electrification reshapes energy, industry and materials. Analyst editions
+  keep evidence identifiers, evidence status, research cutoffs and
+  uncertainty; thesis judgments are qualitative, not probabilities.
+authors:
+  - alias: rethinksci-gif
+    website: "https://github.com/rethinksci-gif"
+repository-code: "https://github.com/rethinksci-gif/electrification-intelligence-site"
+url: "https://rethinksci-gif.github.io/electrification-intelligence-site/"
+# Article content is CC BY 4.0; the vendored Quartz site generator remains MIT.
+license:
+  - CC-BY-4.0
+  - MIT
+version: "2026.10.0"
+date-released: "2026-10-07"
+keywords:
+  - electrification
+  - energy transition
+  - industrial electrification
+  - power systems
+  - critical materials
+preferred-citation:
+  type: website
+  title: "Electrification Intelligence"
+  authors:
+    - alias: rethinksci-gif
+  url: "https://rethinksci-gif.github.io/electrification-intelligence-site/"
+  year: 2026
+  languages: ["en", "zh"]

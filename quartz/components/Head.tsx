@@ -17,6 +17,7 @@ export default (() => {
     const description =
       fileData.frontmatter?.socialDescription ??
       fileData.frontmatter?.description ??
+      (fileData.frontmatter?.subtitle ? String(fileData.frontmatter.subtitle) : undefined) ??
       unescapeHTML(fileData.description?.trim() ?? i18n(cfg.locale).propertyDefaults.description)
 
     const { css, js, additionalHead } = externalResources
@@ -26,9 +27,28 @@ export default (() => {
     const baseDir = fileData.slug === "404" ? path : pathToRoot(fileData.slug!)
     const iconPath = joinSegments(baseDir, "static/icon.svg")
 
-    // Url of current page
-    const socialUrl =
-      fileData.slug === "404" ? url.toString() : joinSegments(url.toString(), fileData.slug!)
+    // Url of current page; matches the canonical directory URL rather than the raw slug
+    const pageUrl = (slug: string) => `https://${cfg.baseUrl}/${slug === "index" ? "" : slug.replace(/\/index$/, "/")}`
+    const socialUrl = fileData.slug === "404" ? url.toString() : pageUrl(fileData.slug!)
+    const f = fileData.frontmatter
+    const language = f?.language === "zh" ? "zh" : "en"
+    const isArticle = ["analyst-edition", "research-sprint", "learning-module"].includes(String(f?.content_type))
+    const isoDate = (value: unknown) => (value ? `${String(value)}T00:00:00Z` : undefined)
+    const jsonLd = isArticle
+      ? {
+          "@context": "https://schema.org",
+          "@type": f?.content_type === "analyst-edition" ? "Report" : "Article",
+          headline: f?.title,
+          description,
+          inLanguage: language === "zh" ? "zh-Hans" : "en",
+          datePublished: isoDate(f?.date),
+          dateModified: isoDate(f?.updated),
+          url: socialUrl,
+          isPartOf: { "@type": "WebSite", name: cfg.pageTitle, url: `https://${cfg.baseUrl}/` },
+          author: { "@type": "Person", name: "rethinksci-gif", url: "https://github.com/rethinksci-gif" },
+          license: "https://creativecommons.org/licenses/by/4.0/",
+        }
+      : undefined
 
     return (
       <head>
@@ -48,12 +68,15 @@ export default (() => {
 
         <meta name="og:site_name" content={cfg.pageTitle}></meta>
         <meta property="og:title" content={title} />
-        <meta property="og:type" content="website" />
-        <meta name="twitter:card" content="summary_large_image" />
+        <meta property="og:type" content={isArticle ? "article" : "website"} />
+        <meta property="og:locale" content={language === "zh" ? "zh_CN" : "en_US"} />
+        <meta property="og:locale:alternate" content={language === "zh" ? "en_US" : "zh_CN"} />
+        {isArticle && <meta property="article:published_time" content={isoDate(f?.date)} />}
+        {isArticle && <meta property="article:modified_time" content={isoDate(f?.updated)} />}
+        <meta name="twitter:card" content="summary" />
         <meta name="twitter:title" content={title} />
         <meta name="twitter:description" content={description} />
         <meta property="og:description" content={description} />
-        <meta property="og:image:alt" content={description} />
 
 
         {cfg.baseUrl && (
@@ -68,7 +91,9 @@ export default (() => {
         <meta name="description" content={description} />
         <meta name="generator" content="Quartz" />
         <link rel="canonical" href={`https://${cfg.baseUrl}/${fileData.slug === "index" ? "" : fileData.slug!.replace(/\/index$/, "/")}`} />
-        {allFiles.filter(f => f.frontmatter?.translation_key === fileData.frontmatter?.translation_key).map(f => <link rel="alternate" hrefLang={f.frontmatter?.language === "zh" ? "zh-Hans" : "en"} href={`https://${cfg.baseUrl}/${f.slug === "index" ? "" : f.slug!.replace(/\/index$/, "/")}`} />)}
+        {allFiles.filter(other => other.frontmatter?.translation_key === f?.translation_key).map(other => <link rel="alternate" hrefLang={other.frontmatter?.language === "zh" ? "zh-Hans" : "en"} href={pageUrl(other.slug!)} />)}
+        <link rel="alternate" type="application/atom+xml" title={language === "zh" ? "Electrification Intelligence 中文订阅" : "Electrification Intelligence feed"} href={`https://${cfg.baseUrl}/${language}/feed.xml`} />
+        {jsonLd && <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd).replace(/</g, "\\u003c") }} />}
 
         {css.map((resource) => CSSResourceToStyleElement(resource, true))}
         {js
