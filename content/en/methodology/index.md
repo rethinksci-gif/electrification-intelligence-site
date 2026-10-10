@@ -9,7 +9,7 @@ content_type: "page"
 thesis: []
 status: "published"
 confidence: "not-assigned"
-updated: "2026-10-08"
+updated: "2026-10-10"
 tags: []
 publish: true
 ---
@@ -21,6 +21,8 @@ Source → candidate evidence → validated evidence → KPI observation → the
 This describes the existing research method. Publishing or translating an article does not change evidence status or automatically update thesis confidence.
 
 ## Reading key
+
+Indicator codes (K01–K20), evidence identifiers and project stages are explained in the [glossary](glossary/index.md).
 
 | Label | Meaning |
 | --- | --- |

@@ -9,7 +9,7 @@ content_type: "page"
 thesis: []
 status: "published"
 confidence: "not-assigned"
-updated: "2026-10-08"
+updated: "2026-10-10"
 tags: []
 publish: true
 ---
@@ -21,6 +21,8 @@ publish: true
 这是既有研究方法的公开说明。发布或翻译文章不改变证据状态，也不自动更新假设置信度。
 
 ## 阅读标识
+
+指标编号（K01–K20）、证据编号和项目阶段的含义见[术语与指标](glossary/index.md)。
 
 | 标识 | 含义 |
 | --- | --- |

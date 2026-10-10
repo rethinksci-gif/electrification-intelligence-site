@@ -9,7 +9,7 @@ content_type: "home"
 thesis: []
 status: "published"
 confidence: "not-assigned"
-updated: "2026-10-08"
+updated: "2026-10-10"
 tags: []
 publish: true
 ---
@@ -38,12 +38,10 @@ publish: true
 
 [查看证据方向、不确定性与改变判断的条件 →](thesis/index.md)
 
-## 深度研究
-
-尚无完成并可公开发布的专题研究。可先阅读[专刊 001 的清洁增长比率分析](analyst-editions/001/index.md)，或查看[专题研究栏目](research-sprints/index.md)。
-
 ## 按问题进入研究
 
+- 读当前的深度分析 → [专刊 001：清洁增长比率](analyst-editions/001/index.md#6-深度分析)
+- 查 K03、CGR、V/C 等编号含义 → [术语与指标](methodology/glossary/index.md)
 - 理解技术与经济机制 → [学习路线](learning/index.md)
 - 看目前支持和反证 → [假设追踪](thesis/index.md)
 - 找下一项可验证问题 → [专题研究计划](research-sprints/index.md)

@@ -9,7 +9,7 @@ content_type: "home"
 thesis: []
 status: "published"
 confidence: "not-assigned"
-updated: "2026-10-08"
+updated: "2026-10-10"
 tags: []
 publish: true
 ---
@@ -38,12 +38,10 @@ Structural signals from the recorded periods, not live October news.
 
 [Evidence direction, uncertainty and what would change the view →](thesis/index.md)
 
-## Deep Research
-
-No completed Research Sprint is available yet. Read [Edition 001’s Clean Growth Ratio deep dive](analyst-editions/001/index.md), or visit [Research Sprints](research-sprints/index.md).
-
 ## Explore by question
 
+- Read the current deep dive → [Clean Growth Ratio in Edition 001](analyst-editions/001/index.md#6-deep-dive)
+- Decode K03, CGR, V/C and other codes → [Glossary and indicators](methodology/glossary/index.md)
 - Understand mechanisms → [Learning route](learning/index.md)
 - Inspect support and counterevidence → [Thesis tracker](thesis/index.md)
 - Find the next testable question → [Sprint agenda](research-sprints/index.md)
