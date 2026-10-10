@@ -1,5 +1,7 @@
 # Electrification Intelligence publication site
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23276948.svg)](https://doi.org/10.5281/zenodo.23276948)
+
 This directory is the public publication layer. Quartz reads only `content/`; every Markdown file is explicitly inventoried in `publication-manifest.json` and must carry `publish: true`. Research inputs, source snapshots, review queues, credentials and generated pipeline artifacts remain outside this tree.
 
 Public site: <https://rethinksci-gif.github.io/electrification-intelligence-site/>. English content lives under `/en/`; Simplified Chinese content lives under `/zh/`.
@@ -34,5 +36,5 @@ Use `node scripts/new-note.mjs learning-module slug "English title" "中文标�
 
 ## Citation and licenses
 
-Article content is CC BY 4.0 and the site code is MIT; see `LICENSE.md`. Citation metadata is in `CITATION.cff`. `.zenodo.json` is ready for Zenodo archiving: sign in to zenodo.org with GitHub, enable this repository under GitHub settings, then publish a GitHub Release (for example `v2026.10.0`); each release receives a DOI. Add the concept DOI to `CITATION.cff` afterwards.
+Article content is CC BY 4.0 and the site code is MIT; see `LICENSE.md`. Citation metadata is in `CITATION.cff`. `.zenodo.json` is ready for Zenodo archiving: sign in to zenodo.org with GitHub, enable this repository under GitHub settings, then publish a GitHub Release (for example `v2026.10.0`); each release receives a DOI. The concept DOI [10.5281/zenodo.23276948](https://doi.org/10.5281/zenodo.23276948) always resolves to the latest release and is recorded in `CITATION.cff`; each release also gets its own version DOI.
 

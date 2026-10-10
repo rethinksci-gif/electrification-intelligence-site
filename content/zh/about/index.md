@@ -32,4 +32,4 @@ Electrification Intelligence 是一个独立研究项目，追踪电气化如何
 
 本站文章采用 [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.zh-hans) 许可：可以转载和改编，但须署名“Electrification Intelligence (rethinksci-gif)”、链接原文页面并注明改动。文中引用的第三方来源仍适用其各自条款。网站代码继续采用 MIT 许可。
 
-引用时请注明专刊编号及其研究截止日期，并让所引数字保留原有的证据状态与不确定性说明。机器可读的引用元数据见 [CITATION.cff](https://github.com/rethinksci-gif/electrification-intelligence-site/blob/main/CITATION.cff)。
+引用时请注明专刊编号及其研究截止日期，并让所引数字保留原有的证据状态与不确定性说明。存档版本 DOI：[10.5281/zenodo.23276948](https://doi.org/10.5281/zenodo.23276948)（始终指向最新版本）。机器可读的引用元数据见 [CITATION.cff](https://github.com/rethinksci-gif/electrification-intelligence-site/blob/main/CITATION.cff)。

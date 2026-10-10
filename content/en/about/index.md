@@ -32,4 +32,4 @@ The [research repository](https://github.com/rethinksci-gif/electrification-inte
 
 Articles on this site are licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/): you may share and adapt them with credit to "Electrification Intelligence (rethinksci-gif)", a link to the source page and a note of any changes. Cited third-party sources keep their own terms. The site code remains MIT-licensed.
 
-When citing, name the edition and its research cutoff, and keep the evidence status and uncertainty attached to any number you quote. Machine-readable citation metadata is in [CITATION.cff](https://github.com/rethinksci-gif/electrification-intelligence-site/blob/main/CITATION.cff).
+When citing, name the edition and its research cutoff, and keep the evidence status and uncertainty attached to any number you quote. Archived releases: DOI [10.5281/zenodo.23276948](https://doi.org/10.5281/zenodo.23276948) (always resolves to the latest version). Machine-readable citation metadata is in [CITATION.cff](https://github.com/rethinksci-gif/electrification-intelligence-site/blob/main/CITATION.cff).

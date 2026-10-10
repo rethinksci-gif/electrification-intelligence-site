@@ -10,6 +10,8 @@ abstract: >-
 authors:
   - alias: rethinksci-gif
     website: "https://github.com/rethinksci-gif"
+# Concept DOI: always resolves to the latest archived release.
+doi: "10.5281/zenodo.23276948"
 repository-code: "https://github.com/rethinksci-gif/electrification-intelligence-site"
 url: "https://rethinksci-gif.github.io/electrification-intelligence-site/"
 # Article content is CC BY 4.0; the vendored Quartz site generator remains MIT.
@@ -30,5 +32,6 @@ preferred-citation:
   authors:
     - alias: rethinksci-gif
   url: "https://rethinksci-gif.github.io/electrification-intelligence-site/"
+  doi: "10.5281/zenodo.23276948"
   year: 2026
   languages: ["en", "zh"]
