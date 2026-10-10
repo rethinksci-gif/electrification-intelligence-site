@@ -9,7 +9,7 @@ content_type: "page"
 thesis: []
 status: "published"
 confidence: "not-assigned"
-updated: "2026-10-08"
+updated: "2026-10-10"
 tags: []
 publish: true
 ---
@@ -103,4 +103,4 @@ publish: true
 
 完成首轮后，按原有十二模块补深度：第 7–8 月复现一个光储或工业热案例；第 9–10 月补电网、电力电子与材料；第 11–12 月做跨地区比较和假设复核。每次只深化一个问题，PyBaMM、motulator、全尺度 PyPSA-Eur 按需选择，不要求全部运行。
 
-每月查看主线仓库 releases 和 breaking changes；开新练习时记录 commit/tag、环境文件、输入来源及日期。进行中的练习不盲目升级。上游教程环境与本项目研究环境分开；安装以选定版本文档为准。已有课程均未在本次任务中安装或执行，来源链接核对不等于运行兼容性保证。
+每月查看主线仓库 releases 和 breaking changes；开新练习时记录 commit/tag、环境文件、输入来源及日期。进行中的练习不盲目升级。上游教程环境与本项目研究环境分开；安装以选定版本文档为准。本项目尚未安装或运行这些教程，链接核对不等于能够顺利运行。

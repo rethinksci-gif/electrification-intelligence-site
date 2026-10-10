@@ -9,7 +9,7 @@ content_type: "page"
 thesis: []
 status: "published"
 confidence: "not-assigned"
-updated: "2026-10-08"
+updated: "2026-10-10"
 tags: []
 publish: true
 list_type: "learning-module"
@@ -19,12 +19,7 @@ list_type: "learning-module"
 
 [Open the full 24-week learning pathway →](roadmap/index.md)
 
-At 4–6 hours per week, progress from data and units to markets, solar-storage, industrial heat, grids and materials. Includes weekly tasks, GitHub tutorial links and six stage gates. All course tasks remain planned.
-
-
-The existing learning modules are unfinished and are not published as lessons.
-
-The scope covers electricity markets, solar economics, battery storage, grid architecture, industrial electricity, heat pumps, industrial heat, EV charging, power electronics, critical minerals, electrification materials and industrial geography.
+At 4–6 hours per week, progress from data and units to markets, solar-storage, industrial heat, grids and materials. Includes weekly tasks, GitHub tutorial links and six stage gates. All tasks are still planned; the twelve modules below are not yet published as lessons.
 
 Start with [Edition 001’s Clean Growth Ratio analysis](../analyst-editions/001/index.md) to explore the distinction between annual energy balances and industrial service at a site.
 

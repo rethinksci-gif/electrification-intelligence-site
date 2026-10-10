@@ -9,7 +9,7 @@ content_type: "page"
 thesis: []
 status: "published"
 confidence: "not-assigned"
-updated: "2026-10-08"
+updated: "2026-10-10"
 tags: []
 publish: true
 list_type: "learning-module"
@@ -19,12 +19,7 @@ list_type: "learning-module"
 
 [查看完整 24 周学习计划 →](roadmap/index.md)
 
-按每周 4–6 小时，从数据与单位逐步进入市场、光储、工业热、电网与材料。计划包含每周任务、GitHub 教程入口和六个阶段验收标准；所有课程任务仍是计划。
-
-
-现有学习模块尚未完成，因此未作为课程发布。
-
-研究范围包括电力市场、太阳能经济性、电池储能、电网架构、工业用电、热泵、工业热、电动汽车充电、电力电子、关键矿产、电气化材料与工业地理。
+按每周 4–6 小时，从数据与单位逐步进入市场、光储、工业热、电网与材料。计划包含每周任务、GitHub 教程入口和六个阶段验收标准；所有任务仍是计划；下表十二个模块尚未作为课程发布。
 
 可先阅读[专刊 001 的清洁增长比率分析](../analyst-editions/001/index.md)，理解年度电量平衡与工业现场服务之间的区别。
 

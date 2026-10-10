@@ -9,7 +9,7 @@ content_type: "page"
 thesis: []
 status: "published"
 confidence: "not-assigned"
-updated: "2026-10-08"
+updated: "2026-10-10"
 tags: []
 publish: true
 ---
@@ -103,4 +103,4 @@ Accumulate personal notes weekly. At each stage gate, curate one bilingual Learn
 
 After the first pass, deepen the original twelve modules: months 7–8 reproduce one solar-storage or heat case; months 9–10 deepen grids, power electronics and materials; months 11–12 compare regions and reassess hypotheses. Choose one question at a time. PyBaMM, motulator and full-scale PyPSA-Eur are optional.
 
-Review core releases and breaking changes monthly. Record a commit/tag, environment, input sources and dates when starting an exercise. Avoid changing versions midway. Keep tutorial environments separate from the research environment and follow the selected version's installation instructions. No upstream course was installed or executed in this task; checked links do not guarantee runtime compatibility.
+Review core releases and breaking changes monthly. Record a commit/tag, environment, input sources and dates when starting an exercise. Avoid changing versions midway. Keep tutorial environments separate from the research environment and follow the selected version's installation instructions. The project has not yet installed or run these tutorials; checked links do not guarantee they run.
