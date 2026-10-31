@@ -66,28 +66,35 @@
   {
     "id": "EI-a3882203fc769380",
     "status": "QUARANTINED",
+    "source_url": "https://www.eia.gov/todayinenergy/detail.php?id=68384",
     "reasons": [
+      "incomplete development"
+    ]
+  },
+  {
+    "id": "EI-6d5f94b54e3e2bf7",
+    "status": "QUARANTINED",
+    "reasons": [
+      "conflicting or unsupported numerical data",
       "bilingual numerical mismatch",
+      "conflicting or unsupported numerical data",
       "bilingual numerical mismatch",
+      "conflicting or unsupported numerical data",
       "bilingual numerical mismatch",
+      "conflicting or unsupported numerical data",
+      "bilingual numerical mismatch",
+      "evidence excerpt absent from original",
+      "conflicting or unsupported numerical data",
       "bilingual numerical mismatch"
     ],
-    "source_url": "https://www.eia.gov/todayinenergy/detail.php?id=68384",
-    "checked_at": "2026-10-31T19:51:44.278334+00:00",
-    "source_sha256": "863549cd844b7a3b235235b8a25dfcbc56fa01e020c292ded160100015ebddc1",
+    "source_url": "https://www.eia.gov/todayinenergy/detail.php?id=68364",
+    "checked_at": "2026-10-31T20:09:47.384763+00:00",
+    "source_sha256": "3089acea2019787289b182f161830e0e3aece0f5856ae4f46d501f13bc44dd8e",
     "checks": {},
     "provenance": {
       "authority": "official",
       "origin": "daily original-source index"
     }
-  },
-  {
-    "id": "EI-6d5f94b54e3e2bf7",
-    "status": "QUARANTINED",
-    "source_url": "https://www.eia.gov/todayinenergy/detail.php?id=68364",
-    "reasons": [
-      "incomplete development"
-    ]
   },
   {
     "id": "EI-11274263ec4ec7aa",
@@ -108,10 +115,17 @@
   {
     "id": "EI-207bf0c6d4cca975",
     "status": "QUARANTINED",
-    "source_url": "https://www.eia.gov/todayinenergy/detail.php?id=68324",
     "reasons": [
-      "incomplete development"
-    ]
+      "unsupported value/unit combination"
+    ],
+    "source_url": "https://www.eia.gov/todayinenergy/detail.php?id=68324",
+    "checked_at": "2026-10-31T20:09:57.531761+00:00",
+    "source_sha256": "4da448cbc9c0f383c205146e6102398215502399f1b1ea4a21f3541ba10df9e0",
+    "checks": {},
+    "provenance": {
+      "authority": "official",
+      "origin": "daily original-source index"
+    }
   },
   {
     "id": "EI-cb5890d031cd055d",
@@ -125,16 +139,13 @@
     "id": "EI-15c2bd28b1120531",
     "status": "QUARANTINED",
     "reasons": [
-      "bilingual numerical mismatch",
-      "unsupported value/unit combination",
-      "bilingual numerical mismatch",
-      "bilingual numerical mismatch",
+      "conflicting or unsupported numerical data",
       "bilingual numerical mismatch",
       "conflicting or unsupported numerical data",
       "bilingual numerical mismatch"
     ],
     "source_url": "https://www.eia.gov/todayinenergy/detail.php?id=68304",
-    "checked_at": "2026-10-31T19:52:10.221921+00:00",
+    "checked_at": "2026-10-31T20:10:07.064845+00:00",
     "source_sha256": "69b6c55673abd29091f6c03fb911cf628bace55415d8e520c71e3e4561e367cd",
     "checks": {},
     "provenance": {
