@@ -1,0 +1,27 @@
+{
+  "checked_at": "2026-10-31T07:23:15.527494+00:00",
+  "window": "2026-10-26",
+  "status": "skipped",
+  "last_publication": null,
+  "last_successful_check": "2026-10-31T07:23:18.119245+00:00",
+  "reasons": [
+    "fewer than three verified bilingual developments"
+  ],
+  "collection": {
+    "candidates": 12,
+    "failures": [
+      {
+        "source": "https://www.iea.org/news",
+        "reason": "HTTPError"
+      },
+      {
+        "source": "https://www.irena.org/News",
+        "reason": "HTTPError"
+      },
+      {
+        "source": "https://ember-energy.org/latest-insights/",
+        "reason": "HTTPError"
+      }
+    ]
+  }
+}

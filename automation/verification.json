@@ -1,0 +1,98 @@
+[
+  {
+    "id": "EI-b74bd112a3f4fc6e",
+    "status": "QUARANTINED",
+    "source_url": "https://www.iea.org/reports/global-ev-outlook-2026",
+    "reasons": [
+      "HTTPError"
+    ]
+  },
+  {
+    "id": "EI-fc81d8d59e541f37",
+    "status": "QUARANTINED",
+    "source_url": "https://www.iea.org/news/rising-component-prices-and-supply-chain-pressures-are-hindering-the-development-of-transmission-grid-infrastructure",
+    "reasons": [
+      "HTTPError"
+    ]
+  },
+  {
+    "id": "EI-194765d1819fa61c",
+    "status": "QUARANTINED",
+    "source_url": "https://www.iea.org/reports/building-the-future-transmission-grid",
+    "reasons": [
+      "HTTPError"
+    ]
+  },
+  {
+    "id": "EI-1a73e680f892e6cb",
+    "status": "QUARANTINED",
+    "source_url": "https://www.iea.org/reports/electricity-2026/grids",
+    "reasons": [
+      "HTTPError"
+    ]
+  },
+  {
+    "id": "EI-15a436bfa73f811c",
+    "status": "QUARANTINED",
+    "source_url": "https://www.iea.org/reports/modernising-grids-in-the-age-of-electricity/executive-summary",
+    "reasons": [
+      "HTTPError"
+    ]
+  },
+  {
+    "id": "EI-897310f022982ebc",
+    "status": "QUARANTINED",
+    "source_url": "https://www.iea.org/reports/global-energy-review-2026/electricity-supply",
+    "reasons": [
+      "HTTPError"
+    ]
+  },
+  {
+    "id": "EI-c62c6bb136c8b02a",
+    "status": "QUARANTINED",
+    "source_url": "https://www.iea.org/reports/electricity-2026/executive-summary",
+    "reasons": [
+      "HTTPError"
+    ]
+  },
+  {
+    "id": "EI-b3938d8add08f95d",
+    "status": "QUARANTINED",
+    "source_url": "https://ember-energy.org/latest-insights/global-electricity-review-2026/2025-in-review/",
+    "reasons": [
+      "HTTPError"
+    ]
+  },
+  {
+    "id": "EI-a3882203fc769380",
+    "status": "QUARANTINED",
+    "source_url": "https://www.eia.gov/todayinenergy/detail.php?id=68384",
+    "reasons": [
+      "original publication date missing or ambiguous"
+    ]
+  },
+  {
+    "id": "EI-6d5f94b54e3e2bf7",
+    "status": "QUARANTINED",
+    "source_url": "https://www.eia.gov/todayinenergy/detail.php?id=68364",
+    "reasons": [
+      "original publication date missing or ambiguous"
+    ]
+  },
+  {
+    "id": "EI-11274263ec4ec7aa",
+    "status": "QUARANTINED",
+    "source_url": "https://www.eia.gov/todayinenergy/detail.php?id=68344",
+    "reasons": [
+      "original publication date missing or ambiguous"
+    ]
+  },
+  {
+    "id": "EI-73998ce676150f5c",
+    "status": "QUARANTINED",
+    "source_url": "https://www.eia.gov/todayinenergy/detail.php?id=68245",
+    "reasons": [
+      "original publication date missing or ambiguous"
+    ]
+  }
+]
