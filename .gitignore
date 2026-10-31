@@ -6,3 +6,12 @@ public/
 playwright-report/
 test-results/
 .env*
+
+# Autonomous runtime artifacts
+automation/expected-receipt.json
+automation/confirmation.json
+automation/runtime/
+automation/run-result.json
+
+__pycache__/
+*.pyc

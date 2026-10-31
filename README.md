@@ -1,3 +1,5 @@
+> **Scheduled publishing:** [Autonomous evidence publishing](AUTOMATION.md) now owns routine publication; legacy manual instructions below apply only to optional editorial diagnostics.
+
 # Electrification Intelligence publication site
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23276948.svg)](https://doi.org/10.5281/zenodo.23276948)
@@ -22,7 +24,7 @@ The preview is served at `http://localhost:8080/electrification-intelligence-sit
 
 Each language has an Atom feed (`/en/feed.xml`, `/zh/feed.xml`) listing editions, sprints and learning notes.
 
-Future publication sync is intentionally manual: reviewed research output → approved public Markdown → copy into this repository → human review → commit and push → Pages deployment. No cross-repository publishing automation is configured.
+Scheduled synchronization reads source references from the private research repository using a read-only deploy key. Originals are re-fetched and verified, English and Chinese are checked for semantic equivalence, and eligible pages plus the publication manifest are committed automatically. See [AUTOMATION.md](AUTOMATION.md).
 
 Edition 002 remains unpublished because its source file is explicitly marked as a draft with semantic review outstanding. Existing learning notes are scaffolds, so they are described in the Learning section without being published as lessons. No completed Research Sprint was available during this migration.
 

@@ -1,0 +1,6 @@
+[
+  {"url":"https://www.iea.org/news", "host":"www.iea.org", "path":"/news/", "authority":"official"},
+  {"url":"https://www.irena.org/News", "host":"www.irena.org", "path":"/News/", "authority":"official"},
+  {"url":"https://www.eia.gov/todayinenergy/", "host":"www.eia.gov", "path":"/todayinenergy/detail.php", "authority":"official"},
+  {"url":"https://ember-energy.org/latest-insights/", "host":"ember-energy.org", "path":"/latest-insights/", "authority":"primary"}
+]

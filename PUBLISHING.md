@@ -1,3 +1,5 @@
+> 自动发布已启用：日常发布使用 [AUTOMATION.md](AUTOMATION.md) 所述的证据门控流水线，无需人工批准、合并或部署。以下手工流程仅供可选编辑使用。
+
 # 从学习到 Electrification Intelligence 网站
 
 核对日期：2026-10-08。实际已配置的 GitHub Pages 是：

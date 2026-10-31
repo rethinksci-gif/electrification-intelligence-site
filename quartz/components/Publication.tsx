@@ -31,7 +31,7 @@ export const PublicationTitle: QuartzComponent = (p) => {
   return <div id="publication-content" class="publication-title" tabIndex={-1}>
     <p class="eyebrow">{f.content_type === "home" ? (zh(p) ? "能源 · 工业 · 材料" : "ENERGY · INDUSTRY · MATERIALS") : (zh(p) ? "研究情报" : "RESEARCH INTELLIGENCE")}{f.edition ? ` / ${f.edition}` : ""}</p>
     <h1>{f.title}</h1><p class="subtitle">{String(f.subtitle ?? "")}</p>
-    {f.content_type === "analyst-edition" && <p class="edition-meta"><time dateTime={String(f.date)}>{String(f.date)}</time> · {f.reading_time} {zh(p) ? "分钟阅读" : "min read"} · {zh(p) ? "历史基线分析" : "Historical baseline analysis"}</p>}
+    {f.content_type === "analyst-edition" && <p class="edition-meta"><time dateTime={String(f.date)}>{String(f.date)}</time> · {f.reading_time} {zh(p) ? "分钟阅读" : "min read"} · {f.automated ? (zh(p) ? "原始来源核验" : "Original-source verification") : (zh(p) ? "历史基线分析" : "Historical baseline analysis")}</p>}
   </div>
 }
 export const PublicationListing: QuartzComponent = (p) => {
