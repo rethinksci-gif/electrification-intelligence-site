@@ -4,7 +4,7 @@
     "status": "QUARANTINED",
     "source_url": "https://www.iea.org/reports/global-ev-outlook-2026",
     "reasons": [
-      "HTTPError"
+      "HTTP 403"
     ]
   },
   {
@@ -12,7 +12,7 @@
     "status": "QUARANTINED",
     "source_url": "https://www.iea.org/news/rising-component-prices-and-supply-chain-pressures-are-hindering-the-development-of-transmission-grid-infrastructure",
     "reasons": [
-      "HTTPError"
+      "HTTP 403"
     ]
   },
   {
@@ -20,7 +20,7 @@
     "status": "QUARANTINED",
     "source_url": "https://www.iea.org/reports/building-the-future-transmission-grid",
     "reasons": [
-      "HTTPError"
+      "HTTP 403"
     ]
   },
   {
@@ -28,7 +28,7 @@
     "status": "QUARANTINED",
     "source_url": "https://www.iea.org/reports/electricity-2026/grids",
     "reasons": [
-      "HTTPError"
+      "HTTP 403"
     ]
   },
   {
@@ -36,7 +36,7 @@
     "status": "QUARANTINED",
     "source_url": "https://www.iea.org/reports/modernising-grids-in-the-age-of-electricity/executive-summary",
     "reasons": [
-      "HTTPError"
+      "HTTP 403"
     ]
   },
   {
@@ -44,7 +44,7 @@
     "status": "QUARANTINED",
     "source_url": "https://www.iea.org/reports/global-energy-review-2026/electricity-supply",
     "reasons": [
-      "HTTPError"
+      "HTTP 403"
     ]
   },
   {
@@ -52,7 +52,7 @@
     "status": "QUARANTINED",
     "source_url": "https://www.iea.org/reports/electricity-2026/executive-summary",
     "reasons": [
-      "HTTPError"
+      "HTTP 403"
     ]
   },
   {
@@ -60,39 +60,158 @@
     "status": "QUARANTINED",
     "source_url": "https://ember-energy.org/latest-insights/global-electricity-review-2026/2025-in-review/",
     "reasons": [
-      "HTTPError"
+      "HTTP 403"
     ]
   },
   {
     "id": "EI-a3882203fc769380",
     "status": "QUARANTINED",
-    "source_url": "https://www.eia.gov/todayinenergy/detail.php?id=68384",
     "reasons": [
-      "original publication date missing or ambiguous"
-    ]
+      "bilingual numerical mismatch",
+      "bilingual numerical mismatch",
+      "bilingual numerical mismatch",
+      "bilingual numerical mismatch"
+    ],
+    "source_url": "https://www.eia.gov/todayinenergy/detail.php?id=68384",
+    "checked_at": "2026-10-31T19:51:44.278334+00:00",
+    "source_sha256": "863549cd844b7a3b235235b8a25dfcbc56fa01e020c292ded160100015ebddc1",
+    "checks": {},
+    "provenance": {
+      "authority": "official",
+      "origin": "daily original-source index"
+    }
   },
   {
     "id": "EI-6d5f94b54e3e2bf7",
     "status": "QUARANTINED",
     "source_url": "https://www.eia.gov/todayinenergy/detail.php?id=68364",
     "reasons": [
-      "original publication date missing or ambiguous"
+      "incomplete development"
     ]
   },
   {
     "id": "EI-11274263ec4ec7aa",
-    "status": "QUARANTINED",
+    "status": "REJECTED",
     "source_url": "https://www.eia.gov/todayinenergy/detail.php?id=68344",
     "reasons": [
-      "original publication date missing or ambiguous"
+      "irrelevant"
+    ]
+  },
+  {
+    "id": "EI-9b574b9b6d9a12cd",
+    "status": "QUARANTINED",
+    "source_url": "https://www.eia.gov/todayinenergy/detail.php?id=68325",
+    "reasons": [
+      "incomplete development"
+    ]
+  },
+  {
+    "id": "EI-207bf0c6d4cca975",
+    "status": "QUARANTINED",
+    "source_url": "https://www.eia.gov/todayinenergy/detail.php?id=68324",
+    "reasons": [
+      "incomplete development"
+    ]
+  },
+  {
+    "id": "EI-cb5890d031cd055d",
+    "status": "QUARANTINED",
+    "source_url": "https://www.eia.gov/todayinenergy/detail.php?id=68305",
+    "reasons": [
+      "incomplete development"
+    ]
+  },
+  {
+    "id": "EI-15c2bd28b1120531",
+    "status": "QUARANTINED",
+    "reasons": [
+      "bilingual numerical mismatch",
+      "unsupported value/unit combination",
+      "bilingual numerical mismatch",
+      "bilingual numerical mismatch",
+      "bilingual numerical mismatch",
+      "conflicting or unsupported numerical data",
+      "bilingual numerical mismatch"
+    ],
+    "source_url": "https://www.eia.gov/todayinenergy/detail.php?id=68304",
+    "checked_at": "2026-10-31T19:52:10.221921+00:00",
+    "source_sha256": "69b6c55673abd29091f6c03fb911cf628bace55415d8e520c71e3e4561e367cd",
+    "checks": {},
+    "provenance": {
+      "authority": "official",
+      "origin": "daily original-source index"
+    }
+  },
+  {
+    "id": "EI-77ab5d7af2eff7b8",
+    "status": "REJECTED",
+    "source_url": "https://www.eia.gov/todayinenergy/detail.php?id=68284",
+    "reasons": [
+      "outside publication window"
+    ]
+  },
+  {
+    "id": "EI-109f7d64c8d9628c",
+    "status": "REJECTED",
+    "source_url": "https://www.eia.gov/todayinenergy/detail.php?id=68264",
+    "reasons": [
+      "outside publication window"
     ]
   },
   {
     "id": "EI-73998ce676150f5c",
-    "status": "QUARANTINED",
+    "status": "REJECTED",
     "source_url": "https://www.eia.gov/todayinenergy/detail.php?id=68245",
     "reasons": [
-      "original publication date missing or ambiguous"
+      "outside publication window"
+    ]
+  },
+  {
+    "id": "EI-a1bdb43bd9d916d6",
+    "status": "REJECTED",
+    "source_url": "https://www.eia.gov/todayinenergy/detail.php?id=68225",
+    "reasons": [
+      "outside publication window"
+    ]
+  },
+  {
+    "id": "EI-312ecd6a696d2a87",
+    "status": "REJECTED",
+    "source_url": "https://www.eia.gov/todayinenergy/detail.php?id=68244",
+    "reasons": [
+      "outside publication window"
+    ]
+  },
+  {
+    "id": "EI-a148fadf946c26c2",
+    "status": "REJECTED",
+    "source_url": "https://www.eia.gov/todayinenergy/detail.php?id=68224",
+    "reasons": [
+      "outside publication window"
+    ]
+  },
+  {
+    "id": "EI-becfb45a459ae5cb",
+    "status": "REJECTED",
+    "source_url": "https://www.eia.gov/todayinenergy/detail.php?id=68204",
+    "reasons": [
+      "outside publication window"
+    ]
+  },
+  {
+    "id": "EI-fcdc5fa84a432ec4",
+    "status": "REJECTED",
+    "source_url": "https://www.eia.gov/todayinenergy/detail.php?id=68184",
+    "reasons": [
+      "outside publication window"
+    ]
+  },
+  {
+    "id": "EI-e0e70cabf6c7a7a0",
+    "status": "REJECTED",
+    "source_url": "https://www.eia.gov/todayinenergy/detail.php?id=68164",
+    "reasons": [
+      "outside publication window"
     ]
   }
 ]
