@@ -45,10 +45,10 @@ def collect(registry, research=None):
                     continue
                 leads.setdefault(canonical(url), {'authority':entry['authority'], 'origin':'daily original-source index'})
                 count += 1
-                if count >= 6:
+                if count >= (16 if entry['host'] == 'www.eia.gov' else 6):
                     break
         except Exception as exc:
-            failures.append({'source':entry['url'],'reason':type(exc).__name__})
+            failures.append({'source':entry['url'],'reason':('HTTP '+str(exc.code)) if hasattr(exc,'code') else type(exc).__name__})
     # Import only source references from the research repo, never drafts or asserted verification.
     # All imported evidence is re-fetched and verified before publication.
     research_leads = {}
@@ -148,7 +148,7 @@ def run():
                     seen.add(candidate['url'])
             except Exception as exc:
                 reports.append({'id':cid,'status':'QUARANTINED','source_url':url,
-                                'reasons':[str(exc) if isinstance(exc,ValueError) else type(exc).__name__]})
+                                'reasons':[str(exc) if isinstance(exc,ValueError) else 'HTTP '+str(exc.code) if hasattr(exc,'code') else type(exc).__name__]})
         if published.exists():
             status.update(status='skipped',reasons=['edition already published'])
         elif len(good)<3:
