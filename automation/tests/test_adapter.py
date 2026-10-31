@@ -43,6 +43,8 @@ class AdapterTests(unittest.TestCase):
             validate()
             manifest=json.loads(Path('publication-manifest.json').read_text())
             self.assertEqual(len(manifest['pages']),2)
+            for page in manifest['pages']:
+                self.assertIn("date: '2026-10-31'", Path('content',page).read_text())
             contents={p:Path('content',p).read_bytes() for p in manifest['pages']}
             self.assertEqual(adapter.run()['status'],'skipped')
             self.assertEqual(contents,{p:Path('content',p).read_bytes() for p in manifest['pages']})

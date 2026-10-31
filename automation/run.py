@@ -75,11 +75,11 @@ def render(verified, end):
         zh = language=='zh'
         meta = {'title':('电气化情报 — ' if zh else 'Electrification Intelligence — ')+str(end),
                 'subtitle': '经原始来源核验的双周动态' if zh else 'Biweekly developments checked against original sources',
-                'date':str(end),'edition':str(end),'language':language,'translation_key':'auto-'+str(end),
+                'date':str(date.today()),'edition':str(end),'language':language,'translation_key':'auto-'+str(end),
                 'content_type':'analyst-edition','thesis':[],'status':'published','confidence':'source-verified',
-                'updated':str(end),'tags':['electrification','materials'],'publish':True,
+                'updated':str(date.today()),'tags':['electrification','materials'],'publish':True,
                 'reading_time':max(1, sum(len(c[language]) for item in verified for c in item['claims'])//1000),
-                'automated':True}
+                'automated':True,'coverage_start':str(end-timedelta(days=14)), 'coverage_end_exclusive':str(end)}
         body = [f'Publication identifier: EI-{end}', '',
                 '核验仅确认原始来源支持相关表述，不构成独立实验复现。企业声明仍属于企业自报。未据此修改假设置信度。' if zh else
                 'Verification establishes source support, not independent replication. Company statements remain self-reported. Thesis confidence is unchanged.', '',
