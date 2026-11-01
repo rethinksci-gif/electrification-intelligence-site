@@ -139,6 +139,10 @@ def edition_numbers(text):
     return sorted(re.findall(r'\d+(?:,\d{3})*(?:\.\d+)?', text))
 
 
+def differ(claims):
+    return any(edition_numbers(c.get('en',''))!=edition_numbers(c.get('zh','')) for c in claims)
+
+
 def run():
     previous_path=Path('automation/status.json')
     previous=json.loads(previous_path.read_text()) if previous_path.exists() else {}
@@ -184,8 +188,15 @@ def run():
                 if len(claims)<2:
                     raise ValueError('incomplete development')
                 candidate={'id':cid,'url':source['url'],'date':source['date'],'bilingual':True,'claims':claims[:5]}
-                if any(edition_numbers(c.get('en',''))!=edition_numbers(c.get('zh','')) for c in candidate['claims']):
-                    raise ValueError('bilingual numerals differ')
+                if differ(candidate['claims']):
+                    repaired=model('Rewrite only the "zh" text of each claim so it contains exactly the same numerals as its '
+                                   '"en" text: dates as YYYY-MM-DD, numbers as identical Arabic numerals with the same '
+                                   'thousands separators and decimals, no 万/亿 and no spelled-out numbers. Keep the meaning, '
+                                   '"en" and "quote" unchanged. Return {"claims":[...]} in the same order.',{'claims':candidate['claims']})
+                    fixed=[dict(c,zh=r.get('zh','')) for c,r in zip(candidate['claims'],repaired.get('claims') or [])]
+                    if len(fixed)!=len(candidate['claims']) or differ(fixed):
+                        raise ValueError('bilingual numerals differ')
+                    candidate['claims']=fixed
                 check=verify(candidate,source,model,seen)
                 check['provenance']=provenance
                 reports.append(check)

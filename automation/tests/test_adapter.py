@@ -95,17 +95,24 @@ class AdapterTests(unittest.TestCase):
         self.assertEqual(adapter.windows(date(2026,11,1)),[date(2026,10,26)])
         self.assertEqual(adapter.windows(date(2026,11,24)),[date(2026,11,9),date(2026,11,23)])
 
-    def test_bilingual_numeral_formatting_is_quarantined(self):
+    def numeral_case(self,repair):
         with self.pipeline(count=3):
             original=adapter.Model
             def model(instruction,data):
+                if instruction.startswith('Rewrite'):
+                    return {'claims':[dict(c,zh=c['zh'].replace('（1万次）','') if repair else c['zh']) for c in data['claims']]}
                 result=original()(instruction,data)
                 if instruction.startswith('Extract') and data['url'].endswith('/0'):
-                    result['claims'][0]['zh']='2026年10月，实验室在 200 C 下测得 50 kWh。'
+                    result['claims'][0]['zh']+='（1万次）'
                 return result
             with patch.object(adapter,'Model',lambda **kw:model):adapter.run()
-        reports={r['source_url']:r for r in json.loads(Path('automation/verification.json').read_text())}
-        self.assertEqual(reports['https://example.org/0']['reasons'],['bilingual numerals differ'])
+        return {r['source_url']:r for r in json.loads(Path('automation/verification.json').read_text())}['https://example.org/0']
+
+    def test_bilingual_numeral_formatting_is_repaired_once(self):
+        self.assertEqual(self.numeral_case(repair=True)['reasons'],[])
+
+    def test_unrepaired_bilingual_numerals_are_quarantined(self):
+        self.assertEqual(self.numeral_case(repair=False)['reasons'],['bilingual numerals differ'])
 
     def test_feed_links_cover_rss_rdf_and_atom(self):
         rss=b'<rss><channel><item><link>https://a.org/1</link></item></channel></rss>'

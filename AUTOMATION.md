@@ -16,7 +16,7 @@ Missing keys, inaccessible originals, ambiguous publication dates, unsupported c
 
 ## Sources
 
-`automation/sources.json` lists HTML indexes and RSS/Atom feeds (IEA, Ember, US DOE, European Commission energy, UK DESNZ, EIA). Requests identify themselves honestly (`EvidencePublisher/1.1`); a publisher that refuses automated access (IRENA returned 403) is removed rather than worked around. Feeds only nominate leads: each article is re-fetched and must carry an explicit publisher date. Extracted claims must use YYYY-MM-DD dates and identical numerals in both languages, matching the site's bilingual parity check.
+`automation/sources.json` lists HTML indexes and RSS/Atom feeds (IEA, Ember, US DOE, European Commission energy, UK DESNZ, EIA). Requests identify themselves honestly (`EvidencePublisher/1.1`); a publisher that refuses automated access (IRENA returned 403) is removed rather than worked around. Feeds only nominate leads: each article is re-fetched and must carry an explicit publisher date. Extracted claims must use YYYY-MM-DD dates and identical numerals in both languages, matching the site's bilingual parity check; one model pass may rewrite the Chinese numerals before the item is quarantined.
 
 ## Operations and credentials
 
