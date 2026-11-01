@@ -1,6 +1,8 @@
 [
   {"url":"https://www.iea.org/news", "host":"www.iea.org", "path":"/news/", "authority":"official"},
-  {"url":"https://www.irena.org/News", "host":"www.irena.org", "path":"/News/", "authority":"official"},
-  {"url":"https://www.eia.gov/todayinenergy/archive.php", "host":"www.eia.gov", "path":"/todayinenergy/detail.php", "authority":"official"},
-  {"url":"https://ember-energy.org/latest-insights/", "host":"ember-energy.org", "path":"/latest-insights/", "authority":"primary"}
+  {"url":"https://ember-energy.org/latest-insights/", "host":"ember-energy.org", "path":"/latest-insights/", "authority":"primary"},
+  {"url":"https://www.energy.gov/rss/newsroom.xml", "format":"feed", "host":"www.energy.gov", "path":"/articles/", "authority":"official", "limit":10},
+  {"url":"https://energy.ec.europa.eu/node/2/rss_en", "format":"feed", "hosts":["energy.ec.europa.eu", "ec.europa.eu"], "path":"/", "authority":"official", "limit":10},
+  {"url":"https://www.gov.uk/search/news-and-communications.atom?organisations%5B%5D=department-for-energy-security-and-net-zero", "format":"feed", "host":"www.gov.uk", "path":"/government/", "authority":"official", "limit":10},
+  {"url":"https://www.eia.gov/todayinenergy/archive.php", "host":"www.eia.gov", "path":"/todayinenergy/detail.php", "authority":"official", "limit":12}
 ]
