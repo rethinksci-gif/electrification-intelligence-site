@@ -64,19 +64,337 @@
     ]
   },
   {
-    "id": "EI-a3882203fc769380",
+    "id": "EI-7e0c5f16fa4ed256",
+    "status": "REJECTED",
+    "source_url": "https://www.energy.gov/articles/energy-department-announces-over-230-million-funding-opportunity-strengthen-americas-grid",
+    "reasons": [
+      "outside publication window"
+    ]
+  },
+  {
+    "id": "EI-3b1451d344fdc5bb",
     "status": "QUARANTINED",
+    "source_url": "https://www.energy.gov/articles/energy-department-closes-51-billion-loan-lower-electricity-costs-and-strengthen-grid",
+    "reasons": [
+      "bilingual numerals differ"
+    ]
+  },
+  {
+    "id": "EI-679c30ba476a5e64",
+    "status": "REJECTED",
+    "source_url": "https://www.energy.gov/articles/energy-department-announces-5-billion-loan-boost-nuclear-power-and-help-lower-costs",
+    "reasons": [
+      "outside publication window"
+    ]
+  },
+  {
+    "id": "EI-f87f0ee8dddf70e4",
+    "status": "REJECTED",
+    "source_url": "https://www.energy.gov/articles/energy-department-designates-helium-critical-material-strengthen-american-manufacturing",
+    "reasons": [
+      "outside publication window"
+    ]
+  },
+  {
+    "id": "EI-d9326bbabcad1357",
+    "status": "REJECTED",
+    "source_url": "https://www.energy.gov/articles/energy-department-authorizes-strategic-petroleum-reserve-exchange-support-fuel-supply",
+    "reasons": [
+      "irrelevant"
+    ]
+  },
+  {
+    "id": "EI-7eb29f6020da93a5",
+    "status": "REJECTED",
+    "source_url": "https://www.energy.gov/articles/kazakhstan-and-guyana-join-international-coalition-calling-delay-eu-methane-regulation",
+    "reasons": [
+      "irrelevant"
+    ]
+  },
+  {
+    "id": "EI-fd42fdf1e260a67a",
+    "status": "REJECTED",
+    "source_url": "https://www.energy.gov/articles/energy-department-use-defense-production-act-funding-restart-american-refinery-and-expand",
+    "reasons": [
+      "outside publication window"
+    ]
+  },
+  {
+    "id": "EI-3fff9451d212fb74",
+    "status": "REJECTED",
+    "source_url": "https://www.energy.gov/articles/energy-department-announces-over-125-million-63-projects-across-16-states-lower-energy",
+    "reasons": [
+      "outside publication window"
+    ]
+  },
+  {
+    "id": "EI-b37ea0eaebc8c1a7",
+    "status": "REJECTED",
+    "source_url": "https://www.energy.gov/articles/energy-department-authorizes-exchange-northeast-home-heating-oil-reserve",
+    "reasons": [
+      "outside publication window"
+    ]
+  },
+  {
+    "id": "EI-418ad0b15479daa7",
+    "status": "REJECTED",
+    "source_url": "https://www.energy.gov/articles/energy-department-announces-new-investments-strengthen-americas-power-grid-and-lower",
+    "reasons": [
+      "outside publication window"
+    ]
+  },
+  {
+    "id": "EI-9beaf659f8fb8a4e",
+    "status": "REJECTED",
+    "source_url": "https://ec.europa.eu/eurostat/web/products-eurostat-news/w/ddn-20261030-3",
+    "reasons": [
+      "outside publication window"
+    ]
+  },
+  {
+    "id": "EI-8bdb0767d6b77562",
+    "status": "REJECTED",
+    "source_url": "https://energy.ec.europa.eu/news/energy-transition-investment-council-call-applications-2026-10-30_en",
+    "reasons": [
+      "outside publication window"
+    ]
+  },
+  {
+    "id": "EI-1f21d0eba7eca53c",
+    "status": "QUARANTINED",
+    "source_url": "https://ec.europa.eu/eurostat/en/web/products-eurostat-news/w/ddn-20261030-2",
+    "reasons": [
+      "canonical document differs from fetched evidence"
+    ]
+  },
+  {
+    "id": "EI-f3410cfeaa8018a1",
+    "status": "QUARANTINED",
+    "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/statement_26_2278",
+    "reasons": [
+      "canonical document differs from fetched evidence"
+    ]
+  },
+  {
+    "id": "EI-31e71033f9b29143",
+    "status": "REJECTED",
+    "source_url": "https://energy.ec.europa.eu/news/commission-launches-high-level-dialogue-european-refining-sector-2026-10-28_en",
+    "reasons": [
+      "outside publication window"
+    ]
+  },
+  {
+    "id": "EI-38652e47d9819017",
+    "status": "REJECTED",
+    "source_url": "https://energy.ec.europa.eu/news/hydrogen-strategy-commission-launches-consultation-2026-10-26_en",
+    "reasons": [
+      "outside publication window"
+    ]
+  },
+  {
+    "id": "EI-51e1a9c97fe72994",
+    "status": "REJECTED",
+    "source_url": "https://energy.ec.europa.eu/news/oil-coordination-group-discusses-eu-fuel-market-developments-2026-10-22_en",
+    "reasons": [
+      "irrelevant"
+    ]
+  },
+  {
+    "id": "EI-c35ba676554016df",
+    "status": "QUARANTINED",
+    "reasons": [
+      "conflicting or unsupported numerical data",
+      "conflicting or unsupported numerical data"
+    ],
+    "source_url": "https://energy.ec.europa.eu/news/commissioner-jorgensen-hungary-address-high-energy-prices-energy-security-and-housing-2026-10-21_en",
+    "checked_at": "2026-11-02T15:46:56.599792+00:00",
+    "source_sha256": "cf9a234d066ac532b2d44939d85c3ec8928411d882d1cab70de0483d6daa6dcd",
+    "checks": {},
+    "provenance": {
+      "authority": "official",
+      "origin": "daily original-source index"
+    }
+  },
+  {
+    "id": "EI-12944c491dc949b7",
+    "status": "QUARANTINED",
+    "reasons": [
+      "conflicting or unsupported numerical data",
+      "bilingual numerical mismatch",
+      "conflicting or unsupported numerical data",
+      "bilingual numerical mismatch",
+      "conflicting or unsupported numerical data",
+      "bilingual numerical mismatch"
+    ],
+    "source_url": "https://ec.europa.eu/eurostat/web/products-eurostat-news/w/ddn-20261020-1",
+    "checked_at": "2026-11-02T15:47:03.215658+00:00",
+    "source_sha256": "f8c86ae2289eb7ad5a351918b74b4d0199f3e9b1f778a63602081eb745cbcb03",
+    "checks": {},
+    "provenance": {
+      "authority": "official",
+      "origin": "daily original-source index"
+    }
+  },
+  {
+    "id": "EI-b9f19aa89105e6e1",
+    "status": "QUARANTINED",
+    "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2205",
+    "reasons": [
+      "canonical document differs from fetched evidence"
+    ]
+  },
+  {
+    "id": "EI-ba86ecc772c6c25e",
+    "status": "REJECTED",
+    "source_url": "https://www.gov.uk/government/news/major-undersea-power-cable-given-green-light",
+    "reasons": [
+      "outside publication window"
+    ]
+  },
+  {
+    "id": "EI-abddc183b45fcbdd",
+    "status": "REJECTED",
+    "source_url": "https://www.gov.uk/government/news/what-the-autumn-budget-2026-means-for-your-energy-bills",
+    "reasons": [
+      "outside publication window"
+    ]
+  },
+  {
+    "id": "EI-8cbf80ccc312f76b",
+    "status": "REJECTED",
+    "source_url": "https://www.gov.uk/government/news/chancellor-abolishes-standing-charges-on-gas-bills-to-make-payments-fairer",
+    "reasons": [
+      "outside publication window"
+    ]
+  },
+  {
+    "id": "EI-b0f239c091f27839",
+    "status": "REJECTED",
+    "source_url": "https://www.gov.uk/government/news/warm-homes-loan-scheme-factsheet",
+    "reasons": [
+      "outside publication window"
+    ]
+  },
+  {
+    "id": "EI-876a182b7dc6b3fc",
+    "status": "REJECTED",
+    "source_url": "https://www.gov.uk/government/news/government-welcomes-official-partners-for-cop31-pavilion",
+    "reasons": [
+      "outside publication window"
+    ]
+  },
+  {
+    "id": "EI-24479e7eb3bb0fec",
+    "status": "REJECTED",
+    "source_url": "https://www.gov.uk/government/publications/oil-and-gas-opred-communications-2026",
+    "reasons": [
+      "outside publication window"
+    ]
+  },
+  {
+    "id": "EI-fea8c41599ee84ec",
+    "status": "QUARANTINED",
+    "reasons": [
+      "semantic evidence checks failed",
+      "Claim 1 states supply will start 'from the end of this month' as a definite fact; the source headline bullet says 'from as early as the end of this month', and the body says 'will start to supply gas ... from the end of this month' after consent. The 'as early as' qualification is dropped, overstating certainty of timing.",
+      "Claim 1 says the Energy Secretary 'agreed that the regulator can grant consent' and implies production/supply begins; the source notes NSTA 'has today granted consent' and that consent 'allows the owners to proceed with their project and produce gas from the field upon completion of development work' — production is not yet operational. The claim conflates consent with operational supply.",
+      "Claim 2 says the decision is expected to 'increase domestic gas production by around 6% at peak'; source says 'around 6% at its peak' — acceptable, but the claim omits that the £2.9 billion figure is a developer estimate ('The developer also estimates that the project will add around £2.9 billion'), presenting it as an established expectation.",
+      "Claim 2 Chinese renders '£2.9 billion' as '2.9 billion英镑' (English word 'billion' left untranslated), a translation/units defect; should be '29亿英镑' or '2.9亿' consistent units.",
+      "Claim 3 says the Chancellor 'announced' a new Energy Wealth Fund 'using North Sea oil and gas tax revenues' with 'an initial £2 billion injection'; source says the Chancellor 'is also announcing today the establishment' and 'will start with an initial £2 billion injection of funding' — the fund is announced/planned, not yet established; claim's phrasing 'announced a new Energy Wealth Fund' is acceptable but Chinese '宣布设立' implies establishment. Also 'injection' vs 'downpayment' nuance.",
+      "Claim 4 says the Energy Secretary 'assessed that the Jackdaw project will not prevent the UK from meeting its legally binding carbon emission limits and achieving net-zero by 2050' — supported by source. However claim 4's Chinese says '不会妨碍英国实现其具有法律约束力的碳排放上限' — '上限' (caps) vs 'limits' is acceptable; no error here.",
+      "Claim 5 says 'the developer Adura submitted further information subject to public notice periods' — source says 'the developer, Adura, submitted further information on the Jackdaw project, which has been subject to public notice periods.' Supported. But claim 5 says 'North Sea operators must consider the impact of burning extracted oil and gas in environmental impact assessments' — source says 'are now required to consider the impact of burning the extracted oil and gas in environmental impact a",
+      "Claim 5 attributes the requirement to the Supreme Court's 2024 Finch ruling; source says 'It follows the Supreme Court's ruling on the Finch case in 2024, which means North Sea operators are now required...' — supported.",
+      "Capacity status: the candidate does not clearly distinguish that Jackdaw is licensed and consent granted but production awaits completion of development work; claim 1 implies supply starting, conflating announced/consented with operational.",
+      "Translation: Claim 2 Chinese leaves 'billion' in English ('2.9 billion英镑'), and Claim 3 Chinese leaves '2 billion英镑' — inconsistent unit rendering; English and Chinese do not convey identical quantities cleanly."
+    ],
+    "source_url": "https://www.gov.uk/government/news/jackdaw-gas-field-gets-green-light",
+    "checked_at": "2026-11-02T15:47:15.135006+00:00",
+    "source_sha256": "a1a79049cc0431660744508e97834bafaf23d540781ab5a1009ddf0615520b04",
+    "checks": {
+      "support": false,
+      "dates": true,
+      "quantities_units_conditions": false,
+      "no_contradictions": false,
+      "authority": true,
+      "capacity_status": false,
+      "legal_status_effective_date": true,
+      "translation_meaning": false
+    },
+    "provenance": {
+      "authority": "official",
+      "origin": "daily original-source index"
+    }
+  },
+  {
+    "id": "EI-c850201cf6c7b420",
+    "status": "QUARANTINED",
+    "source_url": "https://www.gov.uk/government/speeches/the-role-of-heat-networks-in-the-energy-transition",
+    "reasons": [
+      "bilingual numerals differ"
+    ]
+  },
+  {
+    "id": "EI-ce044337aa4bd07a",
+    "status": "REJECTED",
+    "source_url": "https://www.gov.uk/government/publications/strategic-spatial-energy-plan-ssep-timeline-extension",
+    "reasons": [
+      "outside publication window"
+    ]
+  },
+  {
+    "id": "EI-d076eecdc7f3a423",
+    "status": "VERIFIED",
+    "reasons": [],
+    "source_url": "https://www.gov.uk/government/publications/strategic-spatial-energy-plan-deadline-extension",
+    "checked_at": "2026-11-02T15:47:33.646399+00:00",
+    "source_sha256": "4d98e9a4f9752288d8dd65a85d3cf0bbbe37fd4ad02616c9b4e549e7d7b679ad",
+    "checks": {
+      "support": true,
+      "dates": true,
+      "quantities_units_conditions": true,
+      "no_contradictions": true,
+      "authority": true,
+      "capacity_status": true,
+      "legal_status_effective_date": true,
+      "translation_meaning": true
+    },
+    "citations": [
+      "This letter from the Minister for Energy to the National Energy System Operator (NESO) directs NESO to submit the Strategic Spatial Energy Plan (SSEP) to the Secretary of State by 31 December 2027, rather than 31 December 2026.",
+      "The revised deadline formally reflects the timeline revision set out on 4 December 2025.",
+      "The direction applies only to the first SSEP, Ofgem intends to consult during 2027 on amendments to its relevant licences covering the timing of subsequent SSEP cycles and related strategic energy planning processes.",
+      "Applies to England, Scotland and Wales"
+    ],
+    "notes": [
+      "All five claims are directly supported by the source text.",
+      "Dates 31 December 2027 and 31 December 2026 match the source; the 4 December 2025 timeline revision date matches.",
+      "The source is the official gov.uk publication page (authority = official).",
+      "The direction's territorial scope (England, Scotland and Wales) and its limitation to the first SSEP are correctly stated.",
+      "The Ofgem consultation statement is reproduced accurately.",
+      "Chinese translations convey the same meaning and qualifications as the English claims.",
+      "No capacity status (announced/planned/operational) is asserted, so capacity_status is inapplicable and passes."
+    ],
+    "candidate_sha256": "1e8882f4b59eba5b2f2cc662fb32f70e500cb727e052bba956d5fbdcb94df8d1",
+    "provenance": {
+      "authority": "official",
+      "origin": "daily original-source index"
+    },
+    "window": "2026-10-26",
+    "eligible_for_window": true
+  },
+  {
+    "id": "EI-a3882203fc769380",
+    "status": "REJECTED",
     "source_url": "https://www.eia.gov/todayinenergy/detail.php?id=68384",
     "reasons": [
-      "incomplete development"
+      "outside publication window"
     ]
   },
   {
     "id": "EI-6d5f94b54e3e2bf7",
-    "status": "QUARANTINED",
+    "status": "REJECTED",
     "source_url": "https://www.eia.gov/todayinenergy/detail.php?id=68364",
     "reasons": [
-      "incomplete development"
+      "outside publication window"
     ]
   },
   {
@@ -92,7 +410,7 @@
     "status": "QUARANTINED",
     "source_url": "https://www.eia.gov/todayinenergy/detail.php?id=68325",
     "reasons": [
-      "incomplete development"
+      "bilingual numerals differ"
     ]
   },
   {
@@ -100,34 +418,40 @@
     "status": "QUARANTINED",
     "source_url": "https://www.eia.gov/todayinenergy/detail.php?id=68324",
     "reasons": [
-      "incomplete development"
+      "bilingual numerals differ"
     ]
   },
   {
     "id": "EI-cb5890d031cd055d",
     "status": "QUARANTINED",
-    "source_url": "https://www.eia.gov/todayinenergy/detail.php?id=68305",
     "reasons": [
-      "incomplete development"
-    ]
-  },
-  {
-    "id": "EI-15c2bd28b1120531",
-    "status": "QUARANTINED",
-    "reasons": [
-      "conflicting or unsupported numerical data",
-      "bilingual numerical mismatch",
-      "conflicting or unsupported numerical data",
-      "bilingual numerical mismatch"
+      "semantic evidence checks failed"
     ],
-    "source_url": "https://www.eia.gov/todayinenergy/detail.php?id=68304",
-    "checked_at": "2026-11-01T13:20:08.649502+00:00",
-    "source_sha256": "69b6c55673abd29091f6c03fb911cf628bace55415d8e520c71e3e4561e367cd",
-    "checks": {},
+    "source_url": "https://www.eia.gov/todayinenergy/detail.php?id=68305",
+    "checked_at": "2026-11-02T15:48:00.239136+00:00",
+    "source_sha256": "339fdfbe40a664090c9141ffa083d202e2c5f3738c83aee3da92049400f6c723",
+    "checks": {
+      "support": true,
+      "dates": true,
+      "quantities_units_conditions": true,
+      "no_contradictions": true,
+      "authority": true,
+      "capacity_status": true,
+      "legal_status_effective_date": true,
+      "translation_meaning": true
+    },
     "provenance": {
       "authority": "official",
       "origin": "daily original-source index"
     }
+  },
+  {
+    "id": "EI-15c2bd28b1120531",
+    "status": "QUARANTINED",
+    "source_url": "https://www.eia.gov/todayinenergy/detail.php?id=68304",
+    "reasons": [
+      "bilingual numerals differ"
+    ]
   },
   {
     "id": "EI-77ab5d7af2eff7b8",
@@ -165,38 +489,6 @@
     "id": "EI-312ecd6a696d2a87",
     "status": "REJECTED",
     "source_url": "https://www.eia.gov/todayinenergy/detail.php?id=68244",
-    "reasons": [
-      "outside publication window"
-    ]
-  },
-  {
-    "id": "EI-a148fadf946c26c2",
-    "status": "REJECTED",
-    "source_url": "https://www.eia.gov/todayinenergy/detail.php?id=68224",
-    "reasons": [
-      "outside publication window"
-    ]
-  },
-  {
-    "id": "EI-becfb45a459ae5cb",
-    "status": "REJECTED",
-    "source_url": "https://www.eia.gov/todayinenergy/detail.php?id=68204",
-    "reasons": [
-      "outside publication window"
-    ]
-  },
-  {
-    "id": "EI-fcdc5fa84a432ec4",
-    "status": "REJECTED",
-    "source_url": "https://www.eia.gov/todayinenergy/detail.php?id=68184",
-    "reasons": [
-      "outside publication window"
-    ]
-  },
-  {
-    "id": "EI-e0e70cabf6c7a7a0",
-    "status": "REJECTED",
-    "source_url": "https://www.eia.gov/todayinenergy/detail.php?id=68164",
     "reasons": [
       "outside publication window"
     ]

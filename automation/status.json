@@ -1,21 +1,21 @@
 {
-  "checked_at": "2026-11-01T13:19:31.674645+00:00",
+  "checked_at": "2026-11-02T15:46:22.002692+00:00",
   "window": "2026-10-26",
   "status": "skipped",
   "last_publication": "001",
-  "last_successful_check": "2026-11-01T13:22:21Z",
+  "last_successful_check": "2026-11-02T15:48:10.336351+00:00",
   "reasons": [
-    "fewer than three verified bilingual developments"
+    "fewer than three verified bilingual developments",
+    "skipped: 1 verified bilingual developments (regular edition needs 3, compact edition 2)"
   ],
+  "windows": {
+    "2026-10-26": "skipped: 1 verified bilingual developments (regular edition needs 3, compact edition 2)"
+  },
   "collection": {
-    "candidates": 24,
+    "candidates": 50,
     "failures": [
       {
         "source": "https://www.iea.org/news",
-        "reason": "HTTP 403"
-      },
-      {
-        "source": "https://www.irena.org/News",
         "reason": "HTTP 403"
       },
       {
@@ -23,9 +23,5 @@
         "reason": "HTTP 403"
       }
     ]
-  },
-  "deployment_status": "confirmed",
-  "confirmed_revision": "a0516117d2864961e3b63d7e95db63b92db0ba23",
-  "deployment_run_url": "https://github.com/rethinksci-gif/electrification-intelligence-site/actions/runs/41310807875",
-  "last_confirmed_publication": "001"
+  }
 }
