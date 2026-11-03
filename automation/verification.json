@@ -201,19 +201,47 @@
   },
   {
     "id": "EI-c35ba676554016df",
-    "status": "QUARANTINED",
-    "reasons": [
-      "conflicting or unsupported numerical data",
-      "conflicting or unsupported numerical data"
-    ],
+    "status": "VERIFIED",
+    "reasons": [],
     "source_url": "https://energy.ec.europa.eu/news/commissioner-jorgensen-hungary-address-high-energy-prices-energy-security-and-housing-2026-10-21_en",
-    "checked_at": "2026-11-02T15:46:56.599792+00:00",
+    "checked_at": "2026-11-03T14:10:33.742547+00:00",
     "source_sha256": "cf9a234d066ac532b2d44939d85c3ec8928411d882d1cab70de0483d6daa6dcd",
-    "checks": {},
+    "checks": {
+      "support": true,
+      "dates": true,
+      "quantities_units_conditions": true,
+      "no_contradictions": true,
+      "authority": true,
+      "capacity_status": true,
+      "legal_status_effective_date": true,
+      "translation_meaning": true
+    },
+    "citations": [
+      "Tomorrow, Commissioner for Energy and Housing Dan Jørgensen will be in Budapest, Hungary, to meet with national authorities, energy operators and other stakeholders and discuss how to effectively address together two major challenges affecting Europeans across the Union: high energy prices and the affordability and availability of housing.",
+      "Building on the positive exchanges that took place earlier this week in Bratislava with all Energy Ministers of the Visegrád Group, the Commissioner will discuss the pressing issue of high energy prices, energy security and the implementation of REPowerEU with the Minister of Economy and Energy, István Kapitány.",
+      "He will also visit a grids development project by MAVIR, the Hungarian Transmission System Operator. Efforts to modernise the network, reinforce cross-border interconnections and expand grid capacity are central pillars of the proposed European Grids Package and are key enablers to structurally lower energy prices across Europe.",
+      "As part of his Affordable Housing Tour, Commissioner Jørgensen will visit the Diákváros project together with the Minister of Transport and Investment, Dávid Vitézy, and other Hungarian representatives. Planned as a major brownfield regeneration project in southern Budapest, this affordable housing development is intended to provide affordable accommodation for around 12,000 students.",
+      "He will also hold discussions with the Committees on European Affairs, Social Affairs, and Energy of the Hungary National Assembly, with a particular focus on measures to address the current energy crisis.",
+      "The Commissioner will also discuss the EU’s efforts and priorities in housing policy with Minister Vitézy in a bilateral meeting.",
+      "Publication date\n- 21 October 2026\n- Author\n- Directorate-General for Energy"
+    ],
+    "notes": [
+      "All five claims are supported by the source text; the source is the European Commission's Directorate-General for Energy page with publication date 21 October 2026.",
+      "Claim 1: the source says 'Tomorrow' the Commissioner 'will be in Budapest'; the candidate dates this to 2026-10-21, the publication date. The source does not explicitly state the visit date, but the announcement date matches the publication date and the future-tense framing is preserved.",
+      "Claim 2: 'earlier this week in Bratislava with all Energy Ministers of the Visegrád Group' is accurately rendered; the meeting with Minister István Kapitány is described as forthcoming, consistent with the source.",
+      "Claim 3: MAVIR is correctly identified as the Hungarian Transmission System Operator; the European Grids Package is correctly described as 'proposed' (not adopted), matching the source.",
+      "Claim 4: Diákváros is correctly described as 'planned' (planned major brownfield regeneration project) and 'around 12,000 students' matches the source quantity and unit.",
+      "Claim 5: the bilateral meeting with Minister Vitézy on EU housing policy and the discussions with the three National Assembly committees are both supported; the energy-crisis focus is correctly attributed to the committee discussions.",
+      "No legal/regulatory status claims requiring adoption/entry-into-force distinctions are made; the legal_status_effective_date check is inapplicable and passes.",
+      "Chinese translations convey the same meaning and qualifications as the English, including '拟议的' for 'proposed' and '计划中的' for 'planned'."
+    ],
+    "candidate_sha256": "6c70c63f6fe99ac407aaf584b71d816d664ecde2cbf00118d9f463f37d849889",
     "provenance": {
       "authority": "official",
       "origin": "daily original-source index"
-    }
+    },
+    "window": "2026-10-26",
+    "eligible_for_window": true
   },
   {
     "id": "EI-12944c491dc949b7",
@@ -227,7 +255,7 @@
       "bilingual numerical mismatch"
     ],
     "source_url": "https://ec.europa.eu/eurostat/web/products-eurostat-news/w/ddn-20261020-1",
-    "checked_at": "2026-11-02T15:47:03.215658+00:00",
+    "checked_at": "2026-11-03T14:10:44.675387+00:00",
     "source_sha256": "f8c86ae2289eb7ad5a351918b74b4d0199f3e9b1f778a63602081eb745cbcb03",
     "checks": {},
     "provenance": {
@@ -241,6 +269,14 @@
     "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2205",
     "reasons": [
       "canonical document differs from fetched evidence"
+    ]
+  },
+  {
+    "id": "EI-373f8f19889773ac",
+    "status": "REJECTED",
+    "source_url": "https://www.gov.uk/government/news/giant-12-tonne-box-lowered-into-place-for-fusion-upgrade",
+    "reasons": [
+      "outside publication window"
     ]
   },
   {
@@ -296,19 +332,19 @@
     "status": "QUARANTINED",
     "reasons": [
       "semantic evidence checks failed",
-      "Claim 1 states supply will start 'from the end of this month' as a definite fact; the source headline bullet says 'from as early as the end of this month', and the body says 'will start to supply gas ... from the end of this month' after consent. The 'as early as' qualification is dropped, overstating certainty of timing.",
-      "Claim 1 says the Energy Secretary 'agreed that the regulator can grant consent' and implies production/supply begins; the source notes NSTA 'has today granted consent' and that consent 'allows the owners to proceed with their project and produce gas from the field upon completion of development work' — production is not yet operational. The claim conflates consent with operational supply.",
-      "Claim 2 says the decision is expected to 'increase domestic gas production by around 6% at peak'; source says 'around 6% at its peak' — acceptable, but the claim omits that the £2.9 billion figure is a developer estimate ('The developer also estimates that the project will add around £2.9 billion'), presenting it as an established expectation.",
-      "Claim 2 Chinese renders '£2.9 billion' as '2.9 billion英镑' (English word 'billion' left untranslated), a translation/units defect; should be '29亿英镑' or '2.9亿' consistent units.",
-      "Claim 3 says the Chancellor 'announced' a new Energy Wealth Fund 'using North Sea oil and gas tax revenues' with 'an initial £2 billion injection'; source says the Chancellor 'is also announcing today the establishment' and 'will start with an initial £2 billion injection of funding' — the fund is announced/planned, not yet established; claim's phrasing 'announced a new Energy Wealth Fund' is acceptable but Chinese '宣布设立' implies establishment. Also 'injection' vs 'downpayment' nuance.",
-      "Claim 4 says the Energy Secretary 'assessed that the Jackdaw project will not prevent the UK from meeting its legally binding carbon emission limits and achieving net-zero by 2050' — supported by source. However claim 4's Chinese says '不会妨碍英国实现其具有法律约束力的碳排放上限' — '上限' (caps) vs 'limits' is acceptable; no error here.",
-      "Claim 5 says 'the developer Adura submitted further information subject to public notice periods' — source says 'the developer, Adura, submitted further information on the Jackdaw project, which has been subject to public notice periods.' Supported. But claim 5 says 'North Sea operators must consider the impact of burning extracted oil and gas in environmental impact assessments' — source says 'are now required to consider the impact of burning the extracted oil and gas in environmental impact a",
-      "Claim 5 attributes the requirement to the Supreme Court's 2024 Finch ruling; source says 'It follows the Supreme Court's ruling on the Finch case in 2024, which means North Sea operators are now required...' — supported.",
-      "Capacity status: the candidate does not clearly distinguish that Jackdaw is licensed and consent granted but production awaits completion of development work; claim 1 implies supply starting, conflating announced/consented with operational.",
-      "Translation: Claim 2 Chinese leaves 'billion' in English ('2.9 billion英镑'), and Claim 3 Chinese leaves '2 billion英镑' — inconsistent unit rendering; English and Chinese do not convey identical quantities cleanly."
+      "Claim 1 says supply to British homes and businesses starts 'from as early as the end of this month'; the source says supply will start 'from the end of this month' (no 'as early as'), and the Energy Secretary's quote says 'from this winter'. The 'as early as' hedge is unsupported.",
+      "Claim 1 conflates the Energy Secretary's agreement that the regulator can grant consent with actual consent; the source notes the NSTA granted consent, but the claim's framing that the Energy Secretary 'agreed that the regulator can grant consent' is supported only as a permission, not as production approval — the claim's wording is acceptable but the timing qualifier is not.",
+      "Claim 2 Chinese renders '£2.9 billion' as '2.9 billion英镑', which is a unit/format mismatch with the English '£2.9 billion'; the value is stated but the currency placement is inconsistent between languages.",
+      "Claim 3 says the Chancellor 'announced' the Energy Wealth Fund; the source says the Chancellor 'is also announcing today the establishment' — announcement is supported, but the claim omits that the fund is 'Established within the National Wealth Fund', a scope condition in the source.",
+      "Claim 5 says 'North Sea operators must consider the impact of burning extracted oil and gas in environmental impact assessments' — supported — but adds 'and the developer Adura submitted further information subject to public notice periods', which is supported by the notes; however the claim presents the Finch ruling as requiring this directly, while the source says the government published new guidance following the ruling. The causal chain is compressed but not contradicted.",
+      "Claim 4 says the Energy Secretary 'assessed that the Jackdaw project will not prevent the UK from meeting its legally binding carbon emission limits and achieving net-zero by 2050' — supported. No error.",
+      "Claim 2 says 'over a lifespan of up to 11 years' — supported. No error.",
+      "Claim 3 says the fund will use 'North Sea oil and gas tax revenues to invest in renewable and low carbon energy projects' — supported. No error.",
+      "Claim 1's Chinese says '最早从本月末开始向英国家庭和企业供气' ('as early as the end of this month'), mirroring the unsupported 'as early as' hedge; the source says 'from the end of this month'.",
+      "Claim 5's Chinese says '开发商Adura提交了进一步信息并经过公告期' — the source says the information 'has been subject to public notice periods', which is supported; no error there."
     ],
     "source_url": "https://www.gov.uk/government/news/jackdaw-gas-field-gets-green-light",
-    "checked_at": "2026-11-02T15:47:15.135006+00:00",
+    "checked_at": "2026-11-03T14:10:59.495742+00:00",
     "source_sha256": "a1a79049cc0431660744508e97834bafaf23d540781ab5a1009ddf0615520b04",
     "checks": {
       "support": false,
@@ -342,44 +378,12 @@
     ]
   },
   {
-    "id": "EI-d076eecdc7f3a423",
-    "status": "VERIFIED",
-    "reasons": [],
-    "source_url": "https://www.gov.uk/government/publications/strategic-spatial-energy-plan-deadline-extension",
-    "checked_at": "2026-11-02T15:47:33.646399+00:00",
-    "source_sha256": "4d98e9a4f9752288d8dd65a85d3cf0bbbe37fd4ad02616c9b4e549e7d7b679ad",
-    "checks": {
-      "support": true,
-      "dates": true,
-      "quantities_units_conditions": true,
-      "no_contradictions": true,
-      "authority": true,
-      "capacity_status": true,
-      "legal_status_effective_date": true,
-      "translation_meaning": true
-    },
-    "citations": [
-      "This letter from the Minister for Energy to the National Energy System Operator (NESO) directs NESO to submit the Strategic Spatial Energy Plan (SSEP) to the Secretary of State by 31 December 2027, rather than 31 December 2026.",
-      "The revised deadline formally reflects the timeline revision set out on 4 December 2025.",
-      "The direction applies only to the first SSEP, Ofgem intends to consult during 2027 on amendments to its relevant licences covering the timing of subsequent SSEP cycles and related strategic energy planning processes.",
-      "Applies to England, Scotland and Wales"
-    ],
-    "notes": [
-      "All five claims are directly supported by the source text.",
-      "Dates 31 December 2027 and 31 December 2026 match the source; the 4 December 2025 timeline revision date matches.",
-      "The source is the official gov.uk publication page (authority = official).",
-      "The direction's territorial scope (England, Scotland and Wales) and its limitation to the first SSEP are correctly stated.",
-      "The Ofgem consultation statement is reproduced accurately.",
-      "Chinese translations convey the same meaning and qualifications as the English claims.",
-      "No capacity status (announced/planned/operational) is asserted, so capacity_status is inapplicable and passes."
-    ],
-    "candidate_sha256": "1e8882f4b59eba5b2f2cc662fb32f70e500cb727e052bba956d5fbdcb94df8d1",
-    "provenance": {
-      "authority": "official",
-      "origin": "daily original-source index"
-    },
-    "window": "2026-10-26",
-    "eligible_for_window": true
+    "id": "EI-526cec034ccb484b",
+    "status": "REJECTED",
+    "source_url": "https://www.eia.gov/todayinenergy/detail.php?id=68404",
+    "reasons": [
+      "outside publication window"
+    ]
   },
   {
     "id": "EI-a3882203fc769380",
@@ -423,12 +427,10 @@
   },
   {
     "id": "EI-cb5890d031cd055d",
-    "status": "QUARANTINED",
-    "reasons": [
-      "semantic evidence checks failed"
-    ],
+    "status": "VERIFIED",
+    "reasons": [],
     "source_url": "https://www.eia.gov/todayinenergy/detail.php?id=68305",
-    "checked_at": "2026-11-02T15:48:00.239136+00:00",
+    "checked_at": "2026-11-03T14:11:40.128905+00:00",
     "source_sha256": "339fdfbe40a664090c9141ffa083d202e2c5f3738c83aee3da92049400f6c723",
     "checks": {
       "support": true,
@@ -440,10 +442,27 @@
       "legal_status_effective_date": true,
       "translation_meaning": true
     },
+    "citations": [
+      "PJM peaked at 162.6 gigawatts (GW) on July 2, 2026, 1.3% higher than the pre-2026 peak of 160.6 GW on June 23, 2025.",
+      "The Electric Reliability Council of Texas (ERCOT) peaked at 91.1 GW on July 22, 2026, 6.5% higher than the pre-2026 record of 85.5 GW on August 20, 2024.",
+      "The Southwest Power Pool (SWPP) peaked at 58.0 GW on July 27, 2026, 3.5% higher than the pre-2026 peak of 56.0 GW on August 21, 2023.",
+      "Most of these peaks occurred during regional heat waves, amid the hottest summer on record nationally, which drove up cooling demand.",
+      "CAISO reached 50.0 GW on September 9, 2026, below its record high of 51.1 GW reached on September 6, 2022."
+    ],
+    "notes": [
+      "All five claims match the source text exactly in values, units, dates and percentages.",
+      "Source is the U.S. Energy Information Administration (eia.gov), the original publisher; authority confirmed.",
+      "capacity_status and legal_status_effective_date are inapplicable (load records, not capacity or regulation) and therefore pass.",
+      "Chinese translations convey the same meaning and qualifications as the English, including 'pre-2026 peak/record' and 'record high'.",
+      "Source notes data are reported 'as-is' from Form EIA-930 and may differ from data published directly by balancing authorities; this caveat is not reflected in the claims but does not make them unsupported."
+    ],
+    "candidate_sha256": "2baaddc137414c3d12fe9d30d5b5f55813c92847e0e491b556529f0aa8c51e3d",
     "provenance": {
       "authority": "official",
       "origin": "daily original-source index"
-    }
+    },
+    "window": "2026-10-26",
+    "eligible_for_window": true
   },
   {
     "id": "EI-15c2bd28b1120531",
@@ -481,14 +500,6 @@
     "id": "EI-a1bdb43bd9d916d6",
     "status": "REJECTED",
     "source_url": "https://www.eia.gov/todayinenergy/detail.php?id=68225",
-    "reasons": [
-      "outside publication window"
-    ]
-  },
-  {
-    "id": "EI-312ecd6a696d2a87",
-    "status": "REJECTED",
-    "source_url": "https://www.eia.gov/todayinenergy/detail.php?id=68244",
     "reasons": [
       "outside publication window"
     ]

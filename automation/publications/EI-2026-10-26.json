@@ -1,0 +1,93 @@
+{
+  "id": "EI-2026-10-26",
+  "compact": true,
+  "items": [
+    {
+      "id": "EI-c35ba676554016df",
+      "status": "VERIFIED",
+      "reasons": [],
+      "source_url": "https://energy.ec.europa.eu/news/commissioner-jorgensen-hungary-address-high-energy-prices-energy-security-and-housing-2026-10-21_en",
+      "checked_at": "2026-11-03T14:10:33.742547+00:00",
+      "source_sha256": "cf9a234d066ac532b2d44939d85c3ec8928411d882d1cab70de0483d6daa6dcd",
+      "checks": {
+        "support": true,
+        "dates": true,
+        "quantities_units_conditions": true,
+        "no_contradictions": true,
+        "authority": true,
+        "capacity_status": true,
+        "legal_status_effective_date": true,
+        "translation_meaning": true
+      },
+      "citations": [
+        "Tomorrow, Commissioner for Energy and Housing Dan Jørgensen will be in Budapest, Hungary, to meet with national authorities, energy operators and other stakeholders and discuss how to effectively address together two major challenges affecting Europeans across the Union: high energy prices and the affordability and availability of housing.",
+        "Building on the positive exchanges that took place earlier this week in Bratislava with all Energy Ministers of the Visegrád Group, the Commissioner will discuss the pressing issue of high energy prices, energy security and the implementation of REPowerEU with the Minister of Economy and Energy, István Kapitány.",
+        "He will also visit a grids development project by MAVIR, the Hungarian Transmission System Operator. Efforts to modernise the network, reinforce cross-border interconnections and expand grid capacity are central pillars of the proposed European Grids Package and are key enablers to structurally lower energy prices across Europe.",
+        "As part of his Affordable Housing Tour, Commissioner Jørgensen will visit the Diákváros project together with the Minister of Transport and Investment, Dávid Vitézy, and other Hungarian representatives. Planned as a major brownfield regeneration project in southern Budapest, this affordable housing development is intended to provide affordable accommodation for around 12,000 students.",
+        "He will also hold discussions with the Committees on European Affairs, Social Affairs, and Energy of the Hungary National Assembly, with a particular focus on measures to address the current energy crisis.",
+        "The Commissioner will also discuss the EU’s efforts and priorities in housing policy with Minister Vitézy in a bilateral meeting.",
+        "Publication date\n- 21 October 2026\n- Author\n- Directorate-General for Energy"
+      ],
+      "notes": [
+        "All five claims are supported by the source text; the source is the European Commission's Directorate-General for Energy page with publication date 21 October 2026.",
+        "Claim 1: the source says 'Tomorrow' the Commissioner 'will be in Budapest'; the candidate dates this to 2026-10-21, the publication date. The source does not explicitly state the visit date, but the announcement date matches the publication date and the future-tense framing is preserved.",
+        "Claim 2: 'earlier this week in Bratislava with all Energy Ministers of the Visegrád Group' is accurately rendered; the meeting with Minister István Kapitány is described as forthcoming, consistent with the source.",
+        "Claim 3: MAVIR is correctly identified as the Hungarian Transmission System Operator; the European Grids Package is correctly described as 'proposed' (not adopted), matching the source.",
+        "Claim 4: Diákváros is correctly described as 'planned' (planned major brownfield regeneration project) and 'around 12,000 students' matches the source quantity and unit.",
+        "Claim 5: the bilateral meeting with Minister Vitézy on EU housing policy and the discussions with the three National Assembly committees are both supported; the energy-crisis focus is correctly attributed to the committee discussions.",
+        "No legal/regulatory status claims requiring adoption/entry-into-force distinctions are made; the legal_status_effective_date check is inapplicable and passes.",
+        "Chinese translations convey the same meaning and qualifications as the English, including '拟议的' for 'proposed' and '计划中的' for 'planned'."
+      ],
+      "candidate_sha256": "6c70c63f6fe99ac407aaf584b71d816d664ecde2cbf00118d9f463f37d849889",
+      "provenance": {
+        "authority": "official",
+        "origin": "daily original-source index"
+      },
+      "window": "2026-10-26",
+      "eligible_for_window": true
+    },
+    {
+      "id": "EI-cb5890d031cd055d",
+      "status": "VERIFIED",
+      "reasons": [],
+      "source_url": "https://www.eia.gov/todayinenergy/detail.php?id=68305",
+      "checked_at": "2026-11-03T14:11:40.128905+00:00",
+      "source_sha256": "339fdfbe40a664090c9141ffa083d202e2c5f3738c83aee3da92049400f6c723",
+      "checks": {
+        "support": true,
+        "dates": true,
+        "quantities_units_conditions": true,
+        "no_contradictions": true,
+        "authority": true,
+        "capacity_status": true,
+        "legal_status_effective_date": true,
+        "translation_meaning": true
+      },
+      "citations": [
+        "PJM peaked at 162.6 gigawatts (GW) on July 2, 2026, 1.3% higher than the pre-2026 peak of 160.6 GW on June 23, 2025.",
+        "The Electric Reliability Council of Texas (ERCOT) peaked at 91.1 GW on July 22, 2026, 6.5% higher than the pre-2026 record of 85.5 GW on August 20, 2024.",
+        "The Southwest Power Pool (SWPP) peaked at 58.0 GW on July 27, 2026, 3.5% higher than the pre-2026 peak of 56.0 GW on August 21, 2023.",
+        "Most of these peaks occurred during regional heat waves, amid the hottest summer on record nationally, which drove up cooling demand.",
+        "CAISO reached 50.0 GW on September 9, 2026, below its record high of 51.1 GW reached on September 6, 2022."
+      ],
+      "notes": [
+        "All five claims match the source text exactly in values, units, dates and percentages.",
+        "Source is the U.S. Energy Information Administration (eia.gov), the original publisher; authority confirmed.",
+        "capacity_status and legal_status_effective_date are inapplicable (load records, not capacity or regulation) and therefore pass.",
+        "Chinese translations convey the same meaning and qualifications as the English, including 'pre-2026 peak/record' and 'record high'.",
+        "Source notes data are reported 'as-is' from Form EIA-930 and may differ from data published directly by balancing authorities; this caveat is not reflected in the claims but does not make them unsupported."
+      ],
+      "candidate_sha256": "2baaddc137414c3d12fe9d30d5b5f55813c92847e0e491b556529f0aa8c51e3d",
+      "provenance": {
+        "authority": "official",
+        "origin": "daily original-source index"
+      },
+      "window": "2026-10-26",
+      "eligible_for_window": true
+    }
+  ],
+  "files": {
+    "content/en/analyst-editions/auto-2026-10-26/index.md": "ed21c4aee8f77846a8719b2550996100486420d89d92549ef5bbcb0e1713394a",
+    "content/zh/analyst-editions/auto-2026-10-26/index.md": "38d507b5a6f1260d481c6c7404bf7eb7efc34456df6f2d3225a9aa1e16694956"
+  }
+}
