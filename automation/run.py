@@ -171,8 +171,10 @@ def run():
                     reports.append({'id':cid,'status':'REJECTED','source_url':url,'reasons':['outside publication window']})
                     continue
                 extracted=model('Extract a decision-useful electrification development: clean power, storage, grids, '
-                                'industrial heat, electrified transport or associated materials. Reject irrelevant '
-                                'content with {"relevant":false}. Otherwise return {"relevant":true,"claims":['
+                                'industrial heat, electrified transport or associated materials. A development is a concrete change: '
+                                'a decision, approval, measurement, deployment, data release or result. Reject irrelevant '
+                                'content, and announcements of visits, meetings, speeches, schedules or open calls that report '
+                                'no such change, with {"relevant":false}. Otherwise return {"relevant":true,"claims":['
                                 '{"en":"English paraphrase","zh":"Chinese equivalent","quote":"exact original excerpt"}]}. '
                                 'Include 2-5 short paragraphs: development, scientific scope/operating conditions, '
                                 'industrial/material implications explicitly supported by source, and limitations. '
