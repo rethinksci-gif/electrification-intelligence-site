@@ -73,10 +73,10 @@
   },
   {
     "id": "EI-3b1451d344fdc5bb",
-    "status": "QUARANTINED",
+    "status": "REJECTED",
     "source_url": "https://www.energy.gov/articles/energy-department-closes-51-billion-loan-lower-electricity-costs-and-strengthen-grid",
     "reasons": [
-      "bilingual numerals differ"
+      "outside publication window"
     ]
   },
   {
@@ -100,7 +100,7 @@
     "status": "REJECTED",
     "source_url": "https://www.energy.gov/articles/energy-department-authorizes-strategic-petroleum-reserve-exchange-support-fuel-supply",
     "reasons": [
-      "irrelevant"
+      "outside publication window"
     ]
   },
   {
@@ -108,7 +108,7 @@
     "status": "REJECTED",
     "source_url": "https://www.energy.gov/articles/kazakhstan-and-guyana-join-international-coalition-calling-delay-eu-methane-regulation",
     "reasons": [
-      "irrelevant"
+      "outside publication window"
     ]
   },
   {
@@ -141,6 +141,30 @@
     "source_url": "https://www.energy.gov/articles/energy-department-announces-new-investments-strengthen-americas-power-grid-and-lower",
     "reasons": [
       "outside publication window"
+    ]
+  },
+  {
+    "id": "EI-4d2595c1fc75f24f",
+    "status": "REJECTED",
+    "source_url": "https://energy.ec.europa.eu/news/biomethane-mechanism-first-matching-round-connect-buyers-and-suppliers-2026-11-04_en",
+    "reasons": [
+      "outside publication window"
+    ]
+  },
+  {
+    "id": "EI-8b7d1e6df520d85d",
+    "status": "QUARANTINED",
+    "source_url": "https://ec.europa.eu/eurostat/en/web/products-eurostat-news/w/ddn-20261104-2",
+    "reasons": [
+      "canonical document differs from fetched evidence"
+    ]
+  },
+  {
+    "id": "EI-ae5a6ec0917fbc0f",
+    "status": "QUARANTINED",
+    "source_url": "https://ec.europa.eu/eurostat/en/web/products-eurostat-news/w/ddn-20261104-1",
+    "reasons": [
+      "canonical document differs from fetched evidence"
     ]
   },
   {
@@ -196,79 +220,31 @@
     "status": "REJECTED",
     "source_url": "https://energy.ec.europa.eu/news/oil-coordination-group-discusses-eu-fuel-market-developments-2026-10-22_en",
     "reasons": [
-      "irrelevant"
+      "outside publication window"
     ]
   },
   {
-    "id": "EI-c35ba676554016df",
-    "status": "VERIFIED",
-    "reasons": [],
-    "source_url": "https://energy.ec.europa.eu/news/commissioner-jorgensen-hungary-address-high-energy-prices-energy-security-and-housing-2026-10-21_en",
-    "checked_at": "2026-11-03T14:10:33.742547+00:00",
-    "source_sha256": "cf9a234d066ac532b2d44939d85c3ec8928411d882d1cab70de0483d6daa6dcd",
-    "checks": {
-      "support": true,
-      "dates": true,
-      "quantities_units_conditions": true,
-      "no_contradictions": true,
-      "authority": true,
-      "capacity_status": true,
-      "legal_status_effective_date": true,
-      "translation_meaning": true
-    },
-    "citations": [
-      "Tomorrow, Commissioner for Energy and Housing Dan Jørgensen will be in Budapest, Hungary, to meet with national authorities, energy operators and other stakeholders and discuss how to effectively address together two major challenges affecting Europeans across the Union: high energy prices and the affordability and availability of housing.",
-      "Building on the positive exchanges that took place earlier this week in Bratislava with all Energy Ministers of the Visegrád Group, the Commissioner will discuss the pressing issue of high energy prices, energy security and the implementation of REPowerEU with the Minister of Economy and Energy, István Kapitány.",
-      "He will also visit a grids development project by MAVIR, the Hungarian Transmission System Operator. Efforts to modernise the network, reinforce cross-border interconnections and expand grid capacity are central pillars of the proposed European Grids Package and are key enablers to structurally lower energy prices across Europe.",
-      "As part of his Affordable Housing Tour, Commissioner Jørgensen will visit the Diákváros project together with the Minister of Transport and Investment, Dávid Vitézy, and other Hungarian representatives. Planned as a major brownfield regeneration project in southern Budapest, this affordable housing development is intended to provide affordable accommodation for around 12,000 students.",
-      "He will also hold discussions with the Committees on European Affairs, Social Affairs, and Energy of the Hungary National Assembly, with a particular focus on measures to address the current energy crisis.",
-      "The Commissioner will also discuss the EU’s efforts and priorities in housing policy with Minister Vitézy in a bilateral meeting.",
-      "Publication date\n- 21 October 2026\n- Author\n- Directorate-General for Energy"
-    ],
-    "notes": [
-      "All five claims are supported by the source text; the source is the European Commission's Directorate-General for Energy page with publication date 21 October 2026.",
-      "Claim 1: the source says 'Tomorrow' the Commissioner 'will be in Budapest'; the candidate dates this to 2026-10-21, the publication date. The source does not explicitly state the visit date, but the announcement date matches the publication date and the future-tense framing is preserved.",
-      "Claim 2: 'earlier this week in Bratislava with all Energy Ministers of the Visegrád Group' is accurately rendered; the meeting with Minister István Kapitány is described as forthcoming, consistent with the source.",
-      "Claim 3: MAVIR is correctly identified as the Hungarian Transmission System Operator; the European Grids Package is correctly described as 'proposed' (not adopted), matching the source.",
-      "Claim 4: Diákváros is correctly described as 'planned' (planned major brownfield regeneration project) and 'around 12,000 students' matches the source quantity and unit.",
-      "Claim 5: the bilateral meeting with Minister Vitézy on EU housing policy and the discussions with the three National Assembly committees are both supported; the energy-crisis focus is correctly attributed to the committee discussions.",
-      "No legal/regulatory status claims requiring adoption/entry-into-force distinctions are made; the legal_status_effective_date check is inapplicable and passes.",
-      "Chinese translations convey the same meaning and qualifications as the English, including '拟议的' for 'proposed' and '计划中的' for 'planned'."
-    ],
-    "candidate_sha256": "6c70c63f6fe99ac407aaf584b71d816d664ecde2cbf00118d9f463f37d849889",
-    "provenance": {
-      "authority": "official",
-      "origin": "daily original-source index"
-    },
-    "window": "2026-10-26",
-    "eligible_for_window": true
+    "id": "EI-2c0079a5c997bfc3",
+    "status": "REJECTED",
+    "source_url": "https://www.gov.uk/government/news/energy-reforms-to-cut-bills-and-put-power-back-in-peoples-hands",
+    "reasons": [
+      "outside publication window"
+    ]
   },
   {
-    "id": "EI-12944c491dc949b7",
-    "status": "QUARANTINED",
+    "id": "EI-05ff19f7fee094ff",
+    "status": "REJECTED",
+    "source_url": "https://www.gov.uk/government/case-studies/protecting-the-worlds-most-biodiverse-coral-reef-ecosystems",
     "reasons": [
-      "conflicting or unsupported numerical data",
-      "bilingual numerical mismatch",
-      "conflicting or unsupported numerical data",
-      "bilingual numerical mismatch",
-      "conflicting or unsupported numerical data",
-      "bilingual numerical mismatch"
-    ],
-    "source_url": "https://ec.europa.eu/eurostat/web/products-eurostat-news/w/ddn-20261020-1",
-    "checked_at": "2026-11-03T14:10:44.675387+00:00",
-    "source_sha256": "f8c86ae2289eb7ad5a351918b74b4d0199f3e9b1f778a63602081eb745cbcb03",
-    "checks": {},
-    "provenance": {
-      "authority": "official",
-      "origin": "daily original-source index"
-    }
+      "outside publication window"
+    ]
   },
   {
-    "id": "EI-b9f19aa89105e6e1",
-    "status": "QUARANTINED",
-    "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2205",
+    "id": "EI-f0e50cae41ff4976",
+    "status": "REJECTED",
+    "source_url": "https://www.gov.uk/government/case-studies/bringing-clean-solar-power-to-communities-in-bangladesh",
     "reasons": [
-      "canonical document differs from fetched evidence"
+      "outside publication window"
     ]
   },
   {
@@ -328,56 +304,6 @@
     ]
   },
   {
-    "id": "EI-fea8c41599ee84ec",
-    "status": "QUARANTINED",
-    "reasons": [
-      "semantic evidence checks failed",
-      "Claim 1 says supply to British homes and businesses starts 'from as early as the end of this month'; the source says supply will start 'from the end of this month' (no 'as early as'), and the Energy Secretary's quote says 'from this winter'. The 'as early as' hedge is unsupported.",
-      "Claim 1 conflates the Energy Secretary's agreement that the regulator can grant consent with actual consent; the source notes the NSTA granted consent, but the claim's framing that the Energy Secretary 'agreed that the regulator can grant consent' is supported only as a permission, not as production approval — the claim's wording is acceptable but the timing qualifier is not.",
-      "Claim 2 Chinese renders '£2.9 billion' as '2.9 billion英镑', which is a unit/format mismatch with the English '£2.9 billion'; the value is stated but the currency placement is inconsistent between languages.",
-      "Claim 3 says the Chancellor 'announced' the Energy Wealth Fund; the source says the Chancellor 'is also announcing today the establishment' — announcement is supported, but the claim omits that the fund is 'Established within the National Wealth Fund', a scope condition in the source.",
-      "Claim 5 says 'North Sea operators must consider the impact of burning extracted oil and gas in environmental impact assessments' — supported — but adds 'and the developer Adura submitted further information subject to public notice periods', which is supported by the notes; however the claim presents the Finch ruling as requiring this directly, while the source says the government published new guidance following the ruling. The causal chain is compressed but not contradicted.",
-      "Claim 4 says the Energy Secretary 'assessed that the Jackdaw project will not prevent the UK from meeting its legally binding carbon emission limits and achieving net-zero by 2050' — supported. No error.",
-      "Claim 2 says 'over a lifespan of up to 11 years' — supported. No error.",
-      "Claim 3 says the fund will use 'North Sea oil and gas tax revenues to invest in renewable and low carbon energy projects' — supported. No error.",
-      "Claim 1's Chinese says '最早从本月末开始向英国家庭和企业供气' ('as early as the end of this month'), mirroring the unsupported 'as early as' hedge; the source says 'from the end of this month'.",
-      "Claim 5's Chinese says '开发商Adura提交了进一步信息并经过公告期' — the source says the information 'has been subject to public notice periods', which is supported; no error there."
-    ],
-    "source_url": "https://www.gov.uk/government/news/jackdaw-gas-field-gets-green-light",
-    "checked_at": "2026-11-03T14:10:59.495742+00:00",
-    "source_sha256": "a1a79049cc0431660744508e97834bafaf23d540781ab5a1009ddf0615520b04",
-    "checks": {
-      "support": false,
-      "dates": true,
-      "quantities_units_conditions": false,
-      "no_contradictions": false,
-      "authority": true,
-      "capacity_status": false,
-      "legal_status_effective_date": true,
-      "translation_meaning": false
-    },
-    "provenance": {
-      "authority": "official",
-      "origin": "daily original-source index"
-    }
-  },
-  {
-    "id": "EI-c850201cf6c7b420",
-    "status": "QUARANTINED",
-    "source_url": "https://www.gov.uk/government/speeches/the-role-of-heat-networks-in-the-energy-transition",
-    "reasons": [
-      "bilingual numerals differ"
-    ]
-  },
-  {
-    "id": "EI-ce044337aa4bd07a",
-    "status": "REJECTED",
-    "source_url": "https://www.gov.uk/government/publications/strategic-spatial-energy-plan-ssep-timeline-extension",
-    "reasons": [
-      "outside publication window"
-    ]
-  },
-  {
     "id": "EI-526cec034ccb484b",
     "status": "REJECTED",
     "source_url": "https://www.eia.gov/todayinenergy/detail.php?id=68404",
@@ -406,70 +332,39 @@
     "status": "REJECTED",
     "source_url": "https://www.eia.gov/todayinenergy/detail.php?id=68344",
     "reasons": [
-      "irrelevant"
+      "outside publication window"
     ]
   },
   {
     "id": "EI-9b574b9b6d9a12cd",
-    "status": "QUARANTINED",
+    "status": "REJECTED",
     "source_url": "https://www.eia.gov/todayinenergy/detail.php?id=68325",
     "reasons": [
-      "bilingual numerals differ"
+      "outside publication window"
     ]
   },
   {
     "id": "EI-207bf0c6d4cca975",
-    "status": "QUARANTINED",
+    "status": "REJECTED",
     "source_url": "https://www.eia.gov/todayinenergy/detail.php?id=68324",
     "reasons": [
-      "bilingual numerals differ"
+      "outside publication window"
     ]
   },
   {
     "id": "EI-cb5890d031cd055d",
-    "status": "VERIFIED",
-    "reasons": [],
+    "status": "REJECTED",
     "source_url": "https://www.eia.gov/todayinenergy/detail.php?id=68305",
-    "checked_at": "2026-11-03T14:11:40.128905+00:00",
-    "source_sha256": "339fdfbe40a664090c9141ffa083d202e2c5f3738c83aee3da92049400f6c723",
-    "checks": {
-      "support": true,
-      "dates": true,
-      "quantities_units_conditions": true,
-      "no_contradictions": true,
-      "authority": true,
-      "capacity_status": true,
-      "legal_status_effective_date": true,
-      "translation_meaning": true
-    },
-    "citations": [
-      "PJM peaked at 162.6 gigawatts (GW) on July 2, 2026, 1.3% higher than the pre-2026 peak of 160.6 GW on June 23, 2025.",
-      "The Electric Reliability Council of Texas (ERCOT) peaked at 91.1 GW on July 22, 2026, 6.5% higher than the pre-2026 record of 85.5 GW on August 20, 2024.",
-      "The Southwest Power Pool (SWPP) peaked at 58.0 GW on July 27, 2026, 3.5% higher than the pre-2026 peak of 56.0 GW on August 21, 2023.",
-      "Most of these peaks occurred during regional heat waves, amid the hottest summer on record nationally, which drove up cooling demand.",
-      "CAISO reached 50.0 GW on September 9, 2026, below its record high of 51.1 GW reached on September 6, 2022."
-    ],
-    "notes": [
-      "All five claims match the source text exactly in values, units, dates and percentages.",
-      "Source is the U.S. Energy Information Administration (eia.gov), the original publisher; authority confirmed.",
-      "capacity_status and legal_status_effective_date are inapplicable (load records, not capacity or regulation) and therefore pass.",
-      "Chinese translations convey the same meaning and qualifications as the English, including 'pre-2026 peak/record' and 'record high'.",
-      "Source notes data are reported 'as-is' from Form EIA-930 and may differ from data published directly by balancing authorities; this caveat is not reflected in the claims but does not make them unsupported."
-    ],
-    "candidate_sha256": "2baaddc137414c3d12fe9d30d5b5f55813c92847e0e491b556529f0aa8c51e3d",
-    "provenance": {
-      "authority": "official",
-      "origin": "daily original-source index"
-    },
-    "window": "2026-10-26",
-    "eligible_for_window": true
+    "reasons": [
+      "outside publication window"
+    ]
   },
   {
     "id": "EI-15c2bd28b1120531",
-    "status": "QUARANTINED",
+    "status": "REJECTED",
     "source_url": "https://www.eia.gov/todayinenergy/detail.php?id=68304",
     "reasons": [
-      "bilingual numerals differ"
+      "outside publication window"
     ]
   },
   {
