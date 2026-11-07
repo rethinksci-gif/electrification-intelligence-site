@@ -152,6 +152,14 @@
     ]
   },
   {
+    "id": "EI-09f4b094947b0af7",
+    "status": "REJECTED",
+    "source_url": "https://energy.ec.europa.eu/news/cesec-ministerial-takes-stock-cross-border-energy-infrastructure-and-prices-and-welcomes-czechia-and-2026-11-06_en",
+    "reasons": [
+      "outside publication window"
+    ]
+  },
+  {
     "id": "EI-4d2595c1fc75f24f",
     "status": "REJECTED",
     "source_url": "https://energy.ec.europa.eu/news/biomethane-mechanism-first-matching-round-connect-buyers-and-suppliers-2026-11-04_en",
@@ -211,14 +219,6 @@
     "id": "EI-1f21d0eba7eca53c",
     "status": "QUARANTINED",
     "source_url": "https://ec.europa.eu/eurostat/en/web/products-eurostat-news/w/ddn-20261030-2",
-    "reasons": [
-      "canonical document differs from fetched evidence"
-    ]
-  },
-  {
-    "id": "EI-f3410cfeaa8018a1",
-    "status": "QUARANTINED",
-    "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/statement_26_2278",
     "reasons": [
       "canonical document differs from fetched evidence"
     ]
