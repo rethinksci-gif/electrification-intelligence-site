@@ -64,6 +64,14 @@
     ]
   },
   {
+    "id": "EI-2230a8de69658915",
+    "status": "REJECTED",
+    "source_url": "https://www.energy.gov/articles/energy-secretary-builds-progress-strengthen-puerto-ricos-energy-reliability",
+    "reasons": [
+      "outside publication window"
+    ]
+  },
+  {
     "id": "EI-7e0c5f16fa4ed256",
     "status": "REJECTED",
     "source_url": "https://www.energy.gov/articles/energy-department-announces-over-230-million-funding-opportunity-strengthen-americas-grid",
@@ -131,14 +139,6 @@
     "id": "EI-b37ea0eaebc8c1a7",
     "status": "REJECTED",
     "source_url": "https://www.energy.gov/articles/energy-department-authorizes-exchange-northeast-home-heating-oil-reserve",
-    "reasons": [
-      "outside publication window"
-    ]
-  },
-  {
-    "id": "EI-418ad0b15479daa7",
-    "status": "REJECTED",
-    "source_url": "https://www.energy.gov/articles/energy-department-announces-new-investments-strengthen-americas-power-grid-and-lower",
     "reasons": [
       "outside publication window"
     ]
