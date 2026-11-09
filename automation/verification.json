@@ -65,18 +65,35 @@
   },
   {
     "id": "EI-2230a8de69658915",
-    "status": "REJECTED",
-    "source_url": "https://www.energy.gov/articles/energy-secretary-builds-progress-strengthen-puerto-ricos-energy-reliability",
+    "status": "QUARANTINED",
     "reasons": [
-      "outside publication window"
-    ]
+      "semantic evidence checks failed",
+      "The Chinese translation of the fifth claim renders '3.2 million' as '3.2 million' in English numerals within Chinese text ('3.2 million美国人'), which does not convey the same scientific meaning/units as the English '3.2 million Americans'; it should be expressed as '320万美国人'."
+    ],
+    "source_url": "https://www.energy.gov/articles/energy-secretary-builds-progress-strengthen-puerto-ricos-energy-reliability",
+    "checked_at": "2026-11-09T16:14:05.780400+00:00",
+    "source_sha256": "f44ba1514fb5e8e3c5f11d51734ade8b4e21f2010f671f3194155ce82871cd53",
+    "checks": {
+      "support": true,
+      "dates": true,
+      "quantities_units_conditions": true,
+      "no_contradictions": true,
+      "authority": true,
+      "capacity_status": true,
+      "legal_status_effective_date": true,
+      "translation_meaning": false
+    },
+    "provenance": {
+      "authority": "official",
+      "origin": "daily original-source index"
+    }
   },
   {
     "id": "EI-7e0c5f16fa4ed256",
-    "status": "REJECTED",
+    "status": "QUARANTINED",
     "source_url": "https://www.energy.gov/articles/energy-department-announces-over-230-million-funding-opportunity-strengthen-americas-grid",
     "reasons": [
-      "outside publication window"
+      "bilingual numerals differ"
     ]
   },
   {
@@ -89,10 +106,10 @@
   },
   {
     "id": "EI-679c30ba476a5e64",
-    "status": "REJECTED",
+    "status": "QUARANTINED",
     "source_url": "https://www.energy.gov/articles/energy-department-announces-5-billion-loan-boost-nuclear-power-and-help-lower-costs",
     "reasons": [
-      "outside publication window"
+      "bilingual numerals differ"
     ]
   },
   {
@@ -144,6 +161,14 @@
     ]
   },
   {
+    "id": "EI-4a905f55ceb1ec84",
+    "status": "QUARANTINED",
+    "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2343",
+    "reasons": [
+      "canonical document differs from fetched evidence"
+    ]
+  },
+  {
     "id": "EI-6f41b79cec603d77",
     "status": "QUARANTINED",
     "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2342",
@@ -153,18 +178,26 @@
   },
   {
     "id": "EI-09f4b094947b0af7",
-    "status": "REJECTED",
+    "status": "QUARANTINED",
     "source_url": "https://energy.ec.europa.eu/news/cesec-ministerial-takes-stock-cross-border-energy-infrastructure-and-prices-and-welcomes-czechia-and-2026-11-06_en",
     "reasons": [
-      "outside publication window"
+      "bilingual numerals differ"
+    ]
+  },
+  {
+    "id": "EI-d886d88753cb58f8",
+    "status": "REJECTED",
+    "source_url": "https://energy.ec.europa.eu/news/commissioner-jorgensen-croatia-discuss-housing-and-energy-priorities-2026-11-04_en",
+    "reasons": [
+      "irrelevant"
     ]
   },
   {
     "id": "EI-4d2595c1fc75f24f",
-    "status": "REJECTED",
+    "status": "QUARANTINED",
     "source_url": "https://energy.ec.europa.eu/news/biomethane-mechanism-first-matching-round-connect-buyers-and-suppliers-2026-11-04_en",
     "reasons": [
-      "outside publication window"
+      "bilingual numerals differ"
     ]
   },
   {
@@ -184,27 +217,11 @@
     ]
   },
   {
-    "id": "EI-d886d88753cb58f8",
-    "status": "REJECTED",
-    "source_url": "https://energy.ec.europa.eu/news/commissioner-jorgensen-croatia-discuss-housing-and-energy-priorities-2026-11-04_en",
-    "reasons": [
-      "outside publication window"
-    ]
-  },
-  {
-    "id": "EI-36b95510334ab370",
-    "status": "QUARANTINED",
-    "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/statement_26_2313",
-    "reasons": [
-      "canonical document differs from fetched evidence"
-    ]
-  },
-  {
     "id": "EI-9beaf659f8fb8a4e",
     "status": "REJECTED",
     "source_url": "https://ec.europa.eu/eurostat/web/products-eurostat-news/w/ddn-20261030-3",
     "reasons": [
-      "outside publication window"
+      "irrelevant"
     ]
   },
   {
@@ -224,123 +241,204 @@
     ]
   },
   {
-    "id": "EI-2c0079a5c997bfc3",
+    "id": "EI-f48f24c4f463aa76",
     "status": "REJECTED",
-    "source_url": "https://www.gov.uk/government/news/energy-reforms-to-cut-bills-and-put-power-back-in-peoples-hands",
+    "source_url": "https://www.gov.uk/government/news/cop31-what-it-is-and-the-uks-priorities",
     "reasons": [
       "outside publication window"
+    ]
+  },
+  {
+    "id": "EI-2c0079a5c997bfc3",
+    "status": "QUARANTINED",
+    "source_url": "https://www.gov.uk/government/news/energy-reforms-to-cut-bills-and-put-power-back-in-peoples-hands",
+    "reasons": [
+      "bilingual numerals differ"
     ]
   },
   {
     "id": "EI-05ff19f7fee094ff",
-    "status": "REJECTED",
+    "status": "VERIFIED",
+    "reasons": [],
     "source_url": "https://www.gov.uk/government/case-studies/protecting-the-worlds-most-biodiverse-coral-reef-ecosystems",
-    "reasons": [
-      "outside publication window"
-    ]
+    "checked_at": "2026-11-09T16:15:04.990290+00:00",
+    "source_sha256": "27fd56e3e7f4dc850c608bde599574b7ac5bb456e6f699a30dfcc51c3c616ba6",
+    "checks": {
+      "support": true,
+      "dates": true,
+      "quantities_units_conditions": true,
+      "no_contradictions": true,
+      "authority": true,
+      "capacity_status": true,
+      "legal_status_effective_date": true,
+      "translation_meaning": true
+    },
+    "citations": [
+      "UK support has helped Indonesia establish its largest marine protected area with community co-management, strengthening local conservation.",
+      "Overall, 10 moorings have been installed, protecting over 1,700 coral species.",
+      "Across Indonesia, UK investment to date has enabled over 526,000 hectares to be placed under sustainable management practices, contributing directly to ICF KPI 17.",
+      "However, more than 85% of reefs are threatened by overfishing and habitat destruction.",
+      "The Coral Triangle, which spans coastal areas in South-East Asia, contains 76% of the world’s reefs and produces 30% of the world’s tuna."
+    ],
+    "notes": [
+      "All five claims are directly supported by verbatim excerpts in the source text.",
+      "Quantities match: 10 moorings, over 1,700 coral species, over 526,000 hectares, more than 85% of reefs, 76% of the world's reefs, 30% of the world's tuna.",
+      "Chinese translations convey the same meaning and qualifications (e.g., 超过/over, 迄今为止/to date, 社区共同管理/community co-management).",
+      "No legal or regulatory status is claimed, so legal_status_effective_date is inapplicable and passes.",
+      "No capacity status (announced/planned/operational) is asserted beyond the source's own framing, so capacity_status passes.",
+      "Source is the original publisher (gov.uk official case study) and the candidate URL matches the source URL."
+    ],
+    "candidate_sha256": "6767fe772f438ba82bd0170daa19c1edf863110a5a7c4e7185b71b31643576c1",
+    "provenance": {
+      "authority": "official",
+      "origin": "daily original-source index"
+    },
+    "window": "2026-11-09",
+    "eligible_for_window": true
   },
   {
     "id": "EI-f0e50cae41ff4976",
-    "status": "REJECTED",
+    "status": "VERIFIED",
+    "reasons": [],
     "source_url": "https://www.gov.uk/government/case-studies/bringing-clean-solar-power-to-communities-in-bangladesh",
-    "reasons": [
-      "outside publication window"
-    ]
+    "checked_at": "2026-11-09T16:15:13.479712+00:00",
+    "source_sha256": "ee95bb1abf1e2ea6dc57a64fdc3506e3f127eb38f19c691969465d24ed0472a3",
+    "checks": {
+      "support": true,
+      "dates": true,
+      "quantities_units_conditions": true,
+      "no_contradictions": true,
+      "authority": true,
+      "capacity_status": true,
+      "legal_status_effective_date": true,
+      "translation_meaning": true
+    },
+    "citations": [
+      "Around 3.3 million solar home systems have been supported in Bangladesh to date as part of the Ci-Dev programme",
+      "the UK’s support has helped more than 10 million people gain improved access to clean energy",
+      "installed more than 340 megawatts of clean energy capacity",
+      "reduced more than 1 million tonnes of greenhouse gas emissions – the equivalent to 4% of London’s total emissions for a year",
+      "For more than a decade, Bangladesh’s Solar Home System programme has brought reliable, clean electricity to millions of people beyond the reach of the national electricity grid."
+    ],
+    "notes": [
+      "All five claims are directly supported by verbatim excerpts in the source text.",
+      "Source is the original publisher (gov.uk official case study), matching the candidate URL.",
+      "Source date 2026-11-04 matches candidate date and publisher_dates.",
+      "Quantities and units match: 3.3 million solar home systems, 10 million people, 340 megawatts, 1 million tonnes, 4% of London's annual emissions.",
+      "No capacity status (announced/planned/operational) or legal status claims are made, so those checks are inapplicable and pass.",
+      "Chinese translations preserve the same figures, units and qualifications (e.g., '约3.3 million套', '超过10 million人', '超过340兆瓦', '超过1 million吨', '4%')."
+    ],
+    "candidate_sha256": "64011901ab8137b3da07c39070c6875b9d04345cc223aac4b6b52771bc056e2e",
+    "provenance": {
+      "authority": "official",
+      "origin": "daily original-source index"
+    },
+    "window": "2026-11-09",
+    "eligible_for_window": true
   },
   {
     "id": "EI-373f8f19889773ac",
-    "status": "REJECTED",
+    "status": "QUARANTINED",
     "source_url": "https://www.gov.uk/government/news/giant-12-tonne-box-lowered-into-place-for-fusion-upgrade",
     "reasons": [
-      "outside publication window"
+      "bilingual numerals differ"
     ]
   },
   {
     "id": "EI-ba86ecc772c6c25e",
-    "status": "REJECTED",
-    "source_url": "https://www.gov.uk/government/news/major-undersea-power-cable-given-green-light",
+    "status": "QUARANTINED",
     "reasons": [
-      "outside publication window"
-    ]
+      "bilingual numerical mismatch",
+      "conflicting or unsupported numerical data",
+      "bilingual numerical mismatch"
+    ],
+    "source_url": "https://www.gov.uk/government/news/major-undersea-power-cable-given-green-light",
+    "checked_at": "2026-11-09T16:15:30.502849+00:00",
+    "source_sha256": "3485b08a6ddfcfc99cf9800ace6b55853a16531280afa8d3db7fb5610467a67e",
+    "checks": {},
+    "provenance": {
+      "authority": "official",
+      "origin": "daily original-source index"
+    }
   },
   {
     "id": "EI-abddc183b45fcbdd",
-    "status": "REJECTED",
+    "status": "QUARANTINED",
     "source_url": "https://www.gov.uk/government/news/what-the-autumn-budget-2026-means-for-your-energy-bills",
     "reasons": [
-      "outside publication window"
+      "bilingual numerals differ"
     ]
   },
   {
     "id": "EI-8cbf80ccc312f76b",
-    "status": "REJECTED",
+    "status": "QUARANTINED",
     "source_url": "https://www.gov.uk/government/news/chancellor-abolishes-standing-charges-on-gas-bills-to-make-payments-fairer",
     "reasons": [
-      "outside publication window"
+      "bilingual numerals differ"
     ]
   },
   {
     "id": "EI-b0f239c091f27839",
-    "status": "REJECTED",
+    "status": "QUARANTINED",
     "source_url": "https://www.gov.uk/government/news/warm-homes-loan-scheme-factsheet",
     "reasons": [
-      "outside publication window"
+      "bilingual numerals differ"
     ]
   },
   {
     "id": "EI-876a182b7dc6b3fc",
-    "status": "REJECTED",
+    "status": "QUARANTINED",
+    "reasons": [
+      "conflicting or unsupported numerical data",
+      "conflicting or unsupported numerical data"
+    ],
     "source_url": "https://www.gov.uk/government/news/government-welcomes-official-partners-for-cop31-pavilion",
-    "reasons": [
-      "outside publication window"
-    ]
-  },
-  {
-    "id": "EI-24479e7eb3bb0fec",
-    "status": "REJECTED",
-    "source_url": "https://www.gov.uk/government/publications/oil-and-gas-opred-communications-2026",
-    "reasons": [
-      "outside publication window"
-    ]
+    "checked_at": "2026-11-09T16:16:01.329608+00:00",
+    "source_sha256": "064260ee2ed2606100c8eabb0df657b4ed1944505e9a1d3c67b08b9616056e45",
+    "checks": {},
+    "provenance": {
+      "authority": "official",
+      "origin": "daily original-source index"
+    }
   },
   {
     "id": "EI-0300679559154a9d",
-    "status": "REJECTED",
+    "status": "QUARANTINED",
     "source_url": "https://www.eia.gov/todayinenergy/detail.php?id=68425",
     "reasons": [
-      "outside publication window"
+      "bilingual numerals differ"
     ]
   },
   {
     "id": "EI-3993941242fcf8c5",
-    "status": "REJECTED",
+    "status": "QUARANTINED",
     "source_url": "https://www.eia.gov/todayinenergy/detail.php?id=68424",
     "reasons": [
-      "outside publication window"
+      "bilingual numerals differ"
     ]
   },
   {
     "id": "EI-526cec034ccb484b",
-    "status": "REJECTED",
+    "status": "QUARANTINED",
     "source_url": "https://www.eia.gov/todayinenergy/detail.php?id=68404",
     "reasons": [
-      "outside publication window"
+      "bilingual numerals differ"
     ]
   },
   {
     "id": "EI-a3882203fc769380",
-    "status": "REJECTED",
+    "status": "QUARANTINED",
     "source_url": "https://www.eia.gov/todayinenergy/detail.php?id=68384",
     "reasons": [
-      "outside publication window"
+      "bilingual numerals differ"
     ]
   },
   {
     "id": "EI-6d5f94b54e3e2bf7",
-    "status": "REJECTED",
+    "status": "QUARANTINED",
     "source_url": "https://www.eia.gov/todayinenergy/detail.php?id=68364",
     "reasons": [
-      "outside publication window"
+      "bilingual numerals differ"
     ]
   },
   {
