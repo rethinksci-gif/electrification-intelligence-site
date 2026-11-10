@@ -68,10 +68,10 @@
     "status": "QUARANTINED",
     "reasons": [
       "semantic evidence checks failed",
-      "The Chinese translation of the fifth claim renders '3.2 million' as '3.2 million' in English numerals within Chinese text ('3.2 million美国人'), which does not convey the same scientific meaning/units as the English '3.2 million Americans'; it should be expressed as '320万美国人'."
+      "Claim 5 Chinese translation renders '3.2 million Americans' as '3.2 million美国人' (untranslated English 'million'), so the Chinese does not fully convey the same meaning as the English."
     ],
     "source_url": "https://www.energy.gov/articles/energy-secretary-builds-progress-strengthen-puerto-ricos-energy-reliability",
-    "checked_at": "2026-11-09T16:14:05.780400+00:00",
+    "checked_at": "2026-11-10T14:51:06.285291+00:00",
     "source_sha256": "f44ba1514fb5e8e3c5f11d51734ade8b4e21f2010f671f3194155ce82871cd53",
     "checks": {
       "support": true,
@@ -91,10 +91,26 @@
   {
     "id": "EI-7e0c5f16fa4ed256",
     "status": "QUARANTINED",
-    "source_url": "https://www.energy.gov/articles/energy-department-announces-over-230-million-funding-opportunity-strengthen-americas-grid",
     "reasons": [
-      "bilingual numerals differ"
-    ]
+      "conflicting or unsupported numerical data",
+      "bilingual numerical mismatch",
+      "conflicting or unsupported numerical data",
+      "bilingual numerical mismatch",
+      "conflicting or unsupported numerical data",
+      "bilingual numerical mismatch",
+      "conflicting or unsupported numerical data",
+      "bilingual numerical mismatch",
+      "conflicting or unsupported numerical data",
+      "bilingual numerical mismatch"
+    ],
+    "source_url": "https://www.energy.gov/articles/energy-department-announces-over-230-million-funding-opportunity-strengthen-americas-grid",
+    "checked_at": "2026-11-10T14:51:16.291560+00:00",
+    "source_sha256": "ff37e9059bfff1ce9c51c940bc21de658ca2f5b60a762716d7a096ca1de326e9",
+    "checks": {},
+    "provenance": {
+      "authority": "official",
+      "origin": "daily original-source index"
+    }
   },
   {
     "id": "EI-3b1451d344fdc5bb",
@@ -161,6 +177,22 @@
     ]
   },
   {
+    "id": "EI-fa4f27ca2bfb761d",
+    "status": "QUARANTINED",
+    "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2373",
+    "reasons": [
+      "canonical document differs from fetched evidence"
+    ]
+  },
+  {
+    "id": "EI-90fa454c218c1732",
+    "status": "REJECTED",
+    "source_url": "https://energy.ec.europa.eu/news/eu-signs-global-geothermal-pledge-cop31-2026-11-10_en",
+    "reasons": [
+      "outside publication window"
+    ]
+  },
+  {
     "id": "EI-4a905f55ceb1ec84",
     "status": "QUARANTINED",
     "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2343",
@@ -181,7 +213,7 @@
     "status": "QUARANTINED",
     "source_url": "https://energy.ec.europa.eu/news/cesec-ministerial-takes-stock-cross-border-energy-infrastructure-and-prices-and-welcomes-czechia-and-2026-11-06_en",
     "reasons": [
-      "bilingual numerals differ"
+      "HTTP 429"
     ]
   },
   {
@@ -218,27 +250,42 @@
   },
   {
     "id": "EI-9beaf659f8fb8a4e",
-    "status": "REJECTED",
+    "status": "VERIFIED",
+    "reasons": [],
     "source_url": "https://ec.europa.eu/eurostat/web/products-eurostat-news/w/ddn-20261030-3",
-    "reasons": [
-      "irrelevant"
-    ]
-  },
-  {
-    "id": "EI-8bdb0767d6b77562",
-    "status": "REJECTED",
-    "source_url": "https://energy.ec.europa.eu/news/energy-transition-investment-council-call-applications-2026-10-30_en",
-    "reasons": [
-      "outside publication window"
-    ]
-  },
-  {
-    "id": "EI-1f21d0eba7eca53c",
-    "status": "QUARANTINED",
-    "source_url": "https://ec.europa.eu/eurostat/en/web/products-eurostat-news/w/ddn-20261030-2",
-    "reasons": [
-      "canonical document differs from fetched evidence"
-    ]
+    "checked_at": "2026-11-10T14:51:50.903854+00:00",
+    "source_sha256": "a995e424a4b3e474bbeae140477f9f6c460f76190386aad9ae0ff776921c3942",
+    "checks": {
+      "support": true,
+      "dates": true,
+      "quantities_units_conditions": true,
+      "no_contradictions": true,
+      "authority": true,
+      "capacity_status": true,
+      "legal_status_effective_date": true,
+      "translation_meaning": true
+    },
+    "citations": [
+      "In the first half of 2026, average gas prices for EU households fell to €0.11 per kilowatt-hour (kWh).",
+      "Prices decreased by 10.2% compared with the second semester of 2025 and by 3.5% compared with the first semester of 2025.",
+      "This is the lowest average price of gas in the EU recorded after the first semester of 2022.",
+      "in the first half of 2026, Sweden recorded the highest gas prices for households at €0.22 per kWh, followed by the Netherlands (€0.16) and France and Portugal (both €0.13).",
+      "The lowest prices were in Hungary (€ 0.03 per kWh), Croatia (€ 0.05) Romania and Slovakia (both € 0.06)."
+    ],
+    "notes": [
+      "All five claims are directly supported by verbatim excerpts in the Eurostat source text.",
+      "Source is the original publisher (Eurostat, official), dated 2026-10-30, matching the candidate date.",
+      "Values, units (€ per kWh) and time references (H1 2026, S2 2025, H1 2025) match the source exactly.",
+      "Chinese translations convey the same meaning and qualifications as the English claims.",
+      "capacity_status and legal_status_effective_date are inapplicable (price statistics, no capacity or legal status claims) and therefore pass."
+    ],
+    "candidate_sha256": "35d016bd7f00acd18d6ce6d793acf818fd43fdba63657df37eaa75b17d7d43f6",
+    "provenance": {
+      "authority": "official",
+      "origin": "daily original-source index"
+    },
+    "window": "2026-11-09",
+    "eligible_for_window": true
   },
   {
     "id": "EI-f48f24c4f463aa76",
@@ -261,7 +308,7 @@
     "status": "VERIFIED",
     "reasons": [],
     "source_url": "https://www.gov.uk/government/case-studies/protecting-the-worlds-most-biodiverse-coral-reef-ecosystems",
-    "checked_at": "2026-11-09T16:15:04.990290+00:00",
+    "checked_at": "2026-11-10T14:52:06.979049+00:00",
     "source_sha256": "27fd56e3e7f4dc850c608bde599574b7ac5bb456e6f699a30dfcc51c3c616ba6",
     "checks": {
       "support": true,
@@ -274,21 +321,23 @@
       "translation_meaning": true
     },
     "citations": [
-      "UK support has helped Indonesia establish its largest marine protected area with community co-management, strengthening local conservation.",
-      "Overall, 10 moorings have been installed, protecting over 1,700 coral species.",
       "Across Indonesia, UK investment to date has enabled over 526,000 hectares to be placed under sustainable management practices, contributing directly to ICF KPI 17.",
-      "However, more than 85% of reefs are threatened by overfishing and habitat destruction.",
-      "The Coral Triangle, which spans coastal areas in South-East Asia, contains 76% of the world’s reefs and produces 30% of the world’s tuna."
+      "Overall, 10 moorings have been installed, protecting over 1,700 coral species.",
+      "UK support has helped Indonesia establish its largest marine protected area with community co-management, strengthening local conservation.",
+      "The Coral Triangle, which spans coastal areas in South-East Asia, contains 76% of the world’s reefs and produces 30% of the world’s tuna.",
+      "However, more than 85% of reefs are threatened by overfishing and habitat destruction."
     ],
     "notes": [
-      "All five claims are directly supported by verbatim excerpts in the source text.",
-      "Quantities match: 10 moorings, over 1,700 coral species, over 526,000 hectares, more than 85% of reefs, 76% of the world's reefs, 30% of the world's tuna.",
-      "Chinese translations convey the same meaning and qualifications (e.g., 超过/over, 迄今为止/to date, 社区共同管理/community co-management).",
-      "No legal or regulatory status is claimed, so legal_status_effective_date is inapplicable and passes.",
-      "No capacity status (announced/planned/operational) is asserted beyond the source's own framing, so capacity_status passes.",
-      "Source is the original publisher (gov.uk official case study) and the candidate URL matches the source URL."
+      "All five claims are directly supported by verbatim excerpts from the gov.uk case study.",
+      "The 526,000 hectares figure is attributed to UK investment to date and linked to ICF KPI 17, matching the source.",
+      "The 10 moorings and over 1,700 coral species figures match the source exactly.",
+      "The claim that UK support helped Indonesia establish its largest marine protected area with community co-management matches the source wording.",
+      "The Coral Triangle statistics (76% of world's reefs, 30% of world's tuna) and the >85% threat figure match the source.",
+      "Chinese translations convey the same meaning and qualifications as the English claims.",
+      "No legal or regulatory status is asserted, so legal_status_effective_date is inapplicable and passes.",
+      "No capacity status (announced/planned/operational) is asserted beyond completed actions described in the source, so capacity_status passes."
     ],
-    "candidate_sha256": "6767fe772f438ba82bd0170daa19c1edf863110a5a7c4e7185b71b31643576c1",
+    "candidate_sha256": "747aba8cb0fe1da430da6cc5de05c5c4a5414960a33bc7aca304081bcd97f144",
     "provenance": {
       "authority": "official",
       "origin": "daily original-source index"
@@ -298,43 +347,23 @@
   },
   {
     "id": "EI-f0e50cae41ff4976",
-    "status": "VERIFIED",
-    "reasons": [],
+    "status": "QUARANTINED",
+    "reasons": [
+      "conflicting or unsupported numerical data",
+      "bilingual numerical mismatch",
+      "conflicting or unsupported numerical data",
+      "bilingual numerical mismatch",
+      "conflicting or unsupported numerical data",
+      "bilingual numerical mismatch"
+    ],
     "source_url": "https://www.gov.uk/government/case-studies/bringing-clean-solar-power-to-communities-in-bangladesh",
-    "checked_at": "2026-11-09T16:15:13.479712+00:00",
+    "checked_at": "2026-11-10T14:52:13.322074+00:00",
     "source_sha256": "ee95bb1abf1e2ea6dc57a64fdc3506e3f127eb38f19c691969465d24ed0472a3",
-    "checks": {
-      "support": true,
-      "dates": true,
-      "quantities_units_conditions": true,
-      "no_contradictions": true,
-      "authority": true,
-      "capacity_status": true,
-      "legal_status_effective_date": true,
-      "translation_meaning": true
-    },
-    "citations": [
-      "Around 3.3 million solar home systems have been supported in Bangladesh to date as part of the Ci-Dev programme",
-      "the UK’s support has helped more than 10 million people gain improved access to clean energy",
-      "installed more than 340 megawatts of clean energy capacity",
-      "reduced more than 1 million tonnes of greenhouse gas emissions – the equivalent to 4% of London’s total emissions for a year",
-      "For more than a decade, Bangladesh’s Solar Home System programme has brought reliable, clean electricity to millions of people beyond the reach of the national electricity grid."
-    ],
-    "notes": [
-      "All five claims are directly supported by verbatim excerpts in the source text.",
-      "Source is the original publisher (gov.uk official case study), matching the candidate URL.",
-      "Source date 2026-11-04 matches candidate date and publisher_dates.",
-      "Quantities and units match: 3.3 million solar home systems, 10 million people, 340 megawatts, 1 million tonnes, 4% of London's annual emissions.",
-      "No capacity status (announced/planned/operational) or legal status claims are made, so those checks are inapplicable and pass.",
-      "Chinese translations preserve the same figures, units and qualifications (e.g., '约3.3 million套', '超过10 million人', '超过340兆瓦', '超过1 million吨', '4%')."
-    ],
-    "candidate_sha256": "64011901ab8137b3da07c39070c6875b9d04345cc223aac4b6b52771bc056e2e",
+    "checks": {},
     "provenance": {
       "authority": "official",
       "origin": "daily original-source index"
-    },
-    "window": "2026-11-09",
-    "eligible_for_window": true
+    }
   },
   {
     "id": "EI-373f8f19889773ac",
@@ -347,19 +376,10 @@
   {
     "id": "EI-ba86ecc772c6c25e",
     "status": "QUARANTINED",
-    "reasons": [
-      "bilingual numerical mismatch",
-      "conflicting or unsupported numerical data",
-      "bilingual numerical mismatch"
-    ],
     "source_url": "https://www.gov.uk/government/news/major-undersea-power-cable-given-green-light",
-    "checked_at": "2026-11-09T16:15:30.502849+00:00",
-    "source_sha256": "3485b08a6ddfcfc99cf9800ace6b55853a16531280afa8d3db7fb5610467a67e",
-    "checks": {},
-    "provenance": {
-      "authority": "official",
-      "origin": "daily original-source index"
-    }
+    "reasons": [
+      "bilingual numerals differ"
+    ]
   },
   {
     "id": "EI-abddc183b45fcbdd",
@@ -393,7 +413,7 @@
       "conflicting or unsupported numerical data"
     ],
     "source_url": "https://www.gov.uk/government/news/government-welcomes-official-partners-for-cop31-pavilion",
-    "checked_at": "2026-11-09T16:16:01.329608+00:00",
+    "checked_at": "2026-11-10T14:52:56.323720+00:00",
     "source_sha256": "064260ee2ed2606100c8eabb0df657b4ed1944505e9a1d3c67b08b9616056e45",
     "checks": {},
     "provenance": {
