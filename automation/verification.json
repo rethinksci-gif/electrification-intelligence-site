@@ -64,14 +64,22 @@
     ]
   },
   {
+    "id": "EI-ebc09e0ce28ab518",
+    "status": "REJECTED",
+    "source_url": "https://www.energy.gov/articles/energy-department-closes-480-million-loan-expand-american-energy-production-and-strengthen",
+    "reasons": [
+      "outside publication window"
+    ]
+  },
+  {
     "id": "EI-2230a8de69658915",
     "status": "QUARANTINED",
     "reasons": [
       "semantic evidence checks failed",
-      "Claim 5 Chinese translation renders '3.2 million Americans' as '3.2 million美国人' (untranslated English 'million'), so the Chinese does not fully convey the same meaning as the English."
+      "The Chinese translation of the fifth claim renders '3.2 million Americans' as '3.2 million美国人', leaving the English number word 'million' untranslated; the Chinese should read '320万美国人' to convey the same quantity."
     ],
     "source_url": "https://www.energy.gov/articles/energy-secretary-builds-progress-strengthen-puerto-ricos-energy-reliability",
-    "checked_at": "2026-11-10T14:51:06.285291+00:00",
+    "checked_at": "2026-11-12T15:11:18.140633+00:00",
     "source_sha256": "f44ba1514fb5e8e3c5f11d51734ade8b4e21f2010f671f3194155ce82871cd53",
     "checks": {
       "support": true,
@@ -104,7 +112,7 @@
       "bilingual numerical mismatch"
     ],
     "source_url": "https://www.energy.gov/articles/energy-department-announces-over-230-million-funding-opportunity-strengthen-americas-grid",
-    "checked_at": "2026-11-10T14:51:16.291560+00:00",
+    "checked_at": "2026-11-12T15:11:27.555786+00:00",
     "source_sha256": "ff37e9059bfff1ce9c51c940bc21de658ca2f5b60a762716d7a096ca1de326e9",
     "checks": {},
     "provenance": {
@@ -169,17 +177,9 @@
     ]
   },
   {
-    "id": "EI-b37ea0eaebc8c1a7",
-    "status": "REJECTED",
-    "source_url": "https://www.energy.gov/articles/energy-department-authorizes-exchange-northeast-home-heating-oil-reserve",
-    "reasons": [
-      "outside publication window"
-    ]
-  },
-  {
-    "id": "EI-fa4f27ca2bfb761d",
+    "id": "EI-18e5744c10b15765",
     "status": "QUARANTINED",
-    "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2373",
+    "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/SPEECH_26_2410",
     "reasons": [
       "canonical document differs from fetched evidence"
     ]
@@ -190,6 +190,14 @@
     "source_url": "https://energy.ec.europa.eu/news/eu-signs-global-geothermal-pledge-cop31-2026-11-10_en",
     "reasons": [
       "outside publication window"
+    ]
+  },
+  {
+    "id": "EI-fa4f27ca2bfb761d",
+    "status": "QUARANTINED",
+    "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2373",
+    "reasons": [
+      "canonical document differs from fetched evidence"
     ]
   },
   {
@@ -213,15 +221,15 @@
     "status": "QUARANTINED",
     "source_url": "https://energy.ec.europa.eu/news/cesec-ministerial-takes-stock-cross-border-energy-infrastructure-and-prices-and-welcomes-czechia-and-2026-11-06_en",
     "reasons": [
-      "HTTP 429"
+      "bilingual numerals differ"
     ]
   },
   {
     "id": "EI-d886d88753cb58f8",
-    "status": "REJECTED",
+    "status": "QUARANTINED",
     "source_url": "https://energy.ec.europa.eu/news/commissioner-jorgensen-croatia-discuss-housing-and-energy-priorities-2026-11-04_en",
     "reasons": [
-      "irrelevant"
+      "HTTP 429"
     ]
   },
   {
@@ -249,43 +257,12 @@
     ]
   },
   {
-    "id": "EI-9beaf659f8fb8a4e",
-    "status": "VERIFIED",
-    "reasons": [],
-    "source_url": "https://ec.europa.eu/eurostat/web/products-eurostat-news/w/ddn-20261030-3",
-    "checked_at": "2026-11-10T14:51:50.903854+00:00",
-    "source_sha256": "a995e424a4b3e474bbeae140477f9f6c460f76190386aad9ae0ff776921c3942",
-    "checks": {
-      "support": true,
-      "dates": true,
-      "quantities_units_conditions": true,
-      "no_contradictions": true,
-      "authority": true,
-      "capacity_status": true,
-      "legal_status_effective_date": true,
-      "translation_meaning": true
-    },
-    "citations": [
-      "In the first half of 2026, average gas prices for EU households fell to €0.11 per kilowatt-hour (kWh).",
-      "Prices decreased by 10.2% compared with the second semester of 2025 and by 3.5% compared with the first semester of 2025.",
-      "This is the lowest average price of gas in the EU recorded after the first semester of 2022.",
-      "in the first half of 2026, Sweden recorded the highest gas prices for households at €0.22 per kWh, followed by the Netherlands (€0.16) and France and Portugal (both €0.13).",
-      "The lowest prices were in Hungary (€ 0.03 per kWh), Croatia (€ 0.05) Romania and Slovakia (both € 0.06)."
-    ],
-    "notes": [
-      "All five claims are directly supported by verbatim excerpts in the Eurostat source text.",
-      "Source is the original publisher (Eurostat, official), dated 2026-10-30, matching the candidate date.",
-      "Values, units (€ per kWh) and time references (H1 2026, S2 2025, H1 2025) match the source exactly.",
-      "Chinese translations convey the same meaning and qualifications as the English claims.",
-      "capacity_status and legal_status_effective_date are inapplicable (price statistics, no capacity or legal status claims) and therefore pass."
-    ],
-    "candidate_sha256": "35d016bd7f00acd18d6ce6d793acf818fd43fdba63657df37eaa75b17d7d43f6",
-    "provenance": {
-      "authority": "official",
-      "origin": "daily original-source index"
-    },
-    "window": "2026-11-09",
-    "eligible_for_window": true
+    "id": "EI-5bf14b51da4b0a6c",
+    "status": "REJECTED",
+    "source_url": "https://www.gov.uk/government/news/prime-minister-hails-major-investment-in-uk-renewables",
+    "reasons": [
+      "outside publication window"
+    ]
   },
   {
     "id": "EI-f48f24c4f463aa76",
@@ -308,7 +285,7 @@
     "status": "VERIFIED",
     "reasons": [],
     "source_url": "https://www.gov.uk/government/case-studies/protecting-the-worlds-most-biodiverse-coral-reef-ecosystems",
-    "checked_at": "2026-11-10T14:52:06.979049+00:00",
+    "checked_at": "2026-11-12T15:12:11.857881+00:00",
     "source_sha256": "27fd56e3e7f4dc850c608bde599574b7ac5bb456e6f699a30dfcc51c3c616ba6",
     "checks": {
       "support": true,
@@ -321,23 +298,20 @@
       "translation_meaning": true
     },
     "citations": [
-      "Across Indonesia, UK investment to date has enabled over 526,000 hectares to be placed under sustainable management practices, contributing directly to ICF KPI 17.",
-      "Overall, 10 moorings have been installed, protecting over 1,700 coral species.",
       "UK support has helped Indonesia establish its largest marine protected area with community co-management, strengthening local conservation.",
+      "UK investment has also supported the development of a new mooring system that enables boats to anchor without damaging reefs. Overall, 10 moorings have been installed, protecting over 1,700 coral species.",
+      "Across Indonesia, UK investment to date has enabled over 526,000 hectares to be placed under sustainable management practices, contributing directly to ICF KPI 17.",
       "The Coral Triangle, which spans coastal areas in South-East Asia, contains 76% of the world’s reefs and produces 30% of the world’s tuna.",
       "However, more than 85% of reefs are threatened by overfishing and habitat destruction."
     ],
     "notes": [
-      "All five claims are directly supported by verbatim excerpts from the gov.uk case study.",
-      "The 526,000 hectares figure is attributed to UK investment to date and linked to ICF KPI 17, matching the source.",
-      "The 10 moorings and over 1,700 coral species figures match the source exactly.",
-      "The claim that UK support helped Indonesia establish its largest marine protected area with community co-management matches the source wording.",
-      "The Coral Triangle statistics (76% of world's reefs, 30% of world's tuna) and the >85% threat figure match the source.",
-      "Chinese translations convey the same meaning and qualifications as the English claims.",
-      "No legal or regulatory status is asserted, so legal_status_effective_date is inapplicable and passes.",
-      "No capacity status (announced/planned/operational) is asserted beyond completed actions described in the source, so capacity_status passes."
+      "All four claims are directly supported by the source text: largest MPA with community co-management; new mooring system with 10 moorings protecting over 1,700 coral species; over 526,000 hectares under sustainable management; Coral Triangle 76% of reefs, 30% of tuna, >85% threatened.",
+      "Source is the original publisher (gov.uk official case study), matching the candidate URL and date 2026-11-04.",
+      "Chinese translations convey the same quantities, units and qualifications as the English (e.g., 超过526,000公顷, 10个系泊点, 超过1,700种珊瑚物种, 76%, 30%, 超过85%).",
+      "No legal/regulatory status claims are made, so legal_status_effective_date is inapplicable and passes.",
+      "No capacity status (announced/planned/operational) claims are made beyond describing completed installations and support, consistent with the source."
     ],
-    "candidate_sha256": "747aba8cb0fe1da430da6cc5de05c5c4a5414960a33bc7aca304081bcd97f144",
+    "candidate_sha256": "e31e9a9376d6e3439fa9fef514987c52e3df16dc658a97c044deb094d8931462",
     "provenance": {
       "authority": "official",
       "origin": "daily original-source index"
@@ -357,7 +331,7 @@
       "bilingual numerical mismatch"
     ],
     "source_url": "https://www.gov.uk/government/case-studies/bringing-clean-solar-power-to-communities-in-bangladesh",
-    "checked_at": "2026-11-10T14:52:13.322074+00:00",
+    "checked_at": "2026-11-12T15:12:16.980857+00:00",
     "source_sha256": "ee95bb1abf1e2ea6dc57a64fdc3506e3f127eb38f19c691969465d24ed0472a3",
     "checks": {},
     "provenance": {
@@ -375,11 +349,43 @@
   },
   {
     "id": "EI-ba86ecc772c6c25e",
-    "status": "QUARANTINED",
+    "status": "VERIFIED",
+    "reasons": [],
     "source_url": "https://www.gov.uk/government/news/major-undersea-power-cable-given-green-light",
-    "reasons": [
-      "bilingual numerals differ"
-    ]
+    "checked_at": "2026-11-12T15:12:28.343714+00:00",
+    "source_sha256": "3485b08a6ddfcfc99cf9800ace6b55853a16531280afa8d3db7fb5610467a67e",
+    "checks": {
+      "support": true,
+      "dates": true,
+      "quantities_units_conditions": true,
+      "no_contradictions": true,
+      "authority": true,
+      "capacity_status": true,
+      "legal_status_effective_date": true,
+      "translation_meaning": true
+    },
+    "citations": [
+      "Developed by National Grid, the 2 GW link will be capable of carrying enough electricity to power the equivalent of 2 million homes",
+      "Sea Link is a 2 GW electricity transmission connection between Suffolk and Kent, running primarily offshore.",
+      "The UK government community benefits scheme will be delivered by National Grid with over a £1 million each for community funds in Kent and Suffolk",
+      "Great North Road Solar and Biodiversity Park, near Newark in Nottinghamshire, will have a generating capacity of 800 MW - enough to power the equivalent of around 400,000 homes a year, according to the developer.",
+      "Frodsham Solar, north of Frodsham in Cheshire, will combine solar panels with battery storage",
+      "The developer behind Frodsham says it could generate enough electricity for 40,000 homes."
+    ],
+    "notes": [
+      "All four claims are supported by the source text: Sea Link 2 GW Suffolk-Kent developed by National Grid; capable of powering equivalent of 2 million homes and running primarily offshore; community benefits scheme delivered by National Grid with over £1 million each for Kent and Suffolk community funds; Great North Road Solar 800 MW near Newark in Nottinghamshire, developer says around 400,000 homes a year; Frodsham Solar north of Frodsham in Cheshire combining solar with battery storage, develop",
+      "Source date 2026-10-30 matches candidate date and publisher date; the article states the approval was made 'today (Friday 30 October)' and the candidate date is 2026-10-30.",
+      "Capacity status: Sea Link is described as approved (government approval), not operational; the candidate says 'approved', which is correct. Great North Road and Frodsham are described as approved decisions, consistent with the source.",
+      "No legal/regulatory status or entry-into-force claims are made, so legal_status_effective_date is inapplicable and passes.",
+      "Chinese translations convey the same quantities, units and qualifications as the English, including '2 GW', '2 million homes', '£1 million', '800 MW', '400,000 homes', '40,000 homes', and the developer attribution for the solar figures."
+    ],
+    "candidate_sha256": "e8c36c6da2e0f87ad2ef47acbdfbbcf8121032085015d03b9256657d06a568c0",
+    "provenance": {
+      "authority": "official",
+      "origin": "daily original-source index"
+    },
+    "window": "2026-11-09",
+    "eligible_for_window": true
   },
   {
     "id": "EI-abddc183b45fcbdd",
@@ -400,26 +406,27 @@
   {
     "id": "EI-b0f239c091f27839",
     "status": "QUARANTINED",
-    "source_url": "https://www.gov.uk/government/news/warm-homes-loan-scheme-factsheet",
     "reasons": [
-      "bilingual numerals differ"
-    ]
-  },
-  {
-    "id": "EI-876a182b7dc6b3fc",
-    "status": "QUARANTINED",
-    "reasons": [
+      "unsupported value/unit combination",
       "conflicting or unsupported numerical data",
-      "conflicting or unsupported numerical data"
+      "bilingual numerical mismatch"
     ],
-    "source_url": "https://www.gov.uk/government/news/government-welcomes-official-partners-for-cop31-pavilion",
-    "checked_at": "2026-11-10T14:52:56.323720+00:00",
-    "source_sha256": "064260ee2ed2606100c8eabb0df657b4ed1944505e9a1d3c67b08b9616056e45",
+    "source_url": "https://www.gov.uk/government/news/warm-homes-loan-scheme-factsheet",
+    "checked_at": "2026-11-12T15:12:56.631048+00:00",
+    "source_sha256": "f5de6ed960812d0778c4f1d70f69a6fbfc8a7ed1b535b3b3b030566d4a2e174b",
     "checks": {},
     "provenance": {
       "authority": "official",
       "origin": "daily original-source index"
     }
+  },
+  {
+    "id": "EI-e3f23c3f0faa7979",
+    "status": "REJECTED",
+    "source_url": "https://www.eia.gov/todayinenergy/detail.php?id=68444",
+    "reasons": [
+      "outside publication window"
+    ]
   },
   {
     "id": "EI-0300679559154a9d",
@@ -505,14 +512,6 @@
     "id": "EI-77ab5d7af2eff7b8",
     "status": "REJECTED",
     "source_url": "https://www.eia.gov/todayinenergy/detail.php?id=68284",
-    "reasons": [
-      "outside publication window"
-    ]
-  },
-  {
-    "id": "EI-109f7d64c8d9628c",
-    "status": "REJECTED",
-    "source_url": "https://www.eia.gov/todayinenergy/detail.php?id=68264",
     "reasons": [
       "outside publication window"
     ]
