@@ -76,10 +76,10 @@
     "status": "QUARANTINED",
     "reasons": [
       "semantic evidence checks failed",
-      "The Chinese translation of the fifth claim renders '3.2 million Americans' as '3.2 million美国人', leaving the English number word 'million' untranslated; the Chinese should read '320万美国人' to convey the same quantity."
+      "The Chinese translation of the fifth claim leaves '3.2 million' untranslated ('3.2 million美国人'), so the Chinese and English do not convey the same meaning/units; it should read '320万美国人'."
     ],
     "source_url": "https://www.energy.gov/articles/energy-secretary-builds-progress-strengthen-puerto-ricos-energy-reliability",
-    "checked_at": "2026-11-12T15:11:18.140633+00:00",
+    "checked_at": "2026-11-13T14:32:41.000076+00:00",
     "source_sha256": "f44ba1514fb5e8e3c5f11d51734ade8b4e21f2010f671f3194155ce82871cd53",
     "checks": {
       "support": true,
@@ -112,7 +112,7 @@
       "bilingual numerical mismatch"
     ],
     "source_url": "https://www.energy.gov/articles/energy-department-announces-over-230-million-funding-opportunity-strengthen-americas-grid",
-    "checked_at": "2026-11-12T15:11:27.555786+00:00",
+    "checked_at": "2026-11-13T14:32:51.088304+00:00",
     "source_sha256": "ff37e9059bfff1ce9c51c940bc21de658ca2f5b60a762716d7a096ca1de326e9",
     "checks": {},
     "provenance": {
@@ -177,9 +177,33 @@
     ]
   },
   {
+    "id": "EI-0c650ef0bf3bc38a",
+    "status": "REJECTED",
+    "source_url": "https://energy.ec.europa.eu/news/commission-assesses-polands-2030-necp-2026-11-13_en",
+    "reasons": [
+      "outside publication window"
+    ]
+  },
+  {
     "id": "EI-18e5744c10b15765",
     "status": "QUARANTINED",
     "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/SPEECH_26_2410",
+    "reasons": [
+      "canonical document differs from fetched evidence"
+    ]
+  },
+  {
+    "id": "EI-cee91277cc7300a9",
+    "status": "QUARANTINED",
+    "source_url": "https://ec.europa.eu/eurostat/en/web/products-eurostat-news/w/ddn-20261112-2",
+    "reasons": [
+      "canonical document differs from fetched evidence"
+    ]
+  },
+  {
+    "id": "EI-fa4f27ca2bfb761d",
+    "status": "QUARANTINED",
+    "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2373",
     "reasons": [
       "canonical document differs from fetched evidence"
     ]
@@ -190,14 +214,6 @@
     "source_url": "https://energy.ec.europa.eu/news/eu-signs-global-geothermal-pledge-cop31-2026-11-10_en",
     "reasons": [
       "outside publication window"
-    ]
-  },
-  {
-    "id": "EI-fa4f27ca2bfb761d",
-    "status": "QUARANTINED",
-    "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2373",
-    "reasons": [
-      "canonical document differs from fetched evidence"
     ]
   },
   {
@@ -226,10 +242,10 @@
   },
   {
     "id": "EI-d886d88753cb58f8",
-    "status": "QUARANTINED",
+    "status": "REJECTED",
     "source_url": "https://energy.ec.europa.eu/news/commissioner-jorgensen-croatia-discuss-housing-and-energy-priorities-2026-11-04_en",
     "reasons": [
-      "HTTP 429"
+      "irrelevant"
     ]
   },
   {
@@ -241,19 +257,19 @@
     ]
   },
   {
-    "id": "EI-8b7d1e6df520d85d",
-    "status": "QUARANTINED",
-    "source_url": "https://ec.europa.eu/eurostat/en/web/products-eurostat-news/w/ddn-20261104-2",
+    "id": "EI-db9e16bd00591172",
+    "status": "REJECTED",
+    "source_url": "https://www.gov.uk/government/news/global-clean-electricity-to-cut-bills-and-boost-energy-security",
     "reasons": [
-      "canonical document differs from fetched evidence"
+      "outside publication window"
     ]
   },
   {
-    "id": "EI-ae5a6ec0917fbc0f",
-    "status": "QUARANTINED",
-    "source_url": "https://ec.europa.eu/eurostat/en/web/products-eurostat-news/w/ddn-20261104-1",
+    "id": "EI-68ef296d46256201",
+    "status": "REJECTED",
+    "source_url": "https://www.gov.uk/government/news/clean-energy-jobs-fair-held-in-birmingham",
     "reasons": [
-      "canonical document differs from fetched evidence"
+      "outside publication window"
     ]
   },
   {
@@ -282,56 +298,28 @@
   },
   {
     "id": "EI-05ff19f7fee094ff",
-    "status": "VERIFIED",
-    "reasons": [],
+    "status": "QUARANTINED",
+    "reasons": [
+      "evidence excerpt absent from original"
+    ],
     "source_url": "https://www.gov.uk/government/case-studies/protecting-the-worlds-most-biodiverse-coral-reef-ecosystems",
-    "checked_at": "2026-11-12T15:12:11.857881+00:00",
+    "checked_at": "2026-11-13T14:33:43.007998+00:00",
     "source_sha256": "27fd56e3e7f4dc850c608bde599574b7ac5bb456e6f699a30dfcc51c3c616ba6",
-    "checks": {
-      "support": true,
-      "dates": true,
-      "quantities_units_conditions": true,
-      "no_contradictions": true,
-      "authority": true,
-      "capacity_status": true,
-      "legal_status_effective_date": true,
-      "translation_meaning": true
-    },
-    "citations": [
-      "UK support has helped Indonesia establish its largest marine protected area with community co-management, strengthening local conservation.",
-      "UK investment has also supported the development of a new mooring system that enables boats to anchor without damaging reefs. Overall, 10 moorings have been installed, protecting over 1,700 coral species.",
-      "Across Indonesia, UK investment to date has enabled over 526,000 hectares to be placed under sustainable management practices, contributing directly to ICF KPI 17.",
-      "The Coral Triangle, which spans coastal areas in South-East Asia, contains 76% of the world’s reefs and produces 30% of the world’s tuna.",
-      "However, more than 85% of reefs are threatened by overfishing and habitat destruction."
-    ],
-    "notes": [
-      "All four claims are directly supported by the source text: largest MPA with community co-management; new mooring system with 10 moorings protecting over 1,700 coral species; over 526,000 hectares under sustainable management; Coral Triangle 76% of reefs, 30% of tuna, >85% threatened.",
-      "Source is the original publisher (gov.uk official case study), matching the candidate URL and date 2026-11-04.",
-      "Chinese translations convey the same quantities, units and qualifications as the English (e.g., 超过526,000公顷, 10个系泊点, 超过1,700种珊瑚物种, 76%, 30%, 超过85%).",
-      "No legal/regulatory status claims are made, so legal_status_effective_date is inapplicable and passes.",
-      "No capacity status (announced/planned/operational) claims are made beyond describing completed installations and support, consistent with the source."
-    ],
-    "candidate_sha256": "e31e9a9376d6e3439fa9fef514987c52e3df16dc658a97c044deb094d8931462",
+    "checks": {},
     "provenance": {
       "authority": "official",
       "origin": "daily original-source index"
-    },
-    "window": "2026-11-09",
-    "eligible_for_window": true
+    }
   },
   {
     "id": "EI-f0e50cae41ff4976",
     "status": "QUARANTINED",
     "reasons": [
       "conflicting or unsupported numerical data",
-      "bilingual numerical mismatch",
-      "conflicting or unsupported numerical data",
-      "bilingual numerical mismatch",
-      "conflicting or unsupported numerical data",
       "bilingual numerical mismatch"
     ],
     "source_url": "https://www.gov.uk/government/case-studies/bringing-clean-solar-power-to-communities-in-bangladesh",
-    "checked_at": "2026-11-12T15:12:16.980857+00:00",
+    "checked_at": "2026-11-13T14:33:46.703157+00:00",
     "source_sha256": "ee95bb1abf1e2ea6dc57a64fdc3506e3f127eb38f19c691969465d24ed0472a3",
     "checks": {},
     "provenance": {
@@ -349,43 +337,11 @@
   },
   {
     "id": "EI-ba86ecc772c6c25e",
-    "status": "VERIFIED",
-    "reasons": [],
+    "status": "QUARANTINED",
     "source_url": "https://www.gov.uk/government/news/major-undersea-power-cable-given-green-light",
-    "checked_at": "2026-11-12T15:12:28.343714+00:00",
-    "source_sha256": "3485b08a6ddfcfc99cf9800ace6b55853a16531280afa8d3db7fb5610467a67e",
-    "checks": {
-      "support": true,
-      "dates": true,
-      "quantities_units_conditions": true,
-      "no_contradictions": true,
-      "authority": true,
-      "capacity_status": true,
-      "legal_status_effective_date": true,
-      "translation_meaning": true
-    },
-    "citations": [
-      "Developed by National Grid, the 2 GW link will be capable of carrying enough electricity to power the equivalent of 2 million homes",
-      "Sea Link is a 2 GW electricity transmission connection between Suffolk and Kent, running primarily offshore.",
-      "The UK government community benefits scheme will be delivered by National Grid with over a £1 million each for community funds in Kent and Suffolk",
-      "Great North Road Solar and Biodiversity Park, near Newark in Nottinghamshire, will have a generating capacity of 800 MW - enough to power the equivalent of around 400,000 homes a year, according to the developer.",
-      "Frodsham Solar, north of Frodsham in Cheshire, will combine solar panels with battery storage",
-      "The developer behind Frodsham says it could generate enough electricity for 40,000 homes."
-    ],
-    "notes": [
-      "All four claims are supported by the source text: Sea Link 2 GW Suffolk-Kent developed by National Grid; capable of powering equivalent of 2 million homes and running primarily offshore; community benefits scheme delivered by National Grid with over £1 million each for Kent and Suffolk community funds; Great North Road Solar 800 MW near Newark in Nottinghamshire, developer says around 400,000 homes a year; Frodsham Solar north of Frodsham in Cheshire combining solar with battery storage, develop",
-      "Source date 2026-10-30 matches candidate date and publisher date; the article states the approval was made 'today (Friday 30 October)' and the candidate date is 2026-10-30.",
-      "Capacity status: Sea Link is described as approved (government approval), not operational; the candidate says 'approved', which is correct. Great North Road and Frodsham are described as approved decisions, consistent with the source.",
-      "No legal/regulatory status or entry-into-force claims are made, so legal_status_effective_date is inapplicable and passes.",
-      "Chinese translations convey the same quantities, units and qualifications as the English, including '2 GW', '2 million homes', '£1 million', '800 MW', '400,000 homes', '40,000 homes', and the developer attribution for the solar figures."
-    ],
-    "candidate_sha256": "e8c36c6da2e0f87ad2ef47acbdfbbcf8121032085015d03b9256657d06a568c0",
-    "provenance": {
-      "authority": "official",
-      "origin": "daily original-source index"
-    },
-    "window": "2026-11-09",
-    "eligible_for_window": true
+    "reasons": [
+      "bilingual numerals differ"
+    ]
   },
   {
     "id": "EI-abddc183b45fcbdd",
@@ -396,29 +352,12 @@
     ]
   },
   {
-    "id": "EI-8cbf80ccc312f76b",
-    "status": "QUARANTINED",
-    "source_url": "https://www.gov.uk/government/news/chancellor-abolishes-standing-charges-on-gas-bills-to-make-payments-fairer",
+    "id": "EI-2474a6edd8a20e4b",
+    "status": "REJECTED",
+    "source_url": "https://www.eia.gov/todayinenergy/detail.php?id=68445",
     "reasons": [
-      "bilingual numerals differ"
+      "outside publication window"
     ]
-  },
-  {
-    "id": "EI-b0f239c091f27839",
-    "status": "QUARANTINED",
-    "reasons": [
-      "unsupported value/unit combination",
-      "conflicting or unsupported numerical data",
-      "bilingual numerical mismatch"
-    ],
-    "source_url": "https://www.gov.uk/government/news/warm-homes-loan-scheme-factsheet",
-    "checked_at": "2026-11-12T15:12:56.631048+00:00",
-    "source_sha256": "f5de6ed960812d0778c4f1d70f69a6fbfc8a7ed1b535b3b3b030566d4a2e174b",
-    "checks": {},
-    "provenance": {
-      "authority": "official",
-      "origin": "daily original-source index"
-    }
   },
   {
     "id": "EI-e3f23c3f0faa7979",
@@ -504,14 +443,6 @@
     "id": "EI-15c2bd28b1120531",
     "status": "REJECTED",
     "source_url": "https://www.eia.gov/todayinenergy/detail.php?id=68304",
-    "reasons": [
-      "outside publication window"
-    ]
-  },
-  {
-    "id": "EI-77ab5d7af2eff7b8",
-    "status": "REJECTED",
-    "source_url": "https://www.eia.gov/todayinenergy/detail.php?id=68284",
     "reasons": [
       "outside publication window"
     ]
