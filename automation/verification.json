@@ -60,7 +60,47 @@
     "status": "QUARANTINED",
     "source_url": "https://ember-energy.org/latest-insights/global-electricity-review-2026/2025-in-review/",
     "reasons": [
-      "HTTP 403"
+      "canonical document differs from fetched evidence"
+    ]
+  },
+  {
+    "id": "EI-80a9a3796b0c8fd7",
+    "status": "REJECTED",
+    "source_url": "https://ember-energy.org/latest-insights/global-electricity-review-2026",
+    "reasons": [
+      "outside publication window"
+    ]
+  },
+  {
+    "id": "EI-22ec651fef44fbd2",
+    "status": "REJECTED",
+    "source_url": "https://ember-energy.org/latest-insights/european-electricity-review-2026",
+    "reasons": [
+      "outside publication window"
+    ]
+  },
+  {
+    "id": "EI-1849f6f07c145bbc",
+    "status": "REJECTED",
+    "source_url": "https://ember-energy.org/latest-insights/china-energy-transition-review-2026/",
+    "reasons": [
+      "outside publication window"
+    ]
+  },
+  {
+    "id": "EI-13dad1e66fd3ca51",
+    "status": "REJECTED",
+    "source_url": "https://ember-energy.org/latest-insights/global-coal-mine-methane-review-2026/",
+    "reasons": [
+      "outside publication window"
+    ]
+  },
+  {
+    "id": "EI-433e4a95cceabbd5",
+    "status": "REJECTED",
+    "source_url": "https://ember-energy.org/latest-insights/turkiye-electricity-review-2026/",
+    "reasons": [
+      "outside publication window"
     ]
   },
   {
@@ -75,11 +115,10 @@
     "id": "EI-2230a8de69658915",
     "status": "QUARANTINED",
     "reasons": [
-      "semantic evidence checks failed",
-      "The Chinese translation of the fifth claim leaves '3.2 million' untranslated ('3.2 million美国人'), so the Chinese and English do not convey the same meaning/units; it should read '320万美国人'."
+      "semantic evidence checks failed"
     ],
     "source_url": "https://www.energy.gov/articles/energy-secretary-builds-progress-strengthen-puerto-ricos-energy-reliability",
-    "checked_at": "2026-11-13T14:32:41.000076+00:00",
+    "checked_at": "2026-11-14T13:29:28.929431+00:00",
     "source_sha256": "f44ba1514fb5e8e3c5f11d51734ade8b4e21f2010f671f3194155ce82871cd53",
     "checks": {
       "support": true,
@@ -89,7 +128,7 @@
       "authority": true,
       "capacity_status": true,
       "legal_status_effective_date": true,
-      "translation_meaning": false
+      "translation_meaning": true
     },
     "provenance": {
       "authority": "official",
@@ -112,7 +151,7 @@
       "bilingual numerical mismatch"
     ],
     "source_url": "https://www.energy.gov/articles/energy-department-announces-over-230-million-funding-opportunity-strengthen-americas-grid",
-    "checked_at": "2026-11-13T14:32:51.088304+00:00",
+    "checked_at": "2026-11-14T13:29:37.181445+00:00",
     "source_sha256": "ff37e9059bfff1ce9c51c940bc21de658ca2f5b60a762716d7a096ca1de326e9",
     "checks": {},
     "provenance": {
@@ -185,6 +224,14 @@
     ]
   },
   {
+    "id": "EI-104247a2001b899a",
+    "status": "REJECTED",
+    "source_url": "https://energy.ec.europa.eu/news/oil-coordination-group-confirms-continued-supply-stability-across-eu-2026-11-13_en",
+    "reasons": [
+      "outside publication window"
+    ]
+  },
+  {
     "id": "EI-18e5744c10b15765",
     "status": "QUARANTINED",
     "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/SPEECH_26_2410",
@@ -249,14 +296,6 @@
     ]
   },
   {
-    "id": "EI-4d2595c1fc75f24f",
-    "status": "QUARANTINED",
-    "source_url": "https://energy.ec.europa.eu/news/biomethane-mechanism-first-matching-round-connect-buyers-and-suppliers-2026-11-04_en",
-    "reasons": [
-      "bilingual numerals differ"
-    ]
-  },
-  {
     "id": "EI-db9e16bd00591172",
     "status": "REJECTED",
     "source_url": "https://www.gov.uk/government/news/global-clean-electricity-to-cut-bills-and-boost-energy-security",
@@ -298,28 +337,57 @@
   },
   {
     "id": "EI-05ff19f7fee094ff",
-    "status": "QUARANTINED",
-    "reasons": [
-      "evidence excerpt absent from original"
-    ],
+    "status": "VERIFIED",
+    "reasons": [],
     "source_url": "https://www.gov.uk/government/case-studies/protecting-the-worlds-most-biodiverse-coral-reef-ecosystems",
-    "checked_at": "2026-11-13T14:33:43.007998+00:00",
+    "checked_at": "2026-11-14T13:30:23.372799+00:00",
     "source_sha256": "27fd56e3e7f4dc850c608bde599574b7ac5bb456e6f699a30dfcc51c3c616ba6",
-    "checks": {},
+    "checks": {
+      "support": true,
+      "dates": true,
+      "quantities_units_conditions": true,
+      "no_contradictions": true,
+      "authority": true,
+      "capacity_status": true,
+      "legal_status_effective_date": true,
+      "translation_meaning": true
+    },
+    "citations": [
+      "UK support has helped Indonesia establish its largest marine protected area with community co-management, strengthening local conservation.",
+      "UK investment has also supported the development of a new mooring system that enables boats to anchor without damaging reefs. Overall, 10 moorings have been installed, protecting over 1,700 coral species.",
+      "Across Indonesia, UK investment to date has enabled over 526,000 hectares to be placed under sustainable management practices, contributing directly to ICF KPI 17.",
+      "The Coral Triangle, which spans coastal areas in South-East Asia, contains 76% of the world’s reefs and produces 30% of the world’s tuna.",
+      "However, more than 85% of reefs are threatened by overfishing and habitat destruction."
+    ],
+    "notes": [
+      "All four claims are directly supported by verbatim excerpts in the source text.",
+      "Quantities match: 10 moorings, over 1,700 coral species, over 526,000 hectares, 76% of world's reefs, 30% of world's tuna, more than 85% of reefs threatened.",
+      "Chinese translations convey the same meaning and qualifications (e.g., 超过 for 'over/more than', 迄今为止 for 'to date').",
+      "Source is the original publisher (gov.uk official case study); candidate date 2026-11-04 matches source date.",
+      "No legal/regulatory status claims are made, so legal_status_effective_date is inapplicable and passes.",
+      "No capacity status (announced/planned/operational) claims are made, so capacity_status is inapplicable and passes."
+    ],
+    "candidate_sha256": "6ec4dba7eae94933f3eb28dd722cf61307674abf1f52a7b1d953227053ab4f12",
     "provenance": {
       "authority": "official",
       "origin": "daily original-source index"
-    }
+    },
+    "window": "2026-11-09",
+    "eligible_for_window": true
   },
   {
     "id": "EI-f0e50cae41ff4976",
     "status": "QUARANTINED",
     "reasons": [
       "conflicting or unsupported numerical data",
+      "bilingual numerical mismatch",
+      "conflicting or unsupported numerical data",
+      "bilingual numerical mismatch",
+      "conflicting or unsupported numerical data",
       "bilingual numerical mismatch"
     ],
     "source_url": "https://www.gov.uk/government/case-studies/bringing-clean-solar-power-to-communities-in-bangladesh",
-    "checked_at": "2026-11-13T14:33:46.703157+00:00",
+    "checked_at": "2026-11-14T13:30:28.088244+00:00",
     "source_sha256": "ee95bb1abf1e2ea6dc57a64fdc3506e3f127eb38f19c691969465d24ed0472a3",
     "checks": {},
     "provenance": {
