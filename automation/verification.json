@@ -60,48 +60,34 @@
     "status": "QUARANTINED",
     "source_url": "https://ember-energy.org/latest-insights/global-electricity-review-2026/2025-in-review/",
     "reasons": [
-      "canonical document differs from fetched evidence"
+      "HTTP 403"
     ]
   },
   {
-    "id": "EI-80a9a3796b0c8fd7",
-    "status": "REJECTED",
-    "source_url": "https://ember-energy.org/latest-insights/global-electricity-review-2026",
+    "id": "EI-e8a722d278354d84",
+    "status": "QUARANTINED",
     "reasons": [
-      "outside publication window"
-    ]
-  },
-  {
-    "id": "EI-22ec651fef44fbd2",
-    "status": "REJECTED",
-    "source_url": "https://ember-energy.org/latest-insights/european-electricity-review-2026",
-    "reasons": [
-      "outside publication window"
-    ]
-  },
-  {
-    "id": "EI-1849f6f07c145bbc",
-    "status": "REJECTED",
-    "source_url": "https://ember-energy.org/latest-insights/china-energy-transition-review-2026/",
-    "reasons": [
-      "outside publication window"
-    ]
-  },
-  {
-    "id": "EI-13dad1e66fd3ca51",
-    "status": "REJECTED",
-    "source_url": "https://ember-energy.org/latest-insights/global-coal-mine-methane-review-2026/",
-    "reasons": [
-      "outside publication window"
-    ]
-  },
-  {
-    "id": "EI-433e4a95cceabbd5",
-    "status": "REJECTED",
-    "source_url": "https://ember-energy.org/latest-insights/turkiye-electricity-review-2026/",
-    "reasons": [
-      "outside publication window"
-    ]
+      "semantic evidence checks failed",
+      "Candidate date is 2026-11-07, but the source article is dated November 14, 2026; the dates do not match.",
+      "The candidate's date (2026-11-07) precedes the order's stated effective start date (November 15, 2026) and the article's publication date (November 14, 2026), creating an internal inconsistency."
+    ],
+    "source_url": "https://www.energy.gov/articles/energy-secretary-keeps-critical-coal-fired-generation-operational-ahead-winter-midwest",
+    "checked_at": "2026-11-15T13:54:43.034089+00:00",
+    "source_sha256": "b223b1c5fb444f86a4bdeb81f81e5fef9ef74f25acbddfc3b9524d9fa5b05d31",
+    "checks": {
+      "support": true,
+      "dates": false,
+      "quantities_units_conditions": true,
+      "no_contradictions": false,
+      "authority": true,
+      "capacity_status": true,
+      "legal_status_effective_date": true,
+      "translation_meaning": true
+    },
+    "provenance": {
+      "authority": "official",
+      "origin": "daily original-source index"
+    }
   },
   {
     "id": "EI-ebc09e0ce28ab518",
@@ -115,10 +101,11 @@
     "id": "EI-2230a8de69658915",
     "status": "QUARANTINED",
     "reasons": [
-      "semantic evidence checks failed"
+      "semantic evidence checks failed",
+      "The Chinese translation of the fifth claim renders '3.2 million Americans' as '3.2 million美国人', leaving the English numeral/unit untranslated; the Chinese should convey '320万美国人' to match the source's meaning and units."
     ],
     "source_url": "https://www.energy.gov/articles/energy-secretary-builds-progress-strengthen-puerto-ricos-energy-reliability",
-    "checked_at": "2026-11-14T13:29:28.929431+00:00",
+    "checked_at": "2026-11-15T13:54:51.957702+00:00",
     "source_sha256": "f44ba1514fb5e8e3c5f11d51734ade8b4e21f2010f671f3194155ce82871cd53",
     "checks": {
       "support": true,
@@ -128,7 +115,7 @@
       "authority": true,
       "capacity_status": true,
       "legal_status_effective_date": true,
-      "translation_meaning": true
+      "translation_meaning": false
     },
     "provenance": {
       "authority": "official",
@@ -151,7 +138,7 @@
       "bilingual numerical mismatch"
     ],
     "source_url": "https://www.energy.gov/articles/energy-department-announces-over-230-million-funding-opportunity-strengthen-americas-grid",
-    "checked_at": "2026-11-14T13:29:37.181445+00:00",
+    "checked_at": "2026-11-15T13:55:01.211913+00:00",
     "source_sha256": "ff37e9059bfff1ce9c51c940bc21de658ca2f5b60a762716d7a096ca1de326e9",
     "checks": {},
     "provenance": {
@@ -203,14 +190,6 @@
     "id": "EI-fd42fdf1e260a67a",
     "status": "REJECTED",
     "source_url": "https://www.energy.gov/articles/energy-department-use-defense-production-act-funding-restart-american-refinery-and-expand",
-    "reasons": [
-      "outside publication window"
-    ]
-  },
-  {
-    "id": "EI-3fff9451d212fb74",
-    "status": "REJECTED",
-    "source_url": "https://www.energy.gov/articles/energy-department-announces-over-125-million-63-projects-across-16-states-lower-energy",
     "reasons": [
       "outside publication window"
     ]
@@ -340,7 +319,7 @@
     "status": "VERIFIED",
     "reasons": [],
     "source_url": "https://www.gov.uk/government/case-studies/protecting-the-worlds-most-biodiverse-coral-reef-ecosystems",
-    "checked_at": "2026-11-14T13:30:23.372799+00:00",
+    "checked_at": "2026-11-15T13:55:42.592198+00:00",
     "source_sha256": "27fd56e3e7f4dc850c608bde599574b7ac5bb456e6f699a30dfcc51c3c616ba6",
     "checks": {
       "support": true,
@@ -354,20 +333,21 @@
     },
     "citations": [
       "UK support has helped Indonesia establish its largest marine protected area with community co-management, strengthening local conservation.",
-      "UK investment has also supported the development of a new mooring system that enables boats to anchor without damaging reefs. Overall, 10 moorings have been installed, protecting over 1,700 coral species.",
+      "Overall, 10 moorings have been installed, protecting over 1,700 coral species.",
       "Across Indonesia, UK investment to date has enabled over 526,000 hectares to be placed under sustainable management practices, contributing directly to ICF KPI 17.",
-      "The Coral Triangle, which spans coastal areas in South-East Asia, contains 76% of the world’s reefs and produces 30% of the world’s tuna.",
-      "However, more than 85% of reefs are threatened by overfishing and habitat destruction."
+      "However, more than 85% of reefs are threatened by overfishing and habitat destruction.",
+      "The Coral Triangle, which spans coastal areas in South-East Asia, contains 76% of the world’s reefs and produces 30% of the world’s tuna."
     ],
     "notes": [
-      "All four claims are directly supported by verbatim excerpts in the source text.",
-      "Quantities match: 10 moorings, over 1,700 coral species, over 526,000 hectares, 76% of world's reefs, 30% of world's tuna, more than 85% of reefs threatened.",
-      "Chinese translations convey the same meaning and qualifications (e.g., 超过 for 'over/more than', 迄今为止 for 'to date').",
-      "Source is the original publisher (gov.uk official case study); candidate date 2026-11-04 matches source date.",
+      "All five claims are directly supported by verbatim excerpts in the source text.",
+      "Candidate date 2026-11-04 matches the source publisher date.",
+      "Quantities and units match: 10 moorings, over 1,700 coral species, over 526,000 hectares, more than 85% of reefs, 76% of the world's reefs, 30% of the world's tuna.",
+      "Chinese translations convey the same meaning and qualifications (e.g., 超过/over, 迄今为止/to date, 超过85%/more than 85%).",
+      "Source is the original publisher (gov.uk official case study), so authority passes.",
       "No legal/regulatory status claims are made, so legal_status_effective_date is inapplicable and passes.",
-      "No capacity status (announced/planned/operational) claims are made, so capacity_status is inapplicable and passes."
+      "No announced/planned/under-construction capacity claims; described activities are reported as completed (moorings installed, hectares placed under management), consistent with source wording."
     ],
-    "candidate_sha256": "6ec4dba7eae94933f3eb28dd722cf61307674abf1f52a7b1d953227053ab4f12",
+    "candidate_sha256": "4c32a2cc9476dacc505b25ce9dd2e67bc6170edff74b7fdf861b8629d1de6177",
     "provenance": {
       "authority": "official",
       "origin": "daily original-source index"
@@ -387,7 +367,7 @@
       "bilingual numerical mismatch"
     ],
     "source_url": "https://www.gov.uk/government/case-studies/bringing-clean-solar-power-to-communities-in-bangladesh",
-    "checked_at": "2026-11-14T13:30:28.088244+00:00",
+    "checked_at": "2026-11-15T13:55:48.775463+00:00",
     "source_sha256": "ee95bb1abf1e2ea6dc57a64fdc3506e3f127eb38f19c691969465d24ed0472a3",
     "checks": {},
     "provenance": {
