@@ -68,11 +68,11 @@
     "status": "QUARANTINED",
     "reasons": [
       "semantic evidence checks failed",
-      "Candidate date is 2026-11-07, but the source article is dated November 14, 2026; the dates do not match.",
-      "The candidate's date (2026-11-07) precedes the order's stated effective start date (November 15, 2026) and the article's publication date (November 14, 2026), creating an internal inconsistency."
+      "The candidate's publication date is 2026-11-07, but the source article is dated November 14, 2026; the dates do not match.",
+      "The candidate date (2026-11-07) precedes the order's stated effective start date (November 15, 2026) and the article's own publication date (November 14, 2026), an internal inconsistency."
     ],
     "source_url": "https://www.energy.gov/articles/energy-secretary-keeps-critical-coal-fired-generation-operational-ahead-winter-midwest",
-    "checked_at": "2026-11-15T13:54:43.034089+00:00",
+    "checked_at": "2026-11-16T15:42:20.087785+00:00",
     "source_sha256": "b223b1c5fb444f86a4bdeb81f81e5fef9ef74f25acbddfc3b9524d9fa5b05d31",
     "checks": {
       "support": true,
@@ -102,10 +102,10 @@
     "status": "QUARANTINED",
     "reasons": [
       "semantic evidence checks failed",
-      "The Chinese translation of the fifth claim renders '3.2 million Americans' as '3.2 million美国人', leaving the English numeral/unit untranslated; the Chinese should convey '320万美国人' to match the source's meaning and units."
+      "Claim 5 Chinese translation renders '3.2 million Americans' as '3.2 million美国人' (mixing English numeral word 'million' into Chinese), so the Chinese does not fully convey the same meaning as the English; it should be '320万美国人'."
     ],
     "source_url": "https://www.energy.gov/articles/energy-secretary-builds-progress-strengthen-puerto-ricos-energy-reliability",
-    "checked_at": "2026-11-15T13:54:51.957702+00:00",
+    "checked_at": "2026-11-16T15:42:25.372348+00:00",
     "source_sha256": "f44ba1514fb5e8e3c5f11d51734ade8b4e21f2010f671f3194155ce82871cd53",
     "checks": {
       "support": true,
@@ -125,26 +125,10 @@
   {
     "id": "EI-7e0c5f16fa4ed256",
     "status": "QUARANTINED",
-    "reasons": [
-      "conflicting or unsupported numerical data",
-      "bilingual numerical mismatch",
-      "conflicting or unsupported numerical data",
-      "bilingual numerical mismatch",
-      "conflicting or unsupported numerical data",
-      "bilingual numerical mismatch",
-      "conflicting or unsupported numerical data",
-      "bilingual numerical mismatch",
-      "conflicting or unsupported numerical data",
-      "bilingual numerical mismatch"
-    ],
     "source_url": "https://www.energy.gov/articles/energy-department-announces-over-230-million-funding-opportunity-strengthen-americas-grid",
-    "checked_at": "2026-11-15T13:55:01.211913+00:00",
-    "source_sha256": "ff37e9059bfff1ce9c51c940bc21de658ca2f5b60a762716d7a096ca1de326e9",
-    "checks": {},
-    "provenance": {
-      "authority": "official",
-      "origin": "daily original-source index"
-    }
+    "reasons": [
+      "bilingual numerals differ"
+    ]
   },
   {
     "id": "EI-3b1451d344fdc5bb",
@@ -190,6 +174,14 @@
     "id": "EI-fd42fdf1e260a67a",
     "status": "REJECTED",
     "source_url": "https://www.energy.gov/articles/energy-department-use-defense-production-act-funding-restart-american-refinery-and-expand",
+    "reasons": [
+      "outside publication window"
+    ]
+  },
+  {
+    "id": "EI-e21c4f43240a3c17",
+    "status": "REJECTED",
+    "source_url": "https://energy.ec.europa.eu/news/electricity-coordination-group-considers-eu-electricity-market-prepared-winter-2026-11-16_en",
     "reasons": [
       "outside publication window"
     ]
@@ -267,14 +259,6 @@
     ]
   },
   {
-    "id": "EI-d886d88753cb58f8",
-    "status": "REJECTED",
-    "source_url": "https://energy.ec.europa.eu/news/commissioner-jorgensen-croatia-discuss-housing-and-energy-priorities-2026-11-04_en",
-    "reasons": [
-      "irrelevant"
-    ]
-  },
-  {
     "id": "EI-db9e16bd00591172",
     "status": "REJECTED",
     "source_url": "https://www.gov.uk/government/news/global-clean-electricity-to-cut-bills-and-boost-energy-security",
@@ -319,7 +303,7 @@
     "status": "VERIFIED",
     "reasons": [],
     "source_url": "https://www.gov.uk/government/case-studies/protecting-the-worlds-most-biodiverse-coral-reef-ecosystems",
-    "checked_at": "2026-11-15T13:55:42.592198+00:00",
+    "checked_at": "2026-11-16T15:43:18.098494+00:00",
     "source_sha256": "27fd56e3e7f4dc850c608bde599574b7ac5bb456e6f699a30dfcc51c3c616ba6",
     "checks": {
       "support": true,
@@ -332,22 +316,20 @@
       "translation_meaning": true
     },
     "citations": [
-      "UK support has helped Indonesia establish its largest marine protected area with community co-management, strengthening local conservation.",
-      "Overall, 10 moorings have been installed, protecting over 1,700 coral species.",
       "Across Indonesia, UK investment to date has enabled over 526,000 hectares to be placed under sustainable management practices, contributing directly to ICF KPI 17.",
-      "However, more than 85% of reefs are threatened by overfishing and habitat destruction.",
-      "The Coral Triangle, which spans coastal areas in South-East Asia, contains 76% of the world’s reefs and produces 30% of the world’s tuna."
+      "Overall, 10 moorings have been installed, protecting over 1,700 coral species.",
+      "UK support has helped Indonesia establish its largest marine protected area with community co-management, strengthening local conservation.",
+      "The Coral Triangle, which spans coastal areas in South-East Asia, contains 76% of the world’s reefs and produces 30% of the world’s tuna.",
+      "However, more than 85% of reefs are threatened by overfishing and habitat destruction."
     ],
     "notes": [
-      "All five claims are directly supported by verbatim excerpts in the source text.",
-      "Candidate date 2026-11-04 matches the source publisher date.",
-      "Quantities and units match: 10 moorings, over 1,700 coral species, over 526,000 hectares, more than 85% of reefs, 76% of the world's reefs, 30% of the world's tuna.",
-      "Chinese translations convey the same meaning and qualifications (e.g., 超过/over, 迄今为止/to date, 超过85%/more than 85%).",
-      "Source is the original publisher (gov.uk official case study), so authority passes.",
+      "All five claims are directly supported by the source text: 526,000 hectares under sustainable management; 10 moorings installed; largest marine protected area with community co-management; Coral Triangle 76% of reefs and 30% of tuna; more than 85% of reefs threatened.",
+      "Chinese translations convey the same meaning and qualifications as the English claims.",
+      "Source is the original publisher (gov.uk official case study); candidate date matches the source date 2026-11-04.",
       "No legal/regulatory status claims are made, so legal_status_effective_date is inapplicable and passes.",
-      "No announced/planned/under-construction capacity claims; described activities are reported as completed (moorings installed, hectares placed under management), consistent with source wording."
+      "No announced/planned/under-construction capacity claims are made; the described activities are reported as completed/installed, consistent with the source."
     ],
-    "candidate_sha256": "4c32a2cc9476dacc505b25ce9dd2e67bc6170edff74b7fdf861b8629d1de6177",
+    "candidate_sha256": "c7f16eba236e16be81227862c7759d0f673a9438ab2ee4ca1caf06064557fbc3",
     "provenance": {
       "authority": "official",
       "origin": "daily original-source index"
@@ -367,7 +349,7 @@
       "bilingual numerical mismatch"
     ],
     "source_url": "https://www.gov.uk/government/case-studies/bringing-clean-solar-power-to-communities-in-bangladesh",
-    "checked_at": "2026-11-15T13:55:48.775463+00:00",
+    "checked_at": "2026-11-16T15:43:23.421923+00:00",
     "source_sha256": "ee95bb1abf1e2ea6dc57a64fdc3506e3f127eb38f19c691969465d24ed0472a3",
     "checks": {},
     "provenance": {

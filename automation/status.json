@@ -1,9 +1,9 @@
 {
-  "checked_at": "2026-11-15T13:54:37.001070+00:00",
+  "checked_at": "2026-11-16T15:42:13.971774+00:00",
   "window": "2026-11-09",
   "status": "skipped",
   "last_publication": "EI-2026-10-26",
-  "last_successful_check": "2026-11-15T13:59:15Z",
+  "last_successful_check": "2026-11-16T15:44:23.232296+00:00",
   "reasons": [
     "fewer than three verified bilingual developments",
     "skipped: 1 verified bilingual developments (regular edition needs 3, compact edition 2)"
@@ -23,9 +23,5 @@
         "reason": "HTTP 403"
       }
     ]
-  },
-  "deployment_status": "confirmed",
-  "confirmed_revision": "4b84fc8497bf6e055e2386898c2dfc0b29f47b93",
-  "deployment_run_url": "https://github.com/rethinksci-gif/electrification-intelligence-site/actions/runs/43721717850",
-  "last_confirmed_publication": "auto-2026-10-26"
+  }
 }
