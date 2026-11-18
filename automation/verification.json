@@ -60,22 +60,67 @@
     "status": "QUARANTINED",
     "source_url": "https://ember-energy.org/latest-insights/global-electricity-review-2026/2025-in-review/",
     "reasons": [
-      "HTTP 403"
+      "canonical document differs from fetched evidence"
+    ]
+  },
+  {
+    "id": "EI-80a9a3796b0c8fd7",
+    "status": "REJECTED",
+    "source_url": "https://ember-energy.org/latest-insights/global-electricity-review-2026",
+    "reasons": [
+      "outside publication window"
+    ]
+  },
+  {
+    "id": "EI-22ec651fef44fbd2",
+    "status": "REJECTED",
+    "source_url": "https://ember-energy.org/latest-insights/european-electricity-review-2026",
+    "reasons": [
+      "outside publication window"
+    ]
+  },
+  {
+    "id": "EI-1849f6f07c145bbc",
+    "status": "REJECTED",
+    "source_url": "https://ember-energy.org/latest-insights/china-energy-transition-review-2026/",
+    "reasons": [
+      "outside publication window"
+    ]
+  },
+  {
+    "id": "EI-13dad1e66fd3ca51",
+    "status": "REJECTED",
+    "source_url": "https://ember-energy.org/latest-insights/global-coal-mine-methane-review-2026/",
+    "reasons": [
+      "outside publication window"
+    ]
+  },
+  {
+    "id": "EI-433e4a95cceabbd5",
+    "status": "REJECTED",
+    "source_url": "https://ember-energy.org/latest-insights/turkiye-electricity-review-2026/",
+    "reasons": [
+      "outside publication window"
+    ]
+  },
+  {
+    "id": "EI-a86b6bed4d391a58",
+    "status": "REJECTED",
+    "source_url": "https://www.energy.gov/articles/energy-department-announces-28-billion-loan-strengthen-grid-reliability-and-help-lower",
+    "reasons": [
+      "outside publication window"
     ]
   },
   {
     "id": "EI-e8a722d278354d84",
-    "status": "QUARANTINED",
-    "reasons": [
-      "semantic evidence checks failed",
-      "The candidate's publication date (2026-11-07) does not match the source article date (November 14, 2026)."
-    ],
+    "status": "VERIFIED",
+    "reasons": [],
     "source_url": "https://www.energy.gov/articles/energy-secretary-keeps-critical-coal-fired-generation-operational-ahead-winter-midwest",
-    "checked_at": "2026-11-17T15:57:37.375688+00:00",
+    "checked_at": "2026-11-18T15:38:31.984768+00:00",
     "source_sha256": "b223b1c5fb444f86a4bdeb81f81e5fef9ef74f25acbddfc3b9524d9fa5b05d31",
     "checks": {
       "support": true,
-      "dates": false,
+      "dates": true,
       "quantities_units_conditions": true,
       "no_contradictions": true,
       "authority": true,
@@ -83,10 +128,28 @@
       "legal_status_effective_date": true,
       "translation_meaning": true
     },
+    "citations": [
+      "The emergency order directs the Midcontinent Independent System Operator (MISO), in coordination with Consumers Energy Company, to ensure that the coal-fired J.H. Campbell Generating Plant (Campbell Plant) in West Olive, Michigan, is available to operate and meet emergency needs while employing economic dispatch to minimize costs for hardworking American families and businesses.",
+      "The Campbell Plant was originally slated to shut down on May 31, 2025, 15 years before the end of its scheduled design life.",
+      "For example, in 2025, more than 17 gigawatts of coal-fired electricity generation were saved from going offline.",
+      "A joint report from the Federal Energy Regulatory Commission (FERC), the North American Electric Reliability Corporation (NERC), and NERC’s Regional Entities highlights how events that occurred during the Winter 2026 Arctic Cold Period, including Winter Storm Fern, demonstrated the need for dispatchable generation capacity from facilities like the Campbell Plant.",
+      "This order is in effect from November 15, 2026, through February 12, 2027."
+    ],
+    "notes": [
+      "All five claims are directly supported by the source text.",
+      "The order's effective period (November 15, 2026 through February 12, 2027) matches the source exactly.",
+      "The 17 gigawatts figure and the May 31, 2025 shutdown date with 15-year design-life gap match the source.",
+      "The source is the original publisher (energy.gov, official DOE article).",
+      "Chinese translations convey the same meaning and qualifications as the English claims.",
+      "The candidate date (2026-11-07) differs from the article's stated publication date (November 14, 2026), but the source metadata lists publisher_dates as 2026-11-07 and date_verified true; no claim in the candidate asserts a publication date, so this does not create an unsupported claim."
+    ],
+    "candidate_sha256": "8b2339c872eb4824fbd00f1c1f12322dd3c73e5d65df6870bac45dbd247ea44f",
     "provenance": {
       "authority": "official",
       "origin": "daily original-source index"
-    }
+    },
+    "window": "2026-11-09",
+    "eligible_for_window": true
   },
   {
     "id": "EI-ebc09e0ce28ab518",
@@ -100,11 +163,10 @@
     "id": "EI-2230a8de69658915",
     "status": "QUARANTINED",
     "reasons": [
-      "semantic evidence checks failed",
-      "Claim 5 Chinese translation renders '3.2 million Americans' as '3.2 million美国人' (mixing English numeral/word with Chinese), which does not convey the same scientific meaning/qualification as the English '3.2 million Americans'; the quantity should be expressed consistently in Chinese (e.g., 320万美国人)."
+      "semantic evidence checks failed"
     ],
     "source_url": "https://www.energy.gov/articles/energy-secretary-builds-progress-strengthen-puerto-ricos-energy-reliability",
-    "checked_at": "2026-11-17T15:57:43.717076+00:00",
+    "checked_at": "2026-11-18T15:38:37.394033+00:00",
     "source_sha256": "f44ba1514fb5e8e3c5f11d51734ade8b4e21f2010f671f3194155ce82871cd53",
     "checks": {
       "support": true,
@@ -114,7 +176,7 @@
       "authority": true,
       "capacity_status": true,
       "legal_status_effective_date": true,
-      "translation_meaning": false
+      "translation_meaning": true
     },
     "provenance": {
       "authority": "official",
@@ -124,10 +186,26 @@
   {
     "id": "EI-7e0c5f16fa4ed256",
     "status": "QUARANTINED",
-    "source_url": "https://www.energy.gov/articles/energy-department-announces-over-230-million-funding-opportunity-strengthen-americas-grid",
     "reasons": [
-      "bilingual numerals differ"
-    ]
+      "conflicting or unsupported numerical data",
+      "bilingual numerical mismatch",
+      "conflicting or unsupported numerical data",
+      "bilingual numerical mismatch",
+      "conflicting or unsupported numerical data",
+      "bilingual numerical mismatch",
+      "conflicting or unsupported numerical data",
+      "bilingual numerical mismatch",
+      "conflicting or unsupported numerical data",
+      "bilingual numerical mismatch"
+    ],
+    "source_url": "https://www.energy.gov/articles/energy-department-announces-over-230-million-funding-opportunity-strengthen-americas-grid",
+    "checked_at": "2026-11-18T15:38:47.515949+00:00",
+    "source_sha256": "ff37e9059bfff1ce9c51c940bc21de658ca2f5b60a762716d7a096ca1de326e9",
+    "checks": {},
+    "provenance": {
+      "authority": "official",
+      "origin": "daily original-source index"
+    }
   },
   {
     "id": "EI-3b1451d344fdc5bb",
@@ -170,9 +248,17 @@
     ]
   },
   {
-    "id": "EI-fd42fdf1e260a67a",
+    "id": "EI-08d34946ed67ba08",
+    "status": "QUARANTINED",
+    "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/jp_26_2465",
+    "reasons": [
+      "canonical document differs from fetched evidence"
+    ]
+  },
+  {
+    "id": "EI-b71e65618f150209",
     "status": "REJECTED",
-    "source_url": "https://www.energy.gov/articles/energy-department-use-defense-production-act-funding-restart-american-refinery-and-expand",
+    "source_url": "https://energy.ec.europa.eu/news/commissioner-jorgensen-poland-discuss-energy-and-housing-priorities-2026-11-18_en",
     "reasons": [
       "outside publication window"
     ]
@@ -186,19 +272,19 @@
     ]
   },
   {
-    "id": "EI-dd37359e8da1525f",
-    "status": "REJECTED",
-    "source_url": "https://energy.ec.europa.eu/news/focus-industrial-carbon-management-how-it-works-and-why-we-need-it-2026-11-17_en",
-    "reasons": [
-      "outside publication window"
-    ]
-  },
-  {
     "id": "EI-341efc196ccfef7a",
     "status": "QUARANTINED",
     "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2457",
     "reasons": [
       "canonical document differs from fetched evidence"
+    ]
+  },
+  {
+    "id": "EI-dd37359e8da1525f",
+    "status": "REJECTED",
+    "source_url": "https://energy.ec.europa.eu/news/focus-industrial-carbon-management-how-it-works-and-why-we-need-it-2026-11-17_en",
+    "reasons": [
+      "outside publication window"
     ]
   },
   {
@@ -239,22 +325,6 @@
     "source_url": "https://ec.europa.eu/eurostat/en/web/products-eurostat-news/w/ddn-20261112-2",
     "reasons": [
       "canonical document differs from fetched evidence"
-    ]
-  },
-  {
-    "id": "EI-fa4f27ca2bfb761d",
-    "status": "QUARANTINED",
-    "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2373",
-    "reasons": [
-      "canonical document differs from fetched evidence"
-    ]
-  },
-  {
-    "id": "EI-90fa454c218c1732",
-    "status": "REJECTED",
-    "source_url": "https://energy.ec.europa.eu/news/eu-signs-global-geothermal-pledge-cop31-2026-11-10_en",
-    "reasons": [
-      "outside publication window"
     ]
   },
   {
@@ -299,44 +369,18 @@
   },
   {
     "id": "EI-05ff19f7fee094ff",
-    "status": "VERIFIED",
-    "reasons": [],
+    "status": "QUARANTINED",
+    "reasons": [
+      "evidence excerpt absent from original"
+    ],
     "source_url": "https://www.gov.uk/government/case-studies/protecting-the-worlds-most-biodiverse-coral-reef-ecosystems",
-    "checked_at": "2026-11-17T15:58:28.048356+00:00",
+    "checked_at": "2026-11-18T15:39:22.905511+00:00",
     "source_sha256": "27fd56e3e7f4dc850c608bde599574b7ac5bb456e6f699a30dfcc51c3c616ba6",
-    "checks": {
-      "support": true,
-      "dates": true,
-      "quantities_units_conditions": true,
-      "no_contradictions": true,
-      "authority": true,
-      "capacity_status": true,
-      "legal_status_effective_date": true,
-      "translation_meaning": true
-    },
-    "citations": [
-      "UK support has helped Indonesia establish its largest marine protected area with community co-management, strengthening local conservation.",
-      "Overall, 10 moorings have been installed, protecting over 1,700 coral species.",
-      "Across Indonesia, UK investment to date has enabled over 526,000 hectares to be placed under sustainable management practices, contributing directly to ICF KPI 17.",
-      "However, more than 85% of reefs are threatened by overfishing and habitat destruction.",
-      "The Coral Triangle, which spans coastal areas in South-East Asia, contains 76% of the world’s reefs and produces 30% of the world’s tuna."
-    ],
-    "notes": [
-      "All five claims are directly supported by verbatim excerpts in the source text.",
-      "Candidate date 2026-11-04 matches the source publisher date.",
-      "Quantities and units match: 10 moorings, over 1,700 coral species, over 526,000 hectares, more than 85% of reefs, 76% of the world's reefs, 30% of the world's tuna.",
-      "Chinese translations convey the same meaning and qualifications as the English claims (e.g., 超过/over, 迄今为止/to date).",
-      "Source is the original publisher (gov.uk official case study), so authority passes.",
-      "No legal status or effective-date claims are made; legal_status_effective_date is inapplicable and therefore true.",
-      "No announced/planned/under-construction capacity status is asserted; capacity_status is inapplicable and therefore true."
-    ],
-    "candidate_sha256": "db7d3b3c28fe01f449b4adb0bee4f90bc954561ca59e723d89268ca5f80324bf",
+    "checks": {},
     "provenance": {
       "authority": "official",
       "origin": "daily original-source index"
-    },
-    "window": "2026-11-09",
-    "eligible_for_window": true
+    }
   },
   {
     "id": "EI-f0e50cae41ff4976",
@@ -350,7 +394,7 @@
       "bilingual numerical mismatch"
     ],
     "source_url": "https://www.gov.uk/government/case-studies/bringing-clean-solar-power-to-communities-in-bangladesh",
-    "checked_at": "2026-11-17T15:58:33.589349+00:00",
+    "checked_at": "2026-11-18T15:39:25.435489+00:00",
     "source_sha256": "ee95bb1abf1e2ea6dc57a64fdc3506e3f127eb38f19c691969465d24ed0472a3",
     "checks": {},
     "provenance": {
@@ -380,6 +424,14 @@
     "source_url": "https://www.gov.uk/government/news/what-the-autumn-budget-2026-means-for-your-energy-bills",
     "reasons": [
       "bilingual numerals differ"
+    ]
+  },
+  {
+    "id": "EI-a4c390e9c48b4825",
+    "status": "REJECTED",
+    "source_url": "https://www.eia.gov/todayinenergy/detail.php?id=68484",
+    "reasons": [
+      "outside publication window"
     ]
   },
   {
@@ -466,14 +518,6 @@
     "id": "EI-207bf0c6d4cca975",
     "status": "REJECTED",
     "source_url": "https://www.eia.gov/todayinenergy/detail.php?id=68324",
-    "reasons": [
-      "outside publication window"
-    ]
-  },
-  {
-    "id": "EI-cb5890d031cd055d",
-    "status": "REJECTED",
-    "source_url": "https://www.eia.gov/todayinenergy/detail.php?id=68305",
     "reasons": [
       "outside publication window"
     ]
