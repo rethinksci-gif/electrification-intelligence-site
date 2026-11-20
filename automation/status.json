@@ -1,13 +1,13 @@
 {
-  "checked_at": "2026-11-19T15:42:40.197745+00:00",
+  "checked_at": "2026-11-20T15:25:37.005314+00:00",
   "window": "2026-11-09",
-  "status": "publish",
+  "status": "skipped",
   "last_publication": "EI-2026-11-09",
-  "last_successful_check": "2026-11-19T15:47:30Z",
-  "reasons": [],
-  "windows": {
-    "2026-11-09": "published"
-  },
+  "last_successful_check": "2026-11-20T15:25:57.966935+00:00",
+  "reasons": [
+    "edition already published"
+  ],
+  "windows": {},
   "collection": {
     "candidates": 50,
     "failures": [
@@ -20,9 +20,5 @@
         "reason": "HTTP 403"
       }
     ]
-  },
-  "deployment_status": "confirmed",
-  "confirmed_revision": "058ed3ab42d9593ea18b17953a6c470ccf4f8c7f",
-  "deployment_run_url": "https://github.com/rethinksci-gif/electrification-intelligence-site/actions/runs/44558375141",
-  "last_confirmed_publication": "auto-2026-11-09"
+  }
 }

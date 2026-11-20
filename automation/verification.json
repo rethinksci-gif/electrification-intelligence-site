@@ -64,6 +64,14 @@
     ]
   },
   {
+    "id": "EI-1e9d1e31ef3f573f",
+    "status": "REJECTED",
+    "source_url": "https://www.energy.gov/articles/joint-statement-us-energy-secretary-chris-wright-and-polish-energy-minister-milosz-motyka",
+    "reasons": [
+      "outside publication window"
+    ]
+  },
+  {
     "id": "EI-08c2f3b512606a6b",
     "status": "REJECTED",
     "source_url": "https://www.energy.gov/articles/energy-secretary-acts-protect-mid-atlantic-grid-0",
@@ -81,43 +89,11 @@
   },
   {
     "id": "EI-e8a722d278354d84",
-    "status": "VERIFIED",
-    "reasons": [],
+    "status": "REJECTED",
     "source_url": "https://www.energy.gov/articles/energy-secretary-keeps-critical-coal-fired-generation-operational-ahead-winter-midwest",
-    "checked_at": "2026-11-19T15:42:46.143066+00:00",
-    "source_sha256": "b223b1c5fb444f86a4bdeb81f81e5fef9ef74f25acbddfc3b9524d9fa5b05d31",
-    "checks": {
-      "support": true,
-      "dates": true,
-      "quantities_units_conditions": true,
-      "no_contradictions": true,
-      "authority": true,
-      "capacity_status": true,
-      "legal_status_effective_date": true,
-      "translation_meaning": true
-    },
-    "citations": [
-      "The emergency order directs the Midcontinent Independent System Operator (MISO), in coordination with Consumers Energy Company, to ensure that the coal-fired J.H. Campbell Generating Plant (Campbell Plant) in West Olive, Michigan, is available to operate and meet emergency needs while employing economic dispatch to minimize costs for hardworking American families and businesses.",
-      "The Campbell Plant was originally slated to shut down on May 31, 2025, 15 years before the end of its scheduled design life.",
-      "in 2025, more than 17 gigawatts of coal-fired electricity generation were saved from going offline.",
-      "A joint report from the Federal Energy Regulatory Commission (FERC), the North American Electric Reliability Corporation (NERC), and NERC’s Regional Entities highlights how events that occurred during the Winter 2026 Arctic Cold Period, including Winter Storm Fern, demonstrated the need for dispatchable generation capacity from facilities like the Campbell Plant.",
-      "This order is in effect from November 15, 2026, through February 12, 2027."
-    ],
-    "notes": [
-      "All five claims are directly supported by verbatim excerpts in the source text.",
-      "The emergency order's effective period (November 15, 2026 through February 12, 2027) matches the claim's dates.",
-      "The 17 gigawatts figure and the 15-years-early shutdown characterization match the source.",
-      "The source is the original publisher (energy.gov, official DOE article), satisfying the authority check.",
-      "The candidate URL and source URL match; the source page date is November 14, 2026, while the candidate metadata date is 2026-11-07 — this is a metadata discrepancy, not a claim error, and no claim asserts a publication date.",
-      "Chinese translations convey the same meaning and qualifications as the English claims."
-    ],
-    "candidate_sha256": "19c30062251ba60e7612c29386192bd0e72afbb0c73a05a6490ae055e8c1d923",
-    "provenance": {
-      "authority": "official",
-      "origin": "daily original-source index"
-    },
-    "window": "2026-11-09",
-    "eligible_for_window": true
+    "reasons": [
+      "outside publication window"
+    ]
   },
   {
     "id": "EI-ebc09e0ce28ab518",
@@ -129,52 +105,19 @@
   },
   {
     "id": "EI-2230a8de69658915",
-    "status": "QUARANTINED",
-    "reasons": [
-      "semantic evidence checks failed",
-      "The Chinese translation of the fifth claim renders '3.2 million Americans' as '3.2 million美国人', leaving the English number word 'million' untranslated; the Chinese should read '320万美国人' to convey the same quantity."
-    ],
+    "status": "REJECTED",
     "source_url": "https://www.energy.gov/articles/energy-secretary-builds-progress-strengthen-puerto-ricos-energy-reliability",
-    "checked_at": "2026-11-19T15:42:54.749676+00:00",
-    "source_sha256": "f44ba1514fb5e8e3c5f11d51734ade8b4e21f2010f671f3194155ce82871cd53",
-    "checks": {
-      "support": true,
-      "dates": true,
-      "quantities_units_conditions": true,
-      "no_contradictions": true,
-      "authority": true,
-      "capacity_status": true,
-      "legal_status_effective_date": true,
-      "translation_meaning": false
-    },
-    "provenance": {
-      "authority": "official",
-      "origin": "daily original-source index"
-    }
+    "reasons": [
+      "outside publication window"
+    ]
   },
   {
     "id": "EI-7e0c5f16fa4ed256",
-    "status": "QUARANTINED",
-    "reasons": [
-      "conflicting or unsupported numerical data",
-      "bilingual numerical mismatch",
-      "conflicting or unsupported numerical data",
-      "bilingual numerical mismatch",
-      "conflicting or unsupported numerical data",
-      "bilingual numerical mismatch",
-      "conflicting or unsupported numerical data",
-      "bilingual numerical mismatch",
-      "conflicting or unsupported numerical data",
-      "bilingual numerical mismatch"
-    ],
+    "status": "REJECTED",
     "source_url": "https://www.energy.gov/articles/energy-department-announces-over-230-million-funding-opportunity-strengthen-americas-grid",
-    "checked_at": "2026-11-19T15:43:03.130147+00:00",
-    "source_sha256": "ff37e9059bfff1ce9c51c940bc21de658ca2f5b60a762716d7a096ca1de326e9",
-    "checks": {},
-    "provenance": {
-      "authority": "official",
-      "origin": "daily original-source index"
-    }
+    "reasons": [
+      "outside publication window"
+    ]
   },
   {
     "id": "EI-3b1451d344fdc5bb",
@@ -186,10 +129,10 @@
   },
   {
     "id": "EI-679c30ba476a5e64",
-    "status": "QUARANTINED",
+    "status": "REJECTED",
     "source_url": "https://www.energy.gov/articles/energy-department-announces-5-billion-loan-boost-nuclear-power-and-help-lower-costs",
     "reasons": [
-      "bilingual numerals differ"
+      "outside publication window"
     ]
   },
   {
@@ -201,9 +144,9 @@
     ]
   },
   {
-    "id": "EI-d9326bbabcad1357",
+    "id": "EI-ece583cedb365e54",
     "status": "REJECTED",
-    "source_url": "https://www.energy.gov/articles/energy-department-authorizes-strategic-petroleum-reserve-exchange-support-fuel-supply",
+    "source_url": "https://energy.ec.europa.eu/news/eu-backs-global-compact-cut-energy-bills-and-emissions-buildings-2026-11-20_en",
     "reasons": [
       "outside publication window"
     ]
@@ -225,9 +168,9 @@
     ]
   },
   {
-    "id": "EI-08d34946ed67ba08",
+    "id": "EI-0316553476cd350a",
     "status": "QUARANTINED",
-    "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/jp_26_2465",
+    "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2450",
     "reasons": [
       "canonical document differs from fetched evidence"
     ]
@@ -241,9 +184,9 @@
     ]
   },
   {
-    "id": "EI-0316553476cd350a",
+    "id": "EI-08d34946ed67ba08",
     "status": "QUARANTINED",
-    "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2450",
+    "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/jp_26_2465",
     "reasons": [
       "canonical document differs from fetched evidence"
     ]
@@ -274,18 +217,18 @@
   },
   {
     "id": "EI-e21c4f43240a3c17",
-    "status": "QUARANTINED",
+    "status": "REJECTED",
     "source_url": "https://energy.ec.europa.eu/news/electricity-coordination-group-considers-eu-electricity-market-prepared-winter-2026-11-16_en",
     "reasons": [
-      "HTTP 429"
+      "outside publication window"
     ]
   },
   {
-    "id": "EI-0c650ef0bf3bc38a",
-    "status": "QUARANTINED",
-    "source_url": "https://energy.ec.europa.eu/news/commission-assesses-polands-2030-necp-2026-11-13_en",
+    "id": "EI-7b7a930764e1d245",
+    "status": "REJECTED",
+    "source_url": "https://www.gov.uk/government/news/sports-stadiums-and-supermarkets-drive-2026-solar-revolution",
     "reasons": [
-      "HTTP 429"
+      "outside publication window"
     ]
   },
   {
@@ -330,123 +273,35 @@
   },
   {
     "id": "EI-2c0079a5c997bfc3",
-    "status": "QUARANTINED",
+    "status": "REJECTED",
     "source_url": "https://www.gov.uk/government/news/energy-reforms-to-cut-bills-and-put-power-back-in-peoples-hands",
     "reasons": [
-      "bilingual numerals differ"
+      "outside publication window"
     ]
   },
   {
     "id": "EI-05ff19f7fee094ff",
-    "status": "VERIFIED",
-    "reasons": [],
+    "status": "REJECTED",
     "source_url": "https://www.gov.uk/government/case-studies/protecting-the-worlds-most-biodiverse-coral-reef-ecosystems",
-    "checked_at": "2026-11-19T15:43:34.918519+00:00",
-    "source_sha256": "27fd56e3e7f4dc850c608bde599574b7ac5bb456e6f699a30dfcc51c3c616ba6",
-    "checks": {
-      "support": true,
-      "dates": true,
-      "quantities_units_conditions": true,
-      "no_contradictions": true,
-      "authority": true,
-      "capacity_status": true,
-      "legal_status_effective_date": true,
-      "translation_meaning": true
-    },
-    "citations": [
-      "Across Indonesia, UK investment to date has enabled over 526,000 hectares to be placed under sustainable management practices, contributing directly to ICF KPI 17.",
-      "Overall, 10 moorings have been installed, protecting over 1,700 coral species.",
-      "UK investment has also supported the development of a new mooring system that enables boats to anchor without damaging reefs.",
-      "UK support has helped Indonesia establish its largest marine protected area with community co-management, strengthening local conservation.",
-      "The Coral Triangle, which spans coastal areas in South-East Asia, contains 76% of the world’s reefs and produces 30% of the world’s tuna.",
-      "However, more than 85% of reefs are threatened by overfishing and habitat destruction."
-    ],
-    "notes": [
-      "All five claims are directly supported by the source text.",
-      "Claim 1: source says 'UK investment to date has enabled over 526,000 hectares to be placed under sustainable management practices'; candidate says 'UK International Climate Finance support has enabled over 526,000 hectares in Indonesia' — consistent with the page's ICF framing and Indonesia scope.",
-      "Claim 2: source says '10 moorings have been installed' as part of a new mooring system enabling boats to anchor without damaging reefs; candidate matches. Note the source's 'protecting over 1,700 coral species' is not carried into the candidate claim, which is not an error.",
-      "Claim 3: source says 'UK support has helped Indonesia establish its largest marine protected area with community co-management'; candidate matches.",
-      "Claim 4: source says Coral Triangle 'contains 76% of the world's reefs and produces 30% of the world's tuna'; candidate matches.",
-      "Claim 5: source says 'more than 85% of reefs are threatened by overfishing and habitat destruction'; candidate matches.",
-      "Chinese translations convey the same meaning and qualifications as the English claims.",
-      "No legal/regulatory status claims are made, so legal_status_effective_date is inapplicable and passes.",
-      "No capacity status (announced/planned/operational) claims are made, so capacity_status is inapplicable and passes.",
-      "Source is the official gov.uk publisher; candidate URL matches source URL."
-    ],
-    "candidate_sha256": "4cc8c308dbee968e96bca651a762f526584aa9a1408331c3c1c7365d086cdf10",
-    "provenance": {
-      "authority": "official",
-      "origin": "daily original-source index"
-    },
-    "window": "2026-11-09",
-    "eligible_for_window": true
-  },
-  {
-    "id": "EI-f0e50cae41ff4976",
-    "status": "QUARANTINED",
     "reasons": [
-      "conflicting or unsupported numerical data",
-      "bilingual numerical mismatch",
-      "conflicting or unsupported numerical data",
-      "bilingual numerical mismatch",
-      "conflicting or unsupported numerical data",
-      "bilingual numerical mismatch"
-    ],
-    "source_url": "https://www.gov.uk/government/case-studies/bringing-clean-solar-power-to-communities-in-bangladesh",
-    "checked_at": "2026-11-19T15:43:40.950723+00:00",
-    "source_sha256": "ee95bb1abf1e2ea6dc57a64fdc3506e3f127eb38f19c691969465d24ed0472a3",
-    "checks": {},
-    "provenance": {
-      "authority": "official",
-      "origin": "daily original-source index"
-    }
-  },
-  {
-    "id": "EI-373f8f19889773ac",
-    "status": "QUARANTINED",
-    "source_url": "https://www.gov.uk/government/news/giant-12-tonne-box-lowered-into-place-for-fusion-upgrade",
-    "reasons": [
-      "bilingual numerals differ"
+      "outside publication window"
     ]
   },
   {
-    "id": "EI-ba86ecc772c6c25e",
-    "status": "VERIFIED",
-    "reasons": [],
-    "source_url": "https://www.gov.uk/government/news/major-undersea-power-cable-given-green-light",
-    "checked_at": "2026-11-19T15:43:52.236935+00:00",
-    "source_sha256": "3485b08a6ddfcfc99cf9800ace6b55853a16531280afa8d3db7fb5610467a67e",
-    "checks": {
-      "support": true,
-      "dates": true,
-      "quantities_units_conditions": true,
-      "no_contradictions": true,
-      "authority": true,
-      "capacity_status": true,
-      "legal_status_effective_date": true,
-      "translation_meaning": true
-    },
-    "citations": [
-      "the government today (Friday 30 October) approves Sea Link, a major undersea power connection between Suffolk and Kent.",
-      "Developed by National Grid, the 2 GW link will be capable of carrying enough electricity to power the equivalent of 2 million homes",
-      "The UK government community benefits scheme will be delivered by National Grid with over a £1 million each for community funds in Kent and Suffolk",
-      "Sea Link is a 2 GW electricity transmission connection between Suffolk and Kent, running primarily offshore.",
-      "Great North Road Solar and Biodiversity Park, near Newark in Nottinghamshire, will have a generating capacity of 800 MW - enough to power the equivalent of around 400,000 homes a year, according to the developer."
-    ],
-    "notes": [
-      "All claims are supported by the source text: Sea Link approval between Suffolk and Kent, 2 GW capacity, primarily offshore, equivalent of 2 million homes, National Grid delivery of community benefits with over £1 million each for Kent and Suffolk funds, and Great North Road Solar 800 MW with ~400,000 homes per developer.",
-      "The source is the original publisher (gov.uk official news release), dated 30 October 2026, matching the candidate date.",
-      "Capacity status is correctly framed as an approval/decision (announced), not operational; the source describes the link as 'will be capable of carrying' 2 GW.",
-      "Chinese translations convey the same meaning and qualifications as the English, including '2 million' and '£1 million' and the developer attribution for the 400,000 homes figure.",
-      "No legal/regulatory status or effective date claims are made, so legal_status_effective_date is inapplicable and passes."
-    ],
-    "candidate_sha256": "698b6537f9342d040a66bbdc03ed8120ebc32f2fcf53ac486ddfbb807dc78471",
-    "provenance": {
-      "authority": "official",
-      "origin": "daily original-source index"
-    },
-    "window": "2026-11-09",
-    "eligible_for_window": true
+    "id": "EI-f0e50cae41ff4976",
+    "status": "REJECTED",
+    "source_url": "https://www.gov.uk/government/case-studies/bringing-clean-solar-power-to-communities-in-bangladesh",
+    "reasons": [
+      "outside publication window"
+    ]
+  },
+  {
+    "id": "EI-373f8f19889773ac",
+    "status": "REJECTED",
+    "source_url": "https://www.gov.uk/government/news/giant-12-tonne-box-lowered-into-place-for-fusion-upgrade",
+    "reasons": [
+      "outside publication window"
+    ]
   },
   {
     "id": "EI-0afa39e13289fccd",
@@ -490,42 +345,42 @@
   },
   {
     "id": "EI-0300679559154a9d",
-    "status": "QUARANTINED",
+    "status": "REJECTED",
     "source_url": "https://www.eia.gov/todayinenergy/detail.php?id=68425",
     "reasons": [
-      "bilingual numerals differ"
+      "outside publication window"
     ]
   },
   {
     "id": "EI-3993941242fcf8c5",
-    "status": "QUARANTINED",
+    "status": "REJECTED",
     "source_url": "https://www.eia.gov/todayinenergy/detail.php?id=68424",
     "reasons": [
-      "bilingual numerals differ"
+      "outside publication window"
     ]
   },
   {
     "id": "EI-526cec034ccb484b",
-    "status": "QUARANTINED",
+    "status": "REJECTED",
     "source_url": "https://www.eia.gov/todayinenergy/detail.php?id=68404",
     "reasons": [
-      "bilingual numerals differ"
+      "outside publication window"
     ]
   },
   {
     "id": "EI-a3882203fc769380",
-    "status": "QUARANTINED",
+    "status": "REJECTED",
     "source_url": "https://www.eia.gov/todayinenergy/detail.php?id=68384",
     "reasons": [
-      "bilingual numerals differ"
+      "outside publication window"
     ]
   },
   {
     "id": "EI-6d5f94b54e3e2bf7",
-    "status": "QUARANTINED",
+    "status": "REJECTED",
     "source_url": "https://www.eia.gov/todayinenergy/detail.php?id=68364",
     "reasons": [
-      "bilingual numerals differ"
+      "outside publication window"
     ]
   },
   {
