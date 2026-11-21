@@ -64,6 +64,14 @@
     ]
   },
   {
+    "id": "EI-74cd5c4077a32804",
+    "status": "REJECTED",
+    "source_url": "https://www.energy.gov/articles/energy-secretary-keeps-critical-generation-available-mid-atlantic-0",
+    "reasons": [
+      "outside publication window"
+    ]
+  },
+  {
     "id": "EI-1e9d1e31ef3f573f",
     "status": "REJECTED",
     "source_url": "https://www.energy.gov/articles/joint-statement-us-energy-secretary-chris-wright-and-polish-energy-minister-milosz-motyka",
@@ -136,17 +144,17 @@
     ]
   },
   {
-    "id": "EI-f87f0ee8dddf70e4",
+    "id": "EI-ece583cedb365e54",
     "status": "REJECTED",
-    "source_url": "https://www.energy.gov/articles/energy-department-designates-helium-critical-material-strengthen-american-manufacturing",
+    "source_url": "https://energy.ec.europa.eu/news/eu-backs-global-compact-cut-energy-bills-and-emissions-buildings-2026-11-20_en",
     "reasons": [
       "outside publication window"
     ]
   },
   {
-    "id": "EI-ece583cedb365e54",
+    "id": "EI-b3b31cf7bdd2cc4f",
     "status": "REJECTED",
-    "source_url": "https://energy.ec.europa.eu/news/eu-backs-global-compact-cut-energy-bills-and-emissions-buildings-2026-11-20_en",
+    "source_url": "https://energy.ec.europa.eu/news/gas-coordination-group-confirms-eus-winter-preparedness-importance-gas-storage-through-winter-2026-11-20_en",
     "reasons": [
       "outside publication window"
     ]
@@ -211,14 +219,6 @@
     "id": "EI-dd37359e8da1525f",
     "status": "REJECTED",
     "source_url": "https://energy.ec.europa.eu/news/focus-industrial-carbon-management-how-it-works-and-why-we-need-it-2026-11-17_en",
-    "reasons": [
-      "outside publication window"
-    ]
-  },
-  {
-    "id": "EI-e21c4f43240a3c17",
-    "status": "REJECTED",
-    "source_url": "https://energy.ec.europa.eu/news/electricity-coordination-group-considers-eu-electricity-market-prepared-winter-2026-11-16_en",
     "reasons": [
       "outside publication window"
     ]
