@@ -60,7 +60,47 @@
     "status": "QUARANTINED",
     "source_url": "https://ember-energy.org/latest-insights/global-electricity-review-2026/2025-in-review/",
     "reasons": [
-      "HTTP 403"
+      "canonical document differs from fetched evidence"
+    ]
+  },
+  {
+    "id": "EI-80a9a3796b0c8fd7",
+    "status": "REJECTED",
+    "source_url": "https://ember-energy.org/latest-insights/global-electricity-review-2026",
+    "reasons": [
+      "outside publication window"
+    ]
+  },
+  {
+    "id": "EI-22ec651fef44fbd2",
+    "status": "REJECTED",
+    "source_url": "https://ember-energy.org/latest-insights/european-electricity-review-2026",
+    "reasons": [
+      "outside publication window"
+    ]
+  },
+  {
+    "id": "EI-1849f6f07c145bbc",
+    "status": "REJECTED",
+    "source_url": "https://ember-energy.org/latest-insights/china-energy-transition-review-2026/",
+    "reasons": [
+      "outside publication window"
+    ]
+  },
+  {
+    "id": "EI-13dad1e66fd3ca51",
+    "status": "REJECTED",
+    "source_url": "https://ember-energy.org/latest-insights/global-coal-mine-methane-review-2026/",
+    "reasons": [
+      "outside publication window"
+    ]
+  },
+  {
+    "id": "EI-433e4a95cceabbd5",
+    "status": "REJECTED",
+    "source_url": "https://ember-energy.org/latest-insights/turkiye-electricity-review-2026/",
+    "reasons": [
+      "outside publication window"
     ]
   },
   {
@@ -224,6 +264,14 @@
     ]
   },
   {
+    "id": "EI-5faad7ca7b82045e",
+    "status": "REJECTED",
+    "source_url": "https://www.gov.uk/government/news/uk-government-position-on-cop31-outcome",
+    "reasons": [
+      "outside publication window"
+    ]
+  },
+  {
     "id": "EI-7b7a930764e1d245",
     "status": "REJECTED",
     "source_url": "https://www.gov.uk/government/news/sports-stadiums-and-supermarkets-drive-2026-solar-revolution",
@@ -291,14 +339,6 @@
     "id": "EI-f0e50cae41ff4976",
     "status": "REJECTED",
     "source_url": "https://www.gov.uk/government/case-studies/bringing-clean-solar-power-to-communities-in-bangladesh",
-    "reasons": [
-      "outside publication window"
-    ]
-  },
-  {
-    "id": "EI-373f8f19889773ac",
-    "status": "REJECTED",
-    "source_url": "https://www.gov.uk/government/news/giant-12-tonne-box-lowered-into-place-for-fusion-upgrade",
     "reasons": [
       "outside publication window"
     ]
