@@ -60,47 +60,7 @@
     "status": "QUARANTINED",
     "source_url": "https://ember-energy.org/latest-insights/global-electricity-review-2026/2025-in-review/",
     "reasons": [
-      "canonical document differs from fetched evidence"
-    ]
-  },
-  {
-    "id": "EI-80a9a3796b0c8fd7",
-    "status": "REJECTED",
-    "source_url": "https://ember-energy.org/latest-insights/global-electricity-review-2026",
-    "reasons": [
-      "outside publication window"
-    ]
-  },
-  {
-    "id": "EI-22ec651fef44fbd2",
-    "status": "REJECTED",
-    "source_url": "https://ember-energy.org/latest-insights/european-electricity-review-2026",
-    "reasons": [
-      "outside publication window"
-    ]
-  },
-  {
-    "id": "EI-1849f6f07c145bbc",
-    "status": "REJECTED",
-    "source_url": "https://ember-energy.org/latest-insights/china-energy-transition-review-2026/",
-    "reasons": [
-      "outside publication window"
-    ]
-  },
-  {
-    "id": "EI-13dad1e66fd3ca51",
-    "status": "REJECTED",
-    "source_url": "https://ember-energy.org/latest-insights/global-coal-mine-methane-review-2026/",
-    "reasons": [
-      "outside publication window"
-    ]
-  },
-  {
-    "id": "EI-433e4a95cceabbd5",
-    "status": "REJECTED",
-    "source_url": "https://ember-energy.org/latest-insights/turkiye-electricity-review-2026/",
-    "reasons": [
-      "outside publication window"
+      "HTTP 403"
     ]
   },
   {
@@ -120,7 +80,7 @@
       "bilingual numerical mismatch"
     ],
     "source_url": "https://www.energy.gov/articles/joint-statement-us-energy-secretary-chris-wright-and-polish-energy-minister-milosz-motyka",
-    "checked_at": "2026-11-23T18:02:55.076906+00:00",
+    "checked_at": "2026-11-24T17:40:56.443747+00:00",
     "source_sha256": "a1d5f68963ac6456449a8de680407f1a83a66867822c7c65cfc5abc886b74546",
     "checks": {},
     "provenance": {
@@ -132,12 +92,23 @@
     "id": "EI-08c2f3b512606a6b",
     "status": "QUARANTINED",
     "reasons": [
-      "evidence excerpt absent from original"
+      "semantic evidence checks failed",
+      "Candidate date is 2026-11-10, but the source article is dated November 18, 2026; the candidate date does not match the source.",
+      "Claim 5 states the renewed order is effective from 2026-11-18 through 2026-12-31, which matches the source, but the candidate's own date field (2026-11-10) precedes the order's effective date and conflicts with the source publication date of November 18, 2026."
     ],
     "source_url": "https://www.energy.gov/articles/energy-secretary-acts-protect-mid-atlantic-grid-0",
-    "checked_at": "2026-11-23T18:02:58.003839+00:00",
+    "checked_at": "2026-11-24T17:40:59.186825+00:00",
     "source_sha256": "48f5db8ef675100c2574cf67efa7938267667b715bdd6e47ddb3eb39f3ad0270",
-    "checks": {},
+    "checks": {
+      "support": true,
+      "dates": false,
+      "quantities_units_conditions": true,
+      "no_contradictions": false,
+      "authority": true,
+      "capacity_status": true,
+      "legal_status_effective_date": true,
+      "translation_meaning": true
+    },
     "provenance": {
       "authority": "official",
       "origin": "daily original-source index"
@@ -151,7 +122,7 @@
       "The candidate date is 2026-11-10, but the source article is dated November 17, 2026; the dates do not match."
     ],
     "source_url": "https://www.energy.gov/articles/energy-department-announces-28-billion-loan-strengthen-grid-reliability-and-help-lower",
-    "checked_at": "2026-11-23T18:03:02.575849+00:00",
+    "checked_at": "2026-11-24T17:41:06.517744+00:00",
     "source_sha256": "ea1f93971d1ea6451e2e0f266554a183d190946156cbfc15ba0f84d40a31cc32",
     "checks": {
       "support": true,
@@ -217,54 +188,22 @@
     ]
   },
   {
-    "id": "EI-ece583cedb365e54",
-    "status": "VERIFIED",
-    "reasons": [],
-    "source_url": "https://energy.ec.europa.eu/news/eu-backs-global-compact-cut-energy-bills-and-emissions-buildings-2026-11-20_en",
-    "checked_at": "2026-11-23T18:03:12.753892+00:00",
-    "source_sha256": "f7b4d34042baffe886ec92e9545da698bc111a7828bbe821e3946675a5dfae15",
-    "checks": {
-      "support": true,
-      "dates": true,
-      "quantities_units_conditions": true,
-      "no_contradictions": true,
-      "authority": true,
-      "capacity_status": true,
-      "legal_status_effective_date": true,
-      "translation_meaning": true
-    },
-    "citations": [
-      "the European Union has endorsed the Antalya Compact for Energy Efficient Buildings, an initiative to reduce buildings’ energy intensity - energy consumed per m² - by at least 25% by 2035.",
-      "The compact further supports faster electrification of buildings.",
-      "This pledge was discussed at the Intergovernmental Council for Buildings and Climate (ICBC) Ministerial meeting during COP31 in Antalya and endorsed by 24 countries.",
-      "Buildings account for roughly one-third of global energy consumption.",
-      "The target is collective, measured against 2020, and not binding on any country.",
-      "Publication date\n- 20 November 2026"
-    ],
-    "notes": [
-      "All five claims are directly supported by verbatim excerpts in the source text.",
-      "The 25% reduction target, the 2035 deadline, the 2020 baseline, the 24 endorsing countries, and the one-third global energy consumption figure all match the source exactly.",
-      "The source is the original publisher (European Commission, Directorate-General for Energy), and the publication date 20 November 2026 matches the candidate date.",
-      "The compact is described as endorsed/adopted (a pledge), not as a legally binding instrument; the candidate correctly states the target is collective and not binding on any country, so legal_status_effective_date is inapplicable and passes.",
-      "Chinese translations convey the same meaning and qualifications as the English, including 'at least 25%', 'by 2035', 'per m²', 'roughly one-third', and 'not binding on any country'."
-    ],
-    "candidate_sha256": "006cef8484ede64ec7af048e75342edbeff131b3378634f258a4b38c2d099efe",
-    "provenance": {
-      "authority": "official",
-      "origin": "daily original-source index"
-    },
-    "window": "2026-11-23",
-    "eligible_for_window": true
+    "id": "EI-5200a85bec6d9262",
+    "status": "REJECTED",
+    "source_url": "https://energy.ec.europa.eu/news/commissioner-jorgensen-ireland-advance-work-energy-and-housing-affordability-2026-11-24_en",
+    "reasons": [
+      "outside publication window"
+    ]
   },
   {
-    "id": "EI-b3b31cf7bdd2cc4f",
+    "id": "EI-ece583cedb365e54",
     "status": "QUARANTINED",
     "reasons": [
       "semantic evidence checks failed"
     ],
-    "source_url": "https://energy.ec.europa.eu/news/gas-coordination-group-confirms-eus-winter-preparedness-importance-gas-storage-through-winter-2026-11-20_en",
-    "checked_at": "2026-11-23T18:03:18.595585+00:00",
-    "source_sha256": "d2e874bdf7f4834145e7867d441150bf4b4503789b9bfdd73206135b65ef190e",
+    "source_url": "https://energy.ec.europa.eu/news/eu-backs-global-compact-cut-energy-bills-and-emissions-buildings-2026-11-20_en",
+    "checked_at": "2026-11-24T17:41:18.395476+00:00",
+    "source_sha256": "f7b4d34042baffe886ec92e9545da698bc111a7828bbe821e3946675a5dfae15",
     "checks": {
       "support": true,
       "dates": true,
@@ -279,6 +218,14 @@
       "authority": "official",
       "origin": "daily original-source index"
     }
+  },
+  {
+    "id": "EI-b3b31cf7bdd2cc4f",
+    "status": "REJECTED",
+    "source_url": "https://energy.ec.europa.eu/news/gas-coordination-group-confirms-eus-winter-preparedness-importance-gas-storage-through-winter-2026-11-20_en",
+    "reasons": [
+      "irrelevant"
+    ]
   },
   {
     "id": "EI-9414cab074262bb9",
@@ -337,11 +284,19 @@
     ]
   },
   {
-    "id": "EI-dd37359e8da1525f",
-    "status": "QUARANTINED",
-    "source_url": "https://energy.ec.europa.eu/news/focus-industrial-carbon-management-how-it-works-and-why-we-need-it-2026-11-17_en",
+    "id": "EI-7e5a47935227db00",
+    "status": "REJECTED",
+    "source_url": "https://www.gov.uk/government/publications/nuclear-regulatory-review-joint-ministerial-letter-to-industry",
     "reasons": [
-      "bilingual numerals differ"
+      "outside publication window"
+    ]
+  },
+  {
+    "id": "EI-a3cde5a937a96c5f",
+    "status": "REJECTED",
+    "source_url": "https://www.gov.uk/government/speeches/statement-to-the-31st-session-of-the-conference-of-the-states-parties-of-the-opcw",
+    "reasons": [
+      "outside publication window"
     ]
   },
   {
@@ -352,8 +307,8 @@
       "conflicting or unsupported numerical data"
     ],
     "source_url": "https://www.gov.uk/government/news/cop31-outcomes-your-questions-answered",
-    "checked_at": "2026-11-23T18:03:52.345076+00:00",
-    "source_sha256": "21c3ec314c465885d5ce9b0a41148dfd2fc90d7196de370a0c69fdbfb276ae8b",
+    "checked_at": "2026-11-24T17:41:53.509461+00:00",
+    "source_sha256": "903789bcfff1ac918591d279921bd87dc5b3b87c10d9afc1cec5548fc6cd167f",
     "checks": {},
     "provenance": {
       "authority": "official",
@@ -410,24 +365,16 @@
   },
   {
     "id": "EI-f48f24c4f463aa76",
-    "status": "REJECTED",
+    "status": "QUARANTINED",
     "source_url": "https://www.gov.uk/government/news/cop31-what-it-is-and-the-uks-priorities",
     "reasons": [
-      "irrelevant"
+      "bilingual numerals differ"
     ]
   },
   {
-    "id": "EI-2c0079a5c997bfc3",
+    "id": "EI-41ee440d15205b02",
     "status": "REJECTED",
-    "source_url": "https://www.gov.uk/government/news/energy-reforms-to-cut-bills-and-put-power-back-in-peoples-hands",
-    "reasons": [
-      "outside publication window"
-    ]
-  },
-  {
-    "id": "EI-05ff19f7fee094ff",
-    "status": "REJECTED",
-    "source_url": "https://www.gov.uk/government/case-studies/protecting-the-worlds-most-biodiverse-coral-reef-ecosystems",
+    "source_url": "https://www.eia.gov/todayinenergy/detail.php?id=68504",
     "reasons": [
       "outside publication window"
     ]
@@ -516,14 +463,6 @@
     "id": "EI-11274263ec4ec7aa",
     "status": "REJECTED",
     "source_url": "https://www.eia.gov/todayinenergy/detail.php?id=68344",
-    "reasons": [
-      "outside publication window"
-    ]
-  },
-  {
-    "id": "EI-9b574b9b6d9a12cd",
-    "status": "REJECTED",
-    "source_url": "https://www.eia.gov/todayinenergy/detail.php?id=68325",
     "reasons": [
       "outside publication window"
     ]

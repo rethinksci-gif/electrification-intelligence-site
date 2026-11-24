@@ -1,27 +1,27 @@
 {
-  "checked_at": "2026-11-23T18:02:44.526891+00:00",
+  "checked_at": "2026-11-24T17:40:49.022229+00:00",
   "window": "2026-11-23",
   "status": "skipped",
   "last_publication": "EI-2026-11-09",
-  "last_successful_check": "2026-11-23T18:13:22Z",
+  "last_successful_check": "2026-11-24T17:42:56.532534+00:00",
   "reasons": [
     "fewer than three verified bilingual developments",
-    "skipped: 1 verified bilingual developments (regular edition needs 3, compact edition 2)"
+    "skipped: 0 verified bilingual developments (regular edition needs 3, compact edition 2)"
   ],
   "windows": {
-    "2026-11-23": "skipped: 1 verified bilingual developments (regular edition needs 3, compact edition 2)"
+    "2026-11-23": "skipped: 0 verified bilingual developments (regular edition needs 3, compact edition 2)"
   },
   "collection": {
-    "candidates": 55,
+    "candidates": 50,
     "failures": [
       {
         "source": "https://www.iea.org/news",
         "reason": "HTTP 403"
+      },
+      {
+        "source": "https://ember-energy.org/latest-insights/",
+        "reason": "HTTP 403"
       }
     ]
-  },
-  "deployment_status": "confirmed",
-  "confirmed_revision": "3d0cc74d6b2191ea24adde9e559cabdeac9a0b3a",
-  "deployment_run_url": "https://github.com/rethinksci-gif/electrification-intelligence-site/actions/runs/45234742926",
-  "last_confirmed_publication": "auto-2026-11-09"
+  }
 }
