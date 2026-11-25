@@ -73,31 +73,69 @@
   },
   {
     "id": "EI-1e9d1e31ef3f573f",
-    "status": "QUARANTINED",
-    "reasons": [
-      "unsupported value/unit combination",
-      "conflicting or unsupported numerical data",
-      "bilingual numerical mismatch"
-    ],
+    "status": "VERIFIED",
+    "reasons": [],
     "source_url": "https://www.energy.gov/articles/joint-statement-us-energy-secretary-chris-wright-and-polish-energy-minister-milosz-motyka",
-    "checked_at": "2026-11-24T17:40:56.443747+00:00",
+    "checked_at": "2026-11-25T17:11:05.321537+00:00",
     "source_sha256": "a1d5f68963ac6456449a8de680407f1a83a66867822c7c65cfc5abc886b74546",
-    "checks": {},
+    "checks": {
+      "support": true,
+      "dates": true,
+      "quantities_units_conditions": true,
+      "no_contradictions": true,
+      "authority": true,
+      "capacity_status": true,
+      "legal_status_effective_date": true,
+      "translation_meaning": true
+    },
+    "citations": [
+      "We recognize civil nuclear energy as essential to reliable power generation and long-term energy security, and support advancement of current and next-generation technologies, consistent with national priorities.",
+      "We encourage investment in secure nuclear fuel supplies, workforce development, industrial capacity, and regulatory coordination to enable civil nuclear deployment at scale.",
+      "We recognize the important contribution of firm, dispatchable generation, including coal, natural gas, and nuclear energy, to electricity affordability, grid reliability, and energy security, consistent with national priorities.",
+      "We encourage the development of trusted supply chains for nuclear fuel, critical minerals, grid equipment, and other essential technologies, while welcoming private-sector and civil society engagement through the P-TEC Business Forum.",
+      "We support the implementation of NATO's Hague Summit commitment to account for up to 1.5 percent of GDP in defense- and security-related investments, further endorsed in Ankara and reinforced with the Allied commitment to modernize and extend the NATO’s fuel supply chain infrastructure to the eastern part of the Alliance. We encourage Allies to prioritize investments in critical energy infrastructure protection, civil preparedness, and societal and economic resilience and recognize the strategic role of resilient energy systems in supporting both civilian needs and military readiness and encourage consideration of eligible resilience investments."
+    ],
+    "notes": [
+      "All five claims are directly supported by verbatim excerpts from the P-TEC 2026 Chair Statement in the source.",
+      "The 1.5 percent of GDP figure and its NATO Hague Summit context match the source exactly; the Chinese rendering uses '1.5 percent' (matching the source's own unit) and correctly conveys 'up to' (最多).",
+      "The source is the original publisher (U.S. Department of Energy, energy.gov), satisfying the authority check.",
+      "No capacity status (announced/planned/operational) or legal status/effective-date claims are made, so those checks are inapplicable and pass.",
+      "Chinese and English versions convey the same meaning and qualifications, including 'consistent with national priorities' and 'while welcoming private-sector and civil society engagement through the P-TEC Business Forum'."
+    ],
+    "candidate_sha256": "1a9a7a843e15d5a10c89991d4b38e5153f66c43562dc2d768cdb50c26456e26e",
     "provenance": {
       "authority": "official",
       "origin": "daily original-source index"
-    }
+    },
+    "window": "2026-11-23",
+    "eligible_for_window": true
+  },
+  {
+    "id": "EI-be61252dfc86403b",
+    "status": "QUARANTINED",
+    "source_url": "https://www.energy.gov/articles/joint-declaration-ministers-energy-visegrad-group-countries-and-secretary-energy-united",
+    "reasons": [
+      "unsupported source format; preserve for later extraction"
+    ]
+  },
+  {
+    "id": "EI-f109890874a13b76",
+    "status": "QUARANTINED",
+    "source_url": "https://www.energy.gov/articles/joint-statement-united-states-and-baltic-countries-following-2026-baltic-31-energy",
+    "reasons": [
+      "unsupported source format; preserve for later extraction"
+    ]
   },
   {
     "id": "EI-08c2f3b512606a6b",
     "status": "QUARANTINED",
     "reasons": [
       "semantic evidence checks failed",
-      "Candidate date is 2026-11-10, but the source article is dated November 18, 2026; the candidate date does not match the source.",
-      "Claim 5 states the renewed order is effective from 2026-11-18 through 2026-12-31, which matches the source, but the candidate's own date field (2026-11-10) precedes the order's effective date and conflicts with the source publication date of November 18, 2026."
+      "The candidate's date (2026-11-10) does not match the source's publication date (November 18, 2026) shown in the source text.",
+      "The claim that the order 'follows an application from PJM submitted on 2026-10-23' is supported by the source text, but the candidate's own date field (2026-11-10) precedes the application date and the order's effective date, creating an internal contradiction with the source timeline."
     ],
     "source_url": "https://www.energy.gov/articles/energy-secretary-acts-protect-mid-atlantic-grid-0",
-    "checked_at": "2026-11-24T17:40:59.186825+00:00",
+    "checked_at": "2026-11-25T17:11:10.507027+00:00",
     "source_sha256": "48f5db8ef675100c2574cf67efa7938267667b715bdd6e47ddb3eb39f3ad0270",
     "checks": {
       "support": true,
@@ -118,22 +156,12 @@
     "id": "EI-a86b6bed4d391a58",
     "status": "QUARANTINED",
     "reasons": [
-      "semantic evidence checks failed",
-      "The candidate date is 2026-11-10, but the source article is dated November 17, 2026; the dates do not match."
+      "evidence excerpt absent from original"
     ],
     "source_url": "https://www.energy.gov/articles/energy-department-announces-28-billion-loan-strengthen-grid-reliability-and-help-lower",
-    "checked_at": "2026-11-24T17:41:06.517744+00:00",
+    "checked_at": "2026-11-25T17:11:17.526317+00:00",
     "source_sha256": "ea1f93971d1ea6451e2e0f266554a183d190946156cbfc15ba0f84d40a31cc32",
-    "checks": {
-      "support": true,
-      "dates": false,
-      "quantities_units_conditions": true,
-      "no_contradictions": true,
-      "authority": true,
-      "capacity_status": true,
-      "legal_status_effective_date": true,
-      "translation_meaning": true
-    },
+    "checks": {},
     "provenance": {
       "authority": "official",
       "origin": "daily original-source index"
@@ -172,22 +200,6 @@
     ]
   },
   {
-    "id": "EI-3b1451d344fdc5bb",
-    "status": "REJECTED",
-    "source_url": "https://www.energy.gov/articles/energy-department-closes-51-billion-loan-lower-electricity-costs-and-strengthen-grid",
-    "reasons": [
-      "outside publication window"
-    ]
-  },
-  {
-    "id": "EI-679c30ba476a5e64",
-    "status": "REJECTED",
-    "source_url": "https://www.energy.gov/articles/energy-department-announces-5-billion-loan-boost-nuclear-power-and-help-lower-costs",
-    "reasons": [
-      "outside publication window"
-    ]
-  },
-  {
     "id": "EI-5200a85bec6d9262",
     "status": "REJECTED",
     "source_url": "https://energy.ec.europa.eu/news/commissioner-jorgensen-ireland-advance-work-energy-and-housing-affordability-2026-11-24_en",
@@ -197,12 +209,10 @@
   },
   {
     "id": "EI-ece583cedb365e54",
-    "status": "QUARANTINED",
-    "reasons": [
-      "semantic evidence checks failed"
-    ],
+    "status": "VERIFIED",
+    "reasons": [],
     "source_url": "https://energy.ec.europa.eu/news/eu-backs-global-compact-cut-energy-bills-and-emissions-buildings-2026-11-20_en",
-    "checked_at": "2026-11-24T17:41:18.395476+00:00",
+    "checked_at": "2026-11-25T17:11:23.855988+00:00",
     "source_sha256": "f7b4d34042baffe886ec92e9545da698bc111a7828bbe821e3946675a5dfae15",
     "checks": {
       "support": true,
@@ -214,10 +224,28 @@
       "legal_status_effective_date": true,
       "translation_meaning": true
     },
+    "citations": [
+      "the European Union has endorsed the Antalya Compact for Energy Efficient Buildings, an initiative to reduce buildings’ energy intensity - energy consumed per m² - by at least 25% by 2035.",
+      "The compact further supports faster electrification of buildings.",
+      "This pledge was discussed at the Intergovernmental Council for Buildings and Climate (ICBC) Ministerial meeting during COP31 in Antalya and endorsed by 24 countries.",
+      "Buildings account for roughly one-third of global energy consumption.",
+      "The target is collective, measured against 2020, and not binding on any country.",
+      "Publication date\n- 20 November 2026"
+    ],
+    "notes": [
+      "All four claims are directly supported by verbatim excerpts in the source text.",
+      "The 25% by 2035 target, the 2020 baseline, the collective and non-binding nature, the 24-country endorsement, the COP31/ICBC Antalya setting, and the one-third global energy consumption figure all match the source exactly.",
+      "The source is the original publisher (European Commission, Directorate-General for Energy), dated 20 November 2026, matching the candidate date.",
+      "The compact is described as endorsed/adopted (a pledge), not as an operational or in-force legal instrument; the candidate does not misstate its status, so capacity_status and legal_status_effective_date are not applicable and pass.",
+      "Chinese translations convey the same meaning and qualifications as the English claims, including 'at least 25%', 'per m²', 'by 2035', 'collective', 'measured against 2020', and 'not binding on any country'."
+    ],
+    "candidate_sha256": "d9722d587740401ba9ec97c582cb23e7faf348c66283ef7fbd843c9dac8b3d1d",
     "provenance": {
       "authority": "official",
       "origin": "daily original-source index"
-    }
+    },
+    "window": "2026-11-23",
+    "eligible_for_window": true
   },
   {
     "id": "EI-b3b31cf7bdd2cc4f",
@@ -284,6 +312,14 @@
     ]
   },
   {
+    "id": "EI-82269e5ae7ddeabf",
+    "status": "REJECTED",
+    "source_url": "https://www.gov.uk/government/news/20-million-households-to-receive-100-payment",
+    "reasons": [
+      "outside publication window"
+    ]
+  },
+  {
     "id": "EI-7e5a47935227db00",
     "status": "REJECTED",
     "source_url": "https://www.gov.uk/government/publications/nuclear-regulatory-review-joint-ministerial-letter-to-industry",
@@ -307,7 +343,7 @@
       "conflicting or unsupported numerical data"
     ],
     "source_url": "https://www.gov.uk/government/news/cop31-outcomes-your-questions-answered",
-    "checked_at": "2026-11-24T17:41:53.509461+00:00",
+    "checked_at": "2026-11-25T17:11:58.405462+00:00",
     "source_sha256": "903789bcfff1ac918591d279921bd87dc5b3b87c10d9afc1cec5548fc6cd167f",
     "checks": {},
     "provenance": {
@@ -364,11 +400,11 @@
     ]
   },
   {
-    "id": "EI-f48f24c4f463aa76",
-    "status": "QUARANTINED",
-    "source_url": "https://www.gov.uk/government/news/cop31-what-it-is-and-the-uks-priorities",
+    "id": "EI-2fcbb69194fdcc8c",
+    "status": "REJECTED",
+    "source_url": "https://www.eia.gov/todayinenergy/detail.php?id=68524",
     "reasons": [
-      "bilingual numerals differ"
+      "outside publication window"
     ]
   },
   {
@@ -455,14 +491,6 @@
     "id": "EI-6d5f94b54e3e2bf7",
     "status": "REJECTED",
     "source_url": "https://www.eia.gov/todayinenergy/detail.php?id=68364",
-    "reasons": [
-      "outside publication window"
-    ]
-  },
-  {
-    "id": "EI-11274263ec4ec7aa",
-    "status": "REJECTED",
-    "source_url": "https://www.eia.gov/todayinenergy/detail.php?id=68344",
     "reasons": [
       "outside publication window"
     ]
