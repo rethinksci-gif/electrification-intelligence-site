@@ -60,7 +60,47 @@
     "status": "QUARANTINED",
     "source_url": "https://ember-energy.org/latest-insights/global-electricity-review-2026/2025-in-review/",
     "reasons": [
-      "HTTP 403"
+      "canonical document differs from fetched evidence"
+    ]
+  },
+  {
+    "id": "EI-80a9a3796b0c8fd7",
+    "status": "REJECTED",
+    "source_url": "https://ember-energy.org/latest-insights/global-electricity-review-2026",
+    "reasons": [
+      "outside publication window"
+    ]
+  },
+  {
+    "id": "EI-22ec651fef44fbd2",
+    "status": "REJECTED",
+    "source_url": "https://ember-energy.org/latest-insights/european-electricity-review-2026",
+    "reasons": [
+      "outside publication window"
+    ]
+  },
+  {
+    "id": "EI-1849f6f07c145bbc",
+    "status": "REJECTED",
+    "source_url": "https://ember-energy.org/latest-insights/china-energy-transition-review-2026/",
+    "reasons": [
+      "outside publication window"
+    ]
+  },
+  {
+    "id": "EI-13dad1e66fd3ca51",
+    "status": "REJECTED",
+    "source_url": "https://ember-energy.org/latest-insights/global-coal-mine-methane-review-2026/",
+    "reasons": [
+      "outside publication window"
+    ]
+  },
+  {
+    "id": "EI-433e4a95cceabbd5",
+    "status": "REJECTED",
+    "source_url": "https://ember-energy.org/latest-insights/turkiye-electricity-review-2026/",
+    "reasons": [
+      "outside publication window"
     ]
   },
   {
@@ -76,7 +116,7 @@
     "status": "VERIFIED",
     "reasons": [],
     "source_url": "https://www.energy.gov/articles/joint-statement-us-energy-secretary-chris-wright-and-polish-energy-minister-milosz-motyka",
-    "checked_at": "2026-11-26T16:52:06.705363+00:00",
+    "checked_at": "2026-11-27T16:37:57.660987+00:00",
     "source_sha256": "a1d5f68963ac6456449a8de680407f1a83a66867822c7c65cfc5abc886b74546",
     "checks": {
       "support": true,
@@ -89,20 +129,21 @@
       "translation_meaning": true
     },
     "citations": [
+      "WARSAW, POLAND—U.S. Secretary of Energy Chris Wright and Polish Energy Minister Miłosz Motyka today released the Partnership for Transatlantic Energy Cooperation (P-TEC) 2026 Chair Statement at the conclusion of the seventh P-TEC Ministerial and Business Forum in Warsaw, Poland.",
       "We recognize civil nuclear energy as essential to reliable power generation and long-term energy security, and support advancement of current and next-generation technologies, consistent with national priorities.",
       "We encourage investment in secure nuclear fuel supplies, workforce development, industrial capacity, and regulatory coordination to enable civil nuclear deployment at scale.",
       "We recognize the important contribution of firm, dispatchable generation, including coal, natural gas, and nuclear energy, to electricity affordability, grid reliability, and energy security, consistent with national priorities.",
       "We encourage the development of trusted supply chains for nuclear fuel, critical minerals, grid equipment, and other essential technologies, while welcoming private-sector and civil society engagement through the P-TEC Business Forum.",
-      "We support the implementation of NATO's Hague Summit commitment to account for up to 1.5 percent of GDP in defense- and security-related investments, further endorsed in Ankara and reinforced with the Allied commitment to modernize and extend the NATO’s fuel supply chain infrastructure to the eastern part of the Alliance."
+      "We seek to strengthen long-term natural gas and liquified natural gas (LNG) partnerships, expand commercial opportunities, and improve access to diversified supplies across European markets in order to enhance energy security."
     ],
     "notes": [
-      "All five claims are directly supported by verbatim excerpts from the official energy.gov joint statement.",
-      "The 1.5 percent of GDP figure and its NATO Hague Summit context match the source exactly; the Chinese rendering preserves the value and the 'up to' qualifier.",
-      "The Chinese text retains the English word 'percent' in the 1.5 percent claim; this is a minor stylistic inconsistency but does not alter the scientific meaning or value.",
-      "No capacity status (announced/planned/operational) or legal status/effective-date claims are made, so those checks are inapplicable and pass.",
-      "Source is the original publisher (U.S. Department of Energy) and the date 2026-11-19 matches the source date."
+      "All five claims are direct paraphrases of bullet points in the P-TEC 2026 Chair Statement, and each quote matches the source text verbatim.",
+      "The source is the original publisher (U.S. Department of Energy, energy.gov), and the candidate date 2026-11-19 matches the source date.",
+      "The Chinese translations convey the same meaning and qualifications as the English claims (e.g., 'consistent with national priorities' is preserved in claims 1 and 3).",
+      "No capacity status (announced/planned/operational) or legal status/effective date is asserted, so those checks are inapplicable and pass.",
+      "No quantities, units, or operating conditions are asserted, so that check is inapplicable and passes."
     ],
-    "candidate_sha256": "f0176df61bb01c66fafc5862b317e66ece1f3f0e98a66674b678e095eacf474b",
+    "candidate_sha256": "82e5934a62fdccb87189802edbaac0097fa8476d8292d8ddcd8e44174d0e6395",
     "provenance": {
       "authority": "official",
       "origin": "daily original-source index"
@@ -131,11 +172,11 @@
     "status": "QUARANTINED",
     "reasons": [
       "semantic evidence checks failed",
-      "The candidate's date (2026-11-10) does not match the source's publication date (November 18, 2026); the source text is dated November 18, 2026, and the publisher_dates field lists 2026-11-10, which conflicts with the article text.",
-      "The claim that the order is 'effective from 2026-11-18 through 2026-12-31' is supported by the source, but the candidate's overall date metadata (2026-11-10) contradicts the source's stated date of November 18, 2026, creating an internal inconsistency between the candidate date and the effective-date claim."
+      "The candidate's publication date (2026-11-10) does not match the source's stated date (November 18, 2026); the source text is dated November 18, 2026, and the order's effective period begins November 18, 2026.",
+      "The candidate date 2026-11-10 precedes the PJM application date of 2026-10-23 and the order effective date of 2026-11-18, creating an internal inconsistency: an article dated 2026-11-10 could not report an order effective from 2026-11-18 as already issued."
     ],
     "source_url": "https://www.energy.gov/articles/energy-secretary-acts-protect-mid-atlantic-grid-0",
-    "checked_at": "2026-11-26T16:52:12.391179+00:00",
+    "checked_at": "2026-11-27T16:38:02.162629+00:00",
     "source_sha256": "48f5db8ef675100c2574cf67efa7938267667b715bdd6e47ddb3eb39f3ad0270",
     "checks": {
       "support": true,
@@ -156,16 +197,22 @@
     "id": "EI-a86b6bed4d391a58",
     "status": "QUARANTINED",
     "reasons": [
-      "evidence excerpt absent from original",
-      "conflicting or unsupported numerical data",
-      "bilingual numerical mismatch",
-      "conflicting or unsupported numerical data",
-      "bilingual numerical mismatch"
+      "semantic evidence checks failed",
+      "The candidate date (2026-11-10) does not match the source article date (November 17, 2026)."
     ],
     "source_url": "https://www.energy.gov/articles/energy-department-announces-28-billion-loan-strengthen-grid-reliability-and-help-lower",
-    "checked_at": "2026-11-26T16:52:17.470407+00:00",
+    "checked_at": "2026-11-27T16:38:08.794144+00:00",
     "source_sha256": "ea1f93971d1ea6451e2e0f266554a183d190946156cbfc15ba0f84d40a31cc32",
-    "checks": {},
+    "checks": {
+      "support": true,
+      "dates": false,
+      "quantities_units_conditions": true,
+      "no_contradictions": true,
+      "authority": true,
+      "capacity_status": true,
+      "legal_status_effective_date": true,
+      "translation_meaning": true
+    },
     "provenance": {
       "authority": "official",
       "origin": "daily original-source index"
@@ -213,26 +260,58 @@
   },
   {
     "id": "EI-5200a85bec6d9262",
-    "status": "QUARANTINED",
+    "status": "REJECTED",
     "source_url": "https://energy.ec.europa.eu/news/commissioner-jorgensen-ireland-advance-work-energy-and-housing-affordability-2026-11-24_en",
     "reasons": [
-      "HTTP 429"
+      "outside publication window"
     ]
   },
   {
     "id": "EI-ece583cedb365e54",
-    "status": "QUARANTINED",
+    "status": "VERIFIED",
+    "reasons": [],
     "source_url": "https://energy.ec.europa.eu/news/eu-backs-global-compact-cut-energy-bills-and-emissions-buildings-2026-11-20_en",
-    "reasons": [
-      "HTTP 429"
-    ]
+    "checked_at": "2026-11-27T16:38:16.044672+00:00",
+    "source_sha256": "f7b4d34042baffe886ec92e9545da698bc111a7828bbe821e3946675a5dfae15",
+    "checks": {
+      "support": true,
+      "dates": true,
+      "quantities_units_conditions": true,
+      "no_contradictions": true,
+      "authority": true,
+      "capacity_status": true,
+      "legal_status_effective_date": true,
+      "translation_meaning": true
+    },
+    "citations": [
+      "the European Union has endorsed the Antalya Compact for Energy Efficient Buildings, an initiative to reduce buildings’ energy intensity - energy consumed per m² - by at least 25% by 2035",
+      "The compact further supports faster electrification of buildings.",
+      "This pledge was discussed at the Intergovernmental Council for Buildings and Climate (ICBC) Ministerial meeting during COP31 in Antalya and endorsed by 24 countries.",
+      "Buildings account for roughly one-third of global energy consumption.",
+      "The target is collective, measured against 2020, and not binding on any country.",
+      "Publication date\n- 20 November 2026"
+    ],
+    "notes": [
+      "All five claims are directly supported by verbatim excerpts in the source text.",
+      "The 25% by 2035 target, the m² energy-intensity definition, the 2020 baseline, the collective and non-binding nature, the 24-country endorsement, the COP31/ICBC Antalya setting, the one-third global energy consumption figure, and the electrification support all match the source.",
+      "The source is the original publisher (European Commission, Directorate-General for Energy), dated 20 November 2026, matching the candidate date.",
+      "The compact is described as endorsed/adopted (a pledge), not as an operational or in-force legal instrument; the candidate does not overstate its status, so capacity_status and legal_status_effective_date are not contradicted.",
+      "Chinese translations convey the same meaning and qualifications as the English claims, including '至少25%' for 'at least 25%', '每平方米能耗' for 'energy consumed per m²', '集体性' for 'collective', '以2020年为基准' for 'measured against 2020', and '不具约束力' for 'not binding'."
+    ],
+    "candidate_sha256": "505ba7201b54a059699af6e0112f5180297f2e4ff709f74a7de913050a49e9b5",
+    "provenance": {
+      "authority": "official",
+      "origin": "daily original-source index"
+    },
+    "window": "2026-11-23",
+    "eligible_for_window": true
   },
   {
     "id": "EI-b3b31cf7bdd2cc4f",
-    "status": "QUARANTINED",
+    "status": "REJECTED",
     "source_url": "https://energy.ec.europa.eu/news/gas-coordination-group-confirms-eus-winter-preparedness-importance-gas-storage-through-winter-2026-11-20_en",
     "reasons": [
-      "HTTP 429"
+      "irrelevant"
     ]
   },
   {
@@ -240,7 +319,7 @@
     "status": "QUARANTINED",
     "source_url": "https://energy.ec.europa.eu/news/november-infringements-package-key-decisions-energy-2026-11-19_en",
     "reasons": [
-      "HTTP 429"
+      "bilingual numerals differ"
     ]
   },
   {
@@ -248,7 +327,7 @@
     "status": "QUARANTINED",
     "source_url": "https://energy.ec.europa.eu/news/co-legislators-agree-targeted-amendment-methane-regulation-ensure-supply-security-amid-energy-crisis-2026-11-19_en",
     "reasons": [
-      "HTTP 429"
+      "bilingual numerals differ"
     ]
   },
   {
@@ -323,7 +402,7 @@
       "conflicting or unsupported numerical data"
     ],
     "source_url": "https://www.gov.uk/government/news/cop31-outcomes-your-questions-answered",
-    "checked_at": "2026-11-26T16:52:34.675360+00:00",
+    "checked_at": "2026-11-27T16:38:40.433094+00:00",
     "source_sha256": "903789bcfff1ac918591d279921bd87dc5b3b87c10d9afc1cec5548fc6cd167f",
     "checks": {},
     "provenance": {
@@ -369,6 +448,14 @@
     "source_url": "https://www.gov.uk/government/news/clean-energy-jobs-fair-held-in-birmingham",
     "reasons": [
       "bilingual numerals differ"
+    ]
+  },
+  {
+    "id": "EI-741fb6ced11a18eb",
+    "status": "REJECTED",
+    "source_url": "https://www.eia.gov/todayinenergy/detail.php?id=68525",
+    "reasons": [
+      "outside publication window"
     ]
   },
   {
@@ -455,14 +542,6 @@
     "id": "EI-a3882203fc769380",
     "status": "REJECTED",
     "source_url": "https://www.eia.gov/todayinenergy/detail.php?id=68384",
-    "reasons": [
-      "outside publication window"
-    ]
-  },
-  {
-    "id": "EI-6d5f94b54e3e2bf7",
-    "status": "REJECTED",
-    "source_url": "https://www.eia.gov/todayinenergy/detail.php?id=68364",
     "reasons": [
       "outside publication window"
     ]
